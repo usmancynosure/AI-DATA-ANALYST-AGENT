@@ -1,0 +1,26 @@
+services:
+  backend:
+    build: ./backend
+    env_file: .env
+    ports:
+      - "8000:8000"
+    volumes:
+      # Persist uploads / per-session DuckDB files across restarts.
+      - backend_data:/app/.data
+      # Phase 2: the backend launches sandbox containers via the host Docker daemon.
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - DATA_DIR=/app/.data
+
+  frontend:
+    build: ./frontend
+    depends_on:
+      - backend
+    ports:
+      - "3000:3000"
+    environment:
+      # In the browser the API is reached on localhost:8000.
+      - NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
+
+volumes:
+  backend_data:
