@@ -1,0 +1,1490 @@
+order_id,order_date,region,country,channel,customer_segment,product,category,units_sold,unit_price,discount_pct,revenue
+1000,2024-01-01,North America,Canada,Online,Consumer,Pulse Earbuds,Electronics,1,150.73,10,183.14
+1001,2024-01-01,North America,USA,Partner,SMB,Pulse Earbuds,Electronics,2,155.17,15,356.12
+1002,2024-01-02,Europe,Germany,Online,SMB,Lumen Lamp,Furniture,3,70.35,15,197.55
+1003,2024-01-02,North America,USA,Online,Consumer,Canvas Backpack,Accessories,7,89.7,0,848.59
+1004,2024-01-02,North America,Canada,Partner,SMB,Ink Pen Set,Stationery,2,24.01,5,61.65
+1005,2024-01-02,North America,Canada,Online,SMB,Ergo Chair,Furniture,4,335.79,20,1452.2
+1006,2024-01-02,North America,USA,Retail,Consumer,Ink Pen Set,Stationery,6,24.95,0,202.32
+1007,2024-01-02,North America,Canada,Online,SMB,Flow Notebook,Stationery,3,12.54,10,45.76
+1008,2024-01-03,Europe,Germany,Partner,SMB,Canvas Backpack,Accessories,4,89.29,15,334.68
+1009,2024-01-03,Asia Pacific,India,Retail,Consumer,Pulse Earbuds,Electronics,4,143.79,0,720.53
+1010,2024-01-03,Latin America,Mexico,Partner,Consumer,Pulse Earbuds,Electronics,4,147.67,0,473.58
+1011,2024-01-04,Asia Pacific,Australia,Partner,SMB,Pulse Earbuds,Electronics,4,146.78,0,736.31
+1012,2024-01-04,Latin America,Mexico,Online,Consumer,Aurora Laptop,Electronics,2,1164.96,15,1589.55
+1013,2024-01-04,Asia Pacific,Australia,Retail,Consumer,Aurora Laptop,Electronics,3,1274.28,10,4314.83
+1014,2024-01-05,Asia Pacific,India,Retail,Consumer,Flow Notebook,Stationery,6,11.86,0,89.34
+1015,2024-01-05,North America,USA,Retail,Enterprise,Canvas Backpack,Accessories,6,92.82,20,604.11
+1016,2024-01-06,Europe,UK,Partner,Consumer,Vertex Monitor,Electronics,1,317.48,10,316.03
+1017,2024-01-06,North America,Canada,Retail,SMB,Ink Pen Set,Stationery,4,24.53,0,133.19
+1018,2024-01-06,Europe,UK,Online,Consumer,Aurora Laptop,Electronics,2,1242.92,0,2749.41
+1019,2024-01-06,Latin America,Brazil,Retail,Enterprise,Pulse Earbuds,Electronics,6,148.58,15,609.53
+1020,2024-01-06,Latin America,Mexico,Online,Consumer,Vertex Monitor,Electronics,2,306.66,0,493.34
+1021,2024-01-06,North America,USA,Partner,Consumer,Lumen Lamp,Furniture,1,67.11,0,91.09
+1022,2024-01-07,Asia Pacific,India,Retail,Consumer,Terra Desk,Furniture,4,251.47,10,1139.06
+1023,2024-01-07,Latin America,Mexico,Retail,Consumer,Pulse Earbuds,Electronics,2,144.39,0,232.54
+1024,2024-01-08,Europe,Germany,Partner,SMB,Terra Desk,Furniture,2,260.61,0,577.74
+1025,2024-01-08,North America,USA,Retail,Consumer,Pulse Earbuds,Electronics,2,146.08,5,377.57
+1026,2024-01-08,Europe,UK,Partner,Enterprise,Vertex Monitor,Electronics,2,345.57,15,651.17
+1027,2024-01-08,Asia Pacific,India,Online,SMB,Canvas Backpack,Accessories,7,91.13,5,763.33
+1028,2024-01-08,Asia Pacific,India,Retail,Consumer,Nimbus Phone,Electronics,3,841.65,20,2544.32
+1029,2024-01-09,Europe,France,Partner,SMB,Canvas Backpack,Accessories,8,87.72,0,778.7
+1030,2024-01-09,North America,USA,Partner,Consumer,Ergo Chair,Furniture,6,325.22,0,2657.38
+1031,2024-01-09,Europe,France,Online,Enterprise,Nimbus Phone,Electronics,4,767.07,10,3064.23
+1032,2024-01-09,Asia Pacific,Japan,Online,Enterprise,Nimbus Phone,Electronics,2,828.37,5,1984.63
+1033,2024-01-10,Europe,Germany,Online,SMB,Nimbus Phone,Electronics,3,773.61,5,2449.19
+1034,2024-01-10,Asia Pacific,Japan,Online,SMB,Pulse Earbuds,Electronics,1,154.61,5,185.41
+1035,2024-01-10,Europe,UK,Retail,Consumer,Aurora Laptop,Electronics,2,1277.41,0,2838.02
+1036,2024-01-10,Asia Pacific,Japan,Partner,Consumer,Pulse Earbuds,Electronics,3,161.69,10,551.09
+1037,2024-01-10,Asia Pacific,Australia,Retail,SMB,Aurora Laptop,Electronics,1,1181.26,0,1491.14
+1038,2024-01-10,Latin America,Brazil,Partner,SMB,Pulse Earbuds,Electronics,3,155.91,0,377.87
+1039,2024-01-11,Europe,Germany,Online,SMB,Canvas Backpack,Accessories,7,88.74,20,552.63
+1040,2024-01-11,North America,USA,Partner,Consumer,Lumen Lamp,Furniture,8,72.92,10,716.55
+1041,2024-01-11,Europe,UK,Online,Enterprise,Aurora Laptop,Electronics,4,1226.19,10,4908.93
+1042,2024-01-11,Europe,UK,Online,Enterprise,Pulse Earbuds,Electronics,9,147.37,15,1253.71
+1043,2024-01-12,Europe,France,Partner,Consumer,Ink Pen Set,Stationery,3,26.56,0,88.7
+1044,2024-01-12,Latin America,Brazil,Partner,Consumer,Ink Pen Set,Stationery,6,26.78,20,104.07
+1045,2024-01-13,North America,USA,Retail,Consumer,Vertex Monitor,Electronics,2,337.97,0,924.52
+1046,2024-01-13,Europe,Germany,Online,Enterprise,Ink Pen Set,Stationery,3,24.82,5,78.83
+1047,2024-01-13,Asia Pacific,Japan,Partner,Consumer,Pulse Earbuds,Electronics,3,144.75,0,549.95
+1048,2024-01-14,North America,Canada,Retail,SMB,Aurora Laptop,Electronics,3,1234.57,5,4817.68
+1049,2024-01-14,Europe,Germany,Online,Consumer,Canvas Backpack,Accessories,7,91.58,0,715.21
+1050,2024-01-14,Asia Pacific,Australia,Partner,SMB,Flow Notebook,Stationery,4,12.07,0,61.21
+1051,2024-01-14,Latin America,Mexico,Online,SMB,Lumen Lamp,Furniture,5,69.31,10,253.07
+1052,2024-01-15,North America,Canada,Partner,Consumer,Ergo Chair,Furniture,7,356.07,15,2904.01
+1053,2024-01-15,North America,Canada,Retail,SMB,Vertex Monitor,Electronics,3,321.88,0,1323.61
+1054,2024-01-15,Europe,France,Partner,Consumer,Pulse Earbuds,Electronics,2,151.73,10,305.03
+1055,2024-01-15,Latin America,Brazil,Partner,Consumer,Flow Notebook,Stationery,6,12.68,0,61.8
+1056,2024-01-15,Asia Pacific,Australia,Online,SMB,Pulse Earbuds,Electronics,1,147.27,0,186.91
+1057,2024-01-16,Europe,UK,Partner,Enterprise,Vertex Monitor,Electronics,10,320.63,5,3405.66
+1058,2024-01-16,North America,USA,Online,Enterprise,Canvas Backpack,Accessories,21,94.91,0,2734.93
+1059,2024-01-16,Asia Pacific,Japan,Online,Consumer,Aurora Laptop,Electronics,4,1265.02,0,6429.07
+1060,2024-01-16,Asia Pacific,Australia,Retail,Enterprise,Lumen Lamp,Furniture,35,73.27,0,3258.26
+1061,2024-01-16,Europe,Germany,Retail,SMB,Flow Notebook,Stationery,8,11.77,15,89.49
+1062,2024-01-17,North America,Canada,Partner,Consumer,Pulse Earbuds,Electronics,1,145.44,0,199.79
+1063,2024-01-17,Europe,UK,Retail,Consumer,Flow Notebook,Stationery,6,12.13,10,73.32
+1064,2024-01-17,North America,Canada,Partner,SMB,Vertex Monitor,Electronics,1,340.64,20,374.34
+1065,2024-01-17,Europe,Germany,Retail,Consumer,Aurora Laptop,Electronics,4,1256.61,10,5063.43
+1066,2024-01-17,Europe,France,Retail,Consumer,Canvas Backpack,Accessories,7,85.84,5,638.93
+1067,2024-01-18,Asia Pacific,Japan,Online,SMB,Flow Notebook,Stationery,1,12.32,5,14.9
+1068,2024-01-18,Asia Pacific,India,Retail,Consumer,Lumen Lamp,Furniture,3,68.87,0,263.07
+1069,2024-01-18,North America,Canada,Retail,SMB,Pulse Earbuds,Electronics,3,161.05,20,531.52
+1070,2024-01-18,Europe,UK,Online,SMB,Terra Desk,Furniture,6,268.97,0,1808.27
+1071,2024-01-19,Asia Pacific,India,Online,Consumer,Nimbus Phone,Electronics,2,809.25,0,2063.03
+1072,2024-01-19,North America,USA,Retail,Consumer,Terra Desk,Furniture,3,267.52,10,994.35
+1073,2024-01-20,Asia Pacific,India,Online,Consumer,Canvas Backpack,Accessories,5,93.42,10,536.43
+1074,2024-01-20,Latin America,Mexico,Partner,Consumer,Canvas Backpack,Accessories,4,93.66,0,305.95
+1075,2024-01-21,Asia Pacific,Australia,Partner,SMB,Ink Pen Set,Stationery,1,25.48,0,32.55
+1076,2024-01-21,Asia Pacific,India,Retail,Consumer,Terra Desk,Furniture,8,261.65,0,2673.85
+1077,2024-01-21,Europe,Germany,Partner,Consumer,Flow Notebook,Stationery,5,12.66,10,64.04
+1078,2024-01-21,Europe,Germany,Partner,SMB,Terra Desk,Furniture,5,275.79,0,1550.09
+1079,2024-01-22,North America,Canada,Partner,Consumer,Pulse Earbuds,Electronics,4,143.06,0,790.3
+1080,2024-01-22,Asia Pacific,India,Retail,Consumer,Terra Desk,Furniture,6,276.75,0,2123.39
+1081,2024-01-23,Europe,France,Partner,Consumer,Canvas Backpack,Accessories,7,92.0,5,689.21
+1082,2024-01-23,North America,Canada,Online,Consumer,Lumen Lamp,Furniture,2,68.52,0,189.46
+1083,2024-01-23,Asia Pacific,Japan,Partner,Consumer,Flow Notebook,Stationery,6,12.95,5,94.49
+1084,2024-01-23,Europe,Germany,Retail,Consumer,Flow Notebook,Stationery,4,12.53,0,56.46
+1085,2024-01-24,North America,USA,Retail,SMB,Nimbus Phone,Electronics,3,846.59,0,3515.11
+1086,2024-01-24,North America,Canada,Partner,Consumer,Nimbus Phone,Electronics,2,764.73,0,2116.81
+1087,2024-01-24,North America,Canada,Retail,Consumer,Flow Notebook,Stationery,2,11.42,20,25.29
+1088,2024-01-24,North America,Canada,Online,Consumer,Vertex Monitor,Electronics,3,323.87,20,1075.79
+1089,2024-01-25,Europe,UK,Online,SMB,Ergo Chair,Furniture,3,347.88,20,942.56
+1090,2024-01-25,North America,USA,Partner,SMB,Nimbus Phone,Electronics,2,814.35,20,1805.26
+1091,2024-01-26,Latin America,Mexico,Retail,Enterprise,Ink Pen Set,Stationery,2,24.43,20,32.13
+1092,2024-01-26,North America,USA,Online,Consumer,Nimbus Phone,Electronics,2,802.49,0,2226.09
+1093,2024-01-26,Asia Pacific,Japan,Partner,Consumer,Pulse Earbuds,Electronics,3,159.26,15,521.55
+1094,2024-01-26,North America,USA,Partner,SMB,Canvas Backpack,Accessories,4,86.84,5,457.69
+1095,2024-01-26,North America,USA,Online,SMB,Canvas Backpack,Accessories,1,94.77,0,131.44
+1096,2024-01-27,Asia Pacific,Australia,Retail,Consumer,Canvas Backpack,Accessories,5,90.21,15,492.9
+1097,2024-01-27,North America,Canada,Retail,SMB,Vertex Monitor,Electronics,3,314.42,10,1178.72
+1098,2024-01-27,North America,USA,Retail,SMB,Canvas Backpack,Accessories,1,94.35,20,104.8
+1099,2024-01-27,Europe,France,Partner,Consumer,Vertex Monitor,Electronics,4,337.87,15,1299.64
+1100,2024-01-27,Latin America,Mexico,Partner,Consumer,Pulse Earbuds,Electronics,1,145.64,20,95.87
+1101,2024-01-27,Europe,Germany,Partner,Enterprise,Pulse Earbuds,Electronics,5,148.63,0,840.76
+1102,2024-01-28,North America,Canada,Online,SMB,Ink Pen Set,Stationery,8,23.93,5,252.79
+1103,2024-01-28,Europe,France,Online,SMB,Flow Notebook,Stationery,4,12.26,0,55.54
+1104,2024-01-28,Latin America,Mexico,Online,Consumer,Ink Pen Set,Stationery,4,24.26,15,67.94
+1105,2024-01-28,Europe,France,Online,Consumer,Vertex Monitor,Electronics,4,330.94,0,1499.22
+1106,2024-01-29,Europe,France,Retail,SMB,Pulse Earbuds,Electronics,4,147.25,5,634.39
+1107,2024-01-29,Europe,Germany,Partner,SMB,Nimbus Phone,Electronics,2,767.26,20,1391.81
+1108,2024-01-29,Asia Pacific,Japan,Retail,SMB,Pulse Earbuds,Electronics,1,156.66,0,201.83
+1109,2024-01-30,Europe,France,Partner,Consumer,Terra Desk,Furniture,8,258.24,0,2344.73
+1110,2024-01-30,Asia Pacific,Japan,Online,Consumer,Vertex Monitor,Electronics,2,319.93,10,742.72
+1111,2024-01-30,Asia Pacific,Japan,Partner,SMB,Aurora Laptop,Electronics,4,1294.19,5,6342.77
+1112,2024-01-30,Asia Pacific,Australia,Online,Consumer,Canvas Backpack,Accessories,3,96.79,10,337.05
+1113,2024-01-30,North America,USA,Partner,Consumer,Ink Pen Set,Stationery,8,26.1,0,290.84
+1114,2024-01-30,Europe,France,Retail,Consumer,Canvas Backpack,Accessories,6,93.6,10,573.65
+1115,2024-01-31,Asia Pacific,Australia,Retail,Consumer,Ink Pen Set,Stationery,8,25.51,20,210.79
+1116,2024-01-31,Europe,UK,Online,Enterprise,Lumen Lamp,Furniture,10,73.42,0,834.17
+1117,2024-02-01,Europe,France,Retail,Consumer,Pulse Earbuds,Electronics,1,149.49,0,170.03
+1118,2024-02-01,Europe,UK,Online,SMB,Ergo Chair,Furniture,3,326.49,0,1114.02
+1119,2024-02-02,Europe,UK,Online,SMB,Terra Desk,Furniture,8,255.58,15,1978.78
+1120,2024-02-02,North America,USA,Retail,Consumer,Canvas Backpack,Accessories,3,90.67,0,380.09
+1121,2024-02-02,North America,Canada,Retail,Consumer,Lumen Lamp,Furniture,8,69.25,20,619.3
+1122,2024-02-02,Latin America,Mexico,Retail,Consumer,Nimbus Phone,Electronics,3,790.7,15,1669.59
+1123,2024-02-02,Latin America,Mexico,Partner,SMB,Pulse Earbuds,Electronics,1,157.03,10,117.03
+1124,2024-02-03,Asia Pacific,India,Partner,Consumer,Lumen Lamp,Furniture,4,68.78,10,320.7
+1125,2024-02-03,Asia Pacific,Australia,Online,Consumer,Flow Notebook,Stationery,1,12.63,0,16.36
+1126,2024-02-03,North America,Canada,Retail,Consumer,Flow Notebook,Stationery,6,12.05,15,85.96
+1127,2024-02-03,North America,Canada,Online,Enterprise,Ergo Chair,Furniture,25,336.05,20,9401.48
+1128,2024-02-04,Asia Pacific,Japan,Online,Consumer,Canvas Backpack,Accessories,7,94.91,20,689.12
+1129,2024-02-04,Europe,Germany,Retail,Consumer,Aurora Laptop,Electronics,3,1256.85,15,3656.82
+1130,2024-02-04,North America,Canada,Online,Enterprise,Ink Pen Set,Stationery,20,25.76,0,721.44
+1131,2024-02-04,Latin America,Mexico,Online,Consumer,Canvas Backpack,Accessories,8,89.04,15,502.43
+1132,2024-02-05,North America,USA,Retail,Consumer,Canvas Backpack,Accessories,2,88.25,0,247.41
+1133,2024-02-05,Europe,Germany,Partner,SMB,Vertex Monitor,Electronics,4,334.88,10,1376.99
+1134,2024-02-05,North America,Canada,Partner,SMB,Flow Notebook,Stationery,7,11.45,0,112.35
+1135,2024-02-05,Europe,Germany,Retail,Consumer,Vertex Monitor,Electronics,1,319.28,15,309.98
+1136,2024-02-05,Latin America,Mexico,Online,Consumer,Aurora Laptop,Electronics,4,1243.39,0,4131.46
+1137,2024-02-06,Latin America,Brazil,Online,Consumer,Flow Notebook,Stationery,4,12.69,0,42.21
+1138,2024-02-06,Europe,France,Retail,Enterprise,Pulse Earbuds,Electronics,4,159.24,0,728.3
+1139,2024-02-06,North America,USA,Online,SMB,Ergo Chair,Furniture,1,323.66,0,454.18
+1140,2024-02-06,Asia Pacific,India,Retail,Consumer,Lumen Lamp,Furniture,1,73.25,0,95.17
+1141,2024-02-06,Europe,France,Retail,Consumer,Aurora Laptop,Electronics,1,1218.6,5,1323.68
+1142,2024-02-06,Latin America,Brazil,Partner,Enterprise,Flow Notebook,Stationery,25,12.9,15,227.95
+1143,2024-02-07,Latin America,Mexico,Partner,Consumer,Vertex Monitor,Electronics,4,341.41,0,1136.81
+1144,2024-02-07,North America,USA,Partner,Consumer,Aurora Laptop,Electronics,3,1295.16,5,5185.18
+1145,2024-02-08,North America,Canada,Partner,SMB,Nimbus Phone,Electronics,2,806.96,5,2156.05
+1146,2024-02-08,North America,Canada,Partner,Consumer,Ink Pen Set,Stationery,2,25.14,0,70.7
+1147,2024-02-08,Asia Pacific,Japan,Retail,SMB,Canvas Backpack,Accessories,2,95.23,0,247.99
+1148,2024-02-08,North America,USA,Online,Consumer,Flow Notebook,Stationery,1,12.89,10,16.31
+1149,2024-02-08,Europe,France,Partner,Consumer,Nimbus Phone,Electronics,4,855.25,20,3135.85
+1150,2024-02-08,North America,Canada,Partner,Consumer,Lumen Lamp,Furniture,4,72.48,0,407.69
+1151,2024-02-09,Asia Pacific,Japan,Retail,Consumer,Ink Pen Set,Stationery,4,25.14,20,104.86
+1152,2024-02-09,Europe,France,Online,SMB,Lumen Lamp,Furniture,5,68.14,0,390.79
+1153,2024-02-09,Asia Pacific,Japan,Online,Consumer,Canvas Backpack,Accessories,3,93.19,10,327.96
+1154,2024-02-10,North America,USA,Retail,Consumer,Aurora Laptop,Electronics,4,1193.18,5,6389.33
+1155,2024-02-10,Europe,France,Partner,Enterprise,Pulse Earbuds,Electronics,2,145.57,0,334.29
+1156,2024-02-11,North America,USA,Retail,SMB,Pulse Earbuds,Electronics,4,147.83,5,792.44
+1157,2024-02-11,Asia Pacific,India,Partner,Consumer,Pulse Earbuds,Electronics,4,155.51,10,731.24
+1158,2024-02-11,North America,Canada,Online,Consumer,Canvas Backpack,Accessories,5,94.48,0,666.39
+1159,2024-02-11,Asia Pacific,Japan,Partner,Consumer,Pulse Earbuds,Electronics,4,145.02,0,757.68
+1160,2024-02-11,Europe,UK,Retail,SMB,Terra Desk,Furniture,2,276.13,5,603.04
+1161,2024-02-11,North America,USA,Retail,Consumer,Terra Desk,Furniture,7,260.67,10,2316.61
+1162,2024-02-12,North America,Canada,Partner,Consumer,Aurora Laptop,Electronics,4,1247.58,20,5637.61
+1163,2024-02-12,Europe,Germany,Partner,Consumer,Ink Pen Set,Stationery,7,24.01,10,174.05
+1164,2024-02-12,Asia Pacific,Australia,Online,Consumer,Pulse Earbuds,Electronics,1,154.85,10,182.22
+1165,2024-02-12,Europe,UK,Partner,Consumer,Canvas Backpack,Accessories,3,86.7,0,299.28
+1166,2024-02-12,North America,USA,Partner,SMB,Lumen Lamp,Furniture,2,75.16,0,212.27
+1167,2024-02-13,Europe,France,Partner,Consumer,Flow Notebook,Stationery,6,12.91,20,71.38
+1168,2024-02-13,North America,Canada,Retail,Consumer,Aurora Laptop,Electronics,3,1148.76,10,4384.55
+1169,2024-02-13,Europe,Germany,Retail,Consumer,Terra Desk,Furniture,5,268.79,0,1548.01
+1170,2024-02-13,Latin America,Brazil,Retail,Consumer,Lumen Lamp,Furniture,1,74.77,5,59.5
+1171,2024-02-13,Europe,UK,Online,Consumer,Pulse Earbuds,Electronics,1,144.52,5,158.14
+1172,2024-02-14,Latin America,Brazil,Online,Consumer,Terra Desk,Furniture,8,264.71,5,1687.04
+1173,2024-02-14,Europe,Germany,Retail,Consumer,Pulse Earbuds,Electronics,3,154.16,15,453.27
+1174,2024-02-14,Asia Pacific,Australia,Partner,Consumer,Pulse Earbuds,Electronics,4,147.41,0,772.59
+1175,2024-02-14,Asia Pacific,Australia,Partner,Consumer,Ink Pen Set,Stationery,3,24.76,0,97.33
+1176,2024-02-15,North America,USA,Retail,Consumer,Pulse Earbuds,Electronics,2,156.21,15,376.18
+1177,2024-02-15,Latin America,Brazil,Retail,Consumer,Lumen Lamp,Furniture,1,69.31,0,58.18
+1178,2024-02-15,Latin America,Mexico,Online,Consumer,Canvas Backpack,Accessories,3,86.4,0,217.59
+1179,2024-02-15,Asia Pacific,India,Partner,Consumer,Terra Desk,Furniture,1,258.38,15,288.07
+1180,2024-02-15,Asia Pacific,India,Online,Consumer,Lumen Lamp,Furniture,3,70.48,15,235.73
+1181,2024-02-16,Europe,France,Retail,Consumer,Pulse Earbuds,Electronics,4,152.91,0,706.72
+1182,2024-02-16,North America,Canada,Partner,Consumer,Canvas Backpack,Accessories,8,94.5,5,1018.45
+1183,2024-02-16,Asia Pacific,Australia,Online,Enterprise,Ergo Chair,Furniture,12,351.34,0,5535.77
+1184,2024-02-16,Asia Pacific,Australia,Partner,SMB,Canvas Backpack,Accessories,2,86.48,0,227.1
+1185,2024-02-16,North America,Canada,Retail,Consumer,Canvas Backpack,Accessories,2,95.06,0,269.6
+1186,2024-02-17,Latin America,Mexico,Online,Consumer,Aurora Laptop,Electronics,4,1198.49,0,4032.71
+1187,2024-02-17,North America,USA,Online,SMB,Ink Pen Set,Stationery,3,24.68,0,105.1
+1188,2024-02-17,Asia Pacific,Australia,Retail,SMB,Ink Pen Set,Stationery,8,23.77,10,224.95
+1189,2024-02-17,North America,Canada,Partner,Consumer,Pulse Earbuds,Electronics,4,157.64,0,895.1
+1190,2024-02-18,North America,USA,Partner,SMB,Pulse Earbuds,Electronics,4,144.66,0,822.26
+1191,2024-02-18,Latin America,Brazil,Partner,SMB,Lumen Lamp,Furniture,3,70.41,0,177.87
+1192,2024-02-18,Europe,UK,Partner,Consumer,Ergo Chair,Furniture,2,366.08,10,762.97
+1193,2024-02-19,Latin America,Brazil,Partner,Consumer,Vertex Monitor,Electronics,4,314.55,0,1060.61
+1194,2024-02-19,North America,USA,Partner,SMB,Pulse Earbuds,Electronics,1,153.85,20,175.08
+1195,2024-02-20,North America,Canada,Online,SMB,Ergo Chair,Furniture,8,344.15,15,3332.41
+1196,2024-02-20,North America,USA,Retail,SMB,Aurora Laptop,Electronics,1,1171.45,0,1668.11
+1197,2024-02-20,Asia Pacific,India,Retail,Consumer,Pulse Earbuds,Electronics,4,143.21,0,755.29
+1198,2024-02-20,Asia Pacific,Japan,Partner,SMB,Pulse Earbuds,Electronics,3,144.93,0,573.27
+1199,2024-02-21,Europe,Germany,Retail,Enterprise,Flow Notebook,Stationery,18,12.48,5,247.87
+1200,2024-02-21,Europe,France,Retail,Consumer,Pulse Earbuds,Electronics,1,154.25,5,170.2
+1201,2024-02-21,Asia Pacific,Australia,Retail,Consumer,Pulse Earbuds,Electronics,3,151.2,0,598.69
+1202,2024-02-21,Asia Pacific,India,Online,Consumer,Flow Notebook,Stationery,6,12.96,10,92.37
+1203,2024-02-22,Asia Pacific,India,Retail,SMB,Aurora Laptop,Electronics,2,1162.27,0,3071.26
+1204,2024-02-22,Europe,Germany,Partner,Consumer,Aurora Laptop,Electronics,3,1199.73,0,4184.72
+1205,2024-02-22,Europe,France,Retail,Consumer,Nimbus Phone,Electronics,3,839.36,5,2781.35
+1206,2024-02-22,Europe,France,Retail,Consumer,Pulse Earbuds,Electronics,2,143.01,0,332.55
+1207,2024-02-23,Europe,Germany,Retail,Consumer,Canvas Backpack,Accessories,8,97.16,0,904.67
+1208,2024-02-23,North America,Canada,Online,Consumer,Nimbus Phone,Electronics,4,853.46,0,4876.37
+1209,2024-02-23,Europe,UK,Retail,Enterprise,Ink Pen Set,Stationery,12,25.51,10,320.66
+1210,2024-02-24,Asia Pacific,Australia,Online,SMB,Flow Notebook,Stationery,6,11.75,10,84.01
+1211,2024-02-24,Latin America,Brazil,Retail,Consumer,Pulse Earbuds,Electronics,3,158.17,5,381.97
+1212,2024-02-24,Europe,France,Retail,Consumer,Ink Pen Set,Stationery,8,25.09,10,210.47
+1213,2024-02-24,Europe,France,Partner,Enterprise,Aurora Laptop,Electronics,5,1246.1,5,6896.17
+1214,2024-02-25,North America,USA,Partner,Consumer,Flow Notebook,Stationery,1,11.59,20,13.27
+1215,2024-02-25,North America,USA,Online,Enterprise,Nimbus Phone,Electronics,12,768.2,20,10555.95
+1216,2024-02-25,North America,Canada,Partner,Consumer,Nimbus Phone,Electronics,1,826.66,10,1064.93
+1217,2024-02-25,Europe,France,Partner,SMB,Nimbus Phone,Electronics,3,856.09,20,2396.3
+1218,2024-02-26,Asia Pacific,India,Partner,Enterprise,Aurora Laptop,Electronics,9,1229.25,20,11742.2
+1219,2024-02-26,Europe,UK,Retail,SMB,Terra Desk,Furniture,5,255.28,5,1415.7
+1220,2024-02-27,North America,USA,Retail,Consumer,Flow Notebook,Stationery,8,11.72,5,127.76
+1221,2024-02-27,Europe,Germany,Retail,Consumer,Ink Pen Set,Stationery,7,26.22,0,214.51
+1222,2024-02-27,Europe,UK,Retail,Consumer,Pulse Earbuds,Electronics,4,145.25,0,679.02
+1223,2024-02-27,North America,Canada,Online,Consumer,Ink Pen Set,Stationery,6,26.09,10,202.08
+1224,2024-02-27,North America,USA,Retail,Consumer,Terra Desk,Furniture,5,247.78,5,1688.14
+1225,2024-02-28,Europe,UK,Online,Consumer,Pulse Earbuds,Electronics,3,154.15,5,513.98
+1226,2024-02-28,Asia Pacific,Australia,Online,Consumer,Terra Desk,Furniture,7,276.83,0,2576.23
+1227,2024-02-28,Asia Pacific,Japan,Partner,Consumer,Pulse Earbuds,Electronics,2,153.29,0,407.58
+1228,2024-02-28,North America,Canada,Partner,Consumer,Flow Notebook,Stationery,2,12.92,0,37.1
+1229,2024-02-28,Europe,Germany,Online,Consumer,Ergo Chair,Furniture,4,345.5,10,1455.14
+1230,2024-02-29,North America,USA,Retail,Consumer,Nimbus Phone,Electronics,4,823.05,0,4731.84
+1231,2024-02-29,Europe,Germany,Retail,Consumer,Canvas Backpack,Accessories,5,89.44,10,471.35
+1232,2024-02-29,Asia Pacific,Australia,Retail,SMB,Terra Desk,Furniture,1,258.2,0,343.62
+1233,2024-02-29,North America,Canada,Partner,SMB,Lumen Lamp,Furniture,1,70.82,10,91.61
+1234,2024-02-29,Latin America,Brazil,Online,SMB,Flow Notebook,Stationery,7,12.68,0,75.6
+1235,2024-02-29,North America,USA,Retail,Consumer,Nimbus Phone,Electronics,2,831.81,5,2271.55
+1236,2024-03-01,Europe,France,Partner,Enterprise,Canvas Backpack,Accessories,3,87.93,10,278.32
+1237,2024-03-01,North America,Canada,Online,Consumer,Ergo Chair,Furniture,8,338.13,10,3502.73
+1238,2024-03-01,Europe,France,Retail,SMB,Flow Notebook,Stationery,8,12.89,0,120.89
+1239,2024-03-01,North America,Canada,Retail,Enterprise,Pulse Earbuds,Electronics,9,156.25,15,1719.78
+1240,2024-03-01,North America,Canada,Partner,Enterprise,Ergo Chair,Furniture,20,348.35,0,10023.89
+1241,2024-03-02,Europe,Germany,Online,Enterprise,Ink Pen Set,Stationery,10,26.85,0,315.09
+1242,2024-03-02,North America,Canada,Online,SMB,Flow Notebook,Stationery,4,12.24,20,56.41
+1243,2024-03-02,Latin America,Mexico,Partner,SMB,Nimbus Phone,Electronics,2,765.28,0,1306.3
+1244,2024-03-02,Latin America,Brazil,Retail,Consumer,Lumen Lamp,Furniture,6,70.8,15,308.17
+1245,2024-03-02,Asia Pacific,India,Online,SMB,Aurora Laptop,Electronics,4,1285.87,15,5830.28
+1246,2024-03-02,Asia Pacific,Japan,Retail,SMB,Lumen Lamp,Furniture,6,72.38,0,579.14
+1247,2024-03-03,Asia Pacific,India,Online,SMB,Ergo Chair,Furniture,3,362.0,5,1377.25
+1248,2024-03-03,North America,USA,Retail,Consumer,Canvas Backpack,Accessories,3,96.76,15,355.73
+1249,2024-03-04,Asia Pacific,India,Retail,SMB,Pulse Earbuds,Electronics,3,161.79,5,616.17
+1250,2024-03-04,Europe,Germany,Partner,Consumer,Canvas Backpack,Accessories,8,87.76,0,825.61
+1251,2024-03-04,North America,USA,Partner,SMB,Flow Notebook,Stationery,3,12.55,0,54.34
+1252,2024-03-04,Asia Pacific,Australia,Partner,Consumer,Flow Notebook,Stationery,7,12.07,20,90.32
+1253,2024-03-05,North America,USA,Retail,Consumer,Nimbus Phone,Electronics,2,787.12,0,2274.28
+1254,2024-03-05,North America,Canada,Partner,Consumer,Canvas Backpack,Accessories,1,93.15,0,134.57
+1255,2024-03-05,Asia Pacific,India,Online,Consumer,Flow Notebook,Stationery,7,12.18,15,96.94
+1256,2024-03-05,Latin America,Mexico,Retail,SMB,Flow Notebook,Stationery,6,11.74,10,54.27
+1257,2024-03-06,Europe,Germany,Retail,SMB,Flow Notebook,Stationery,8,12.24,20,92.31
+1258,2024-03-06,Asia Pacific,India,Partner,SMB,Flow Notebook,Stationery,2,12.1,10,29.16
+1259,2024-03-06,Asia Pacific,India,Partner,Consumer,Canvas Backpack,Accessories,4,91.78,10,442.43
+1260,2024-03-07,North America,Canada,Partner,Consumer,Nimbus Phone,Electronics,4,853.48,0,4942.14
+1261,2024-03-07,Europe,UK,Retail,Consumer,Vertex Monitor,Electronics,1,323.23,10,343.14
+1262,2024-03-07,Asia Pacific,Australia,Online,Consumer,Aurora Laptop,Electronics,2,1151.39,10,2778.0
+1263,2024-03-08,North America,USA,Online,Consumer,Ergo Chair,Furniture,8,335.69,0,3891.65
+1264,2024-03-08,North America,USA,Partner,Enterprise,Flow Notebook,Stationery,28,12.1,5,466.41
+1265,2024-03-08,Latin America,Mexico,Partner,SMB,Vertex Monitor,Electronics,2,339.79,15,496.04
+1266,2024-03-08,North America,Canada,Online,SMB,Ergo Chair,Furniture,1,324.0,20,375.61
+1267,2024-03-08,North America,Canada,Online,SMB,Ergo Chair,Furniture,8,329.86,0,3824.06
+1268,2024-03-09,Latin America,Brazil,Partner,SMB,Aurora Laptop,Electronics,1,1172.15,0,1007.6
+1269,2024-03-09,North America,USA,Online,SMB,Vertex Monitor,Electronics,2,305.84,15,754.21
+1270,2024-03-09,Europe,France,Online,Enterprise,Pulse Earbuds,Electronics,8,158.41,0,1497.89
+1271,2024-03-10,North America,Canada,Partner,Enterprise,Pulse Earbuds,Electronics,10,147.87,0,2147.19
+1272,2024-03-10,Europe,France,Partner,Enterprise,Ink Pen Set,Stationery,35,26.91,0,1114.38
+1273,2024-03-10,Latin America,Mexico,Retail,Consumer,Flow Notebook,Stationery,7,11.87,0,71.5
+1274,2024-03-10,North America,Canada,Partner,Consumer,Pulse Earbuds,Electronics,2,151.53,20,352.05
+1275,2024-03-10,North America,Canada,Online,SMB,Canvas Backpack,Accessories,7,88.48,0,899.36
+1276,2024-03-10,North America,USA,Online,SMB,Canvas Backpack,Accessories,4,88.64,0,514.85
+1277,2024-03-11,Europe,UK,Partner,SMB,Nimbus Phone,Electronics,2,781.72,5,1759.13
+1278,2024-03-11,Latin America,Mexico,Online,Consumer,Canvas Backpack,Accessories,2,97.19,15,142.32
+1279,2024-03-11,Europe,UK,Retail,SMB,Flow Notebook,Stationery,4,11.9,10,50.74
+1280,2024-03-11,North America,Canada,Retail,Consumer,Ergo Chair,Furniture,6,362.02,10,2841.58
+1281,2024-03-11,Europe,France,Online,SMB,Terra Desk,Furniture,6,260.99,0,1854.67
+1282,2024-03-11,Europe,UK,Partner,Consumer,Flow Notebook,Stationery,7,11.64,0,96.5
+1283,2024-03-12,North America,USA,Partner,SMB,Terra Desk,Furniture,6,272.8,0,2381.61
+1284,2024-03-12,Europe,France,Online,Consumer,Lumen Lamp,Furniture,6,67.77,0,482.08
+1285,2024-03-12,Europe,UK,Partner,Consumer,Canvas Backpack,Accessories,1,85.9,10,91.66
+1286,2024-03-12,Asia Pacific,Australia,Online,Consumer,Aurora Laptop,Electronics,2,1250.32,0,3369.01
+1287,2024-03-13,North America,Canada,Partner,SMB,Pulse Earbuds,Electronics,4,152.01,15,752.78
+1288,2024-03-13,North America,Canada,Retail,Consumer,Aurora Laptop,Electronics,3,1218.35,0,5323.66
+1289,2024-03-14,Asia Pacific,India,Online,Consumer,Nimbus Phone,Electronics,2,824.46,0,2226.04
+1290,2024-03-14,North America,Canada,Retail,Consumer,Pulse Earbuds,Electronics,4,153.52,5,850.56
+1291,2024-03-14,Latin America,Brazil,Online,SMB,Pulse Earbuds,Electronics,1,150.4,0,129.95
+1292,2024-03-14,Europe,Germany,Online,Consumer,Aurora Laptop,Electronics,1,1271.87,5,1435.43
+1293,2024-03-14,Asia Pacific,Japan,Online,Enterprise,Ergo Chair,Furniture,3,362.84,0,1469.5
+1294,2024-03-15,Europe,UK,Retail,SMB,Canvas Backpack,Accessories,1,96.37,0,114.6
+1295,2024-03-15,North America,USA,Partner,SMB,Lumen Lamp,Furniture,7,69.22,0,707.18
+1296,2024-03-15,Europe,France,Partner,Consumer,Ink Pen Set,Stationery,6,26.21,5,177.66
+1297,2024-03-15,North America,USA,Online,Enterprise,Terra Desk,Furniture,10,275.35,0,4018.68
+1298,2024-03-15,North America,Canada,Partner,Consumer,Canvas Backpack,Accessories,5,97.11,20,566.92
+1299,2024-03-15,Europe,Germany,Online,Consumer,Ergo Chair,Furniture,7,357.13,0,2972.91
+1300,2024-03-16,Asia Pacific,Australia,Retail,Consumer,Aurora Laptop,Electronics,2,1200.78,15,2761.38
+1301,2024-03-16,Europe,UK,Retail,Consumer,Aurora Laptop,Electronics,3,1160.67,0,4145.02
+1302,2024-03-16,North America,Canada,Online,Consumer,Ergo Chair,Furniture,1,338.64,0,494.74
+1303,2024-03-16,North America,Canada,Retail,Consumer,Ink Pen Set,Stationery,7,24.03,20,196.6
+1304,2024-03-17,Latin America,Brazil,Retail,Consumer,Ergo Chair,Furniture,3,334.89,0,870.68
+1305,2024-03-17,North America,USA,Retail,Consumer,Aurora Laptop,Electronics,3,1262.1,5,5260.37
+1306,2024-03-17,Europe,UK,Partner,Consumer,Flow Notebook,Stationery,4,11.57,5,52.39
+1307,2024-03-17,North America,Canada,Retail,SMB,Pulse Earbuds,Electronics,4,150.9,0,882.73
+1308,2024-03-17,Asia Pacific,Australia,Retail,Consumer,Canvas Backpack,Accessories,4,89.18,5,458.89
+1309,2024-03-17,Latin America,Mexico,Retail,SMB,Pulse Earbuds,Electronics,2,149.83,0,259.69
+1310,2024-03-18,Europe,France,Online,Enterprise,Nimbus Phone,Electronics,5,781.8,15,3963.33
+1311,2024-03-18,Asia Pacific,Australia,Retail,SMB,Aurora Laptop,Electronics,4,1238.8,0,6716.67
+1312,2024-03-18,North America,USA,Online,SMB,Flow Notebook,Stationery,8,12.15,10,128.06
+1313,2024-03-18,Europe,France,Retail,Enterprise,Canvas Backpack,Accessories,4,95.98,15,389.26
+1314,2024-03-18,Europe,France,Online,Consumer,Canvas Backpack,Accessories,6,93.07,0,666.1
+1315,2024-03-19,Europe,France,Retail,Consumer,Flow Notebook,Stationery,7,11.42,0,95.45
+1316,2024-03-19,North America,USA,Partner,Consumer,Vertex Monitor,Electronics,2,345.5,0,1012.59
+1317,2024-03-20,North America,Canada,Partner,Consumer,Canvas Backpack,Accessories,3,89.15,0,392.32
+1318,2024-03-20,Europe,UK,Online,Consumer,Terra Desk,Furniture,8,270.55,15,2198.92
+1319,2024-03-20,North America,Canada,Online,SMB,Aurora Laptop,Electronics,3,1157.06,15,4328.02
+1320,2024-03-20,Asia Pacific,Australia,Online,Consumer,Pulse Earbuds,Electronics,3,150.81,10,553.05
+1321,2024-03-20,Europe,Germany,Partner,Consumer,Lumen Lamp,Furniture,7,66.77,5,530.71
+1322,2024-03-21,Latin America,Mexico,Partner,Consumer,Lumen Lamp,Furniture,4,69.03,0,240.26
+1323,2024-03-21,Asia Pacific,India,Partner,SMB,Ergo Chair,Furniture,3,337.41,0,1376.22
+1324,2024-03-21,Europe,Germany,Partner,Consumer,Flow Notebook,Stationery,6,12.01,10,77.59
+1325,2024-03-21,Europe,UK,Partner,SMB,Pulse Earbuds,Electronics,2,155.63,20,297.92
+1326,2024-03-21,Asia Pacific,Australia,Retail,SMB,Lumen Lamp,Furniture,2,69.28,0,188.38
+1327,2024-03-21,North America,USA,Online,Consumer,Terra Desk,Furniture,7,253.28,5,2473.17
+1328,2024-03-22,Asia Pacific,Australia,Online,Consumer,Canvas Backpack,Accessories,8,87.14,0,948.75
+1329,2024-03-22,North America,Canada,Online,Enterprise,Lumen Lamp,Furniture,24,73.92,0,2607.61
+1330,2024-03-22,Latin America,Mexico,Partner,Consumer,Vertex Monitor,Electronics,4,310.96,5,1029.23
+1331,2024-03-22,Europe,UK,Partner,Consumer,Pulse Earbuds,Electronics,3,157.72,0,566.68
+1332,2024-03-22,Europe,Germany,Online,Consumer,Ergo Chair,Furniture,5,347.01,20,1662.38
+1333,2024-03-22,Latin America,Brazil,Online,Consumer,Flow Notebook,Stationery,7,12.55,0,76.52
+1334,2024-03-23,North America,USA,Online,Consumer,Vertex Monitor,Electronics,4,345.35,20,1625.98
+1335,2024-03-23,Asia Pacific,India,Partner,SMB,Pulse Earbuds,Electronics,3,156.36,20,511.23
+1336,2024-03-23,Asia Pacific,India,Online,SMB,Lumen Lamp,Furniture,1,69.69,10,85.45
+1337,2024-03-24,Europe,UK,Retail,SMB,Pulse Earbuds,Electronics,3,152.53,20,439.31
+1338,2024-03-24,Latin America,Brazil,Retail,SMB,Nimbus Phone,Electronics,1,850.17,0,742.0
+1339,2024-03-24,North America,USA,Online,SMB,Pulse Earbuds,Electronics,4,145.27,5,813.02
+1340,2024-03-24,Asia Pacific,Australia,Partner,Consumer,Vertex Monitor,Electronics,1,325.45,5,421.62
+1341,2024-03-25,Asia Pacific,Japan,Partner,Consumer,Vertex Monitor,Electronics,1,336.2,20,367.15
+1342,2024-03-25,Asia Pacific,Australia,Partner,SMB,Canvas Backpack,Accessories,6,86.24,20,565.07
+1343,2024-03-25,Europe,UK,Retail,SMB,Canvas Backpack,Accessories,5,95.19,0,571.74
+1344,2024-03-25,North America,USA,Retail,Consumer,Ergo Chair,Furniture,1,327.4,0,482.68
+1345,2024-03-26,North America,USA,Retail,Consumer,Vertex Monitor,Electronics,2,341.83,15,857.58
+1346,2024-03-26,Latin America,Mexico,Retail,Enterprise,Nimbus Phone,Electronics,4,768.57,0,2688.52
+1347,2024-03-26,Asia Pacific,Australia,Retail,Consumer,Nimbus Phone,Electronics,2,828.17,5,2150.12
+1348,2024-03-26,Asia Pacific,India,Partner,Consumer,Pulse Earbuds,Electronics,2,155.76,10,383.11
+1349,2024-03-26,North America,Canada,Retail,Enterprise,Ink Pen Set,Stationery,15,24.49,0,542.12
+1350,2024-03-27,Asia Pacific,India,Retail,Consumer,Nimbus Phone,Electronics,2,840.44,5,2184.17
+1351,2024-03-27,Asia Pacific,India,Online,SMB,Lumen Lamp,Furniture,1,72.42,10,89.15
+1352,2024-03-28,Europe,UK,Retail,Consumer,Lumen Lamp,Furniture,8,68.48,20,528.06
+1353,2024-03-28,Latin America,Brazil,Retail,SMB,Flow Notebook,Stationery,6,11.89,5,59.39
+1354,2024-03-28,North America,Canada,Partner,Consumer,Lumen Lamp,Furniture,5,75.07,20,444.03
+1355,2024-03-28,North America,Canada,Online,SMB,Nimbus Phone,Electronics,4,827.2,0,4892.76
+1356,2024-03-28,Asia Pacific,India,Retail,Consumer,Terra Desk,Furniture,2,277.04,10,682.77
+1357,2024-03-29,Latin America,Mexico,Partner,Enterprise,Nimbus Phone,Electronics,16,831.03,10,10496.71
+1358,2024-03-29,Asia Pacific,India,Retail,Consumer,Aurora Laptop,Electronics,2,1283.92,0,3519.35
+1359,2024-03-30,Europe,France,Retail,SMB,Flow Notebook,Stationery,7,12.4,0,104.79
+1360,2024-03-30,Europe,UK,Partner,Consumer,Pulse Earbuds,Electronics,2,145.53,20,281.11
+1361,2024-03-30,North America,USA,Online,Consumer,Pulse Earbuds,Electronics,1,144.18,0,213.63
+1362,2024-03-30,Europe,Germany,Partner,Consumer,Lumen Lamp,Furniture,3,66.62,0,241.29
+1363,2024-03-30,North America,USA,Partner,Enterprise,Nimbus Phone,Electronics,9,773.2,0,10310.65
+1364,2024-03-31,Asia Pacific,India,Retail,Consumer,Flow Notebook,Stationery,5,11.5,10,71.07
+1365,2024-03-31,Asia Pacific,Australia,Partner,Consumer,Lumen Lamp,Furniture,6,71.05,0,585.43
+1366,2024-03-31,Europe,Germany,Partner,SMB,Nimbus Phone,Electronics,1,837.04,0,1011.56
+1367,2024-03-31,North America,USA,Retail,Consumer,Pulse Earbuds,Electronics,2,160.66,0,476.57
+1368,2024-04-01,Europe,France,Retail,Consumer,Flow Notebook,Stationery,4,12.83,5,58.98
+1369,2024-04-01,North America,USA,Partner,Consumer,Ergo Chair,Furniture,1,332.86,0,494.17
+1370,2024-04-02,Latin America,Mexico,Retail,Consumer,Aurora Laptop,Electronics,3,1153.48,0,3047.46
+1371,2024-04-02,Europe,Germany,Retail,SMB,Nimbus Phone,Electronics,2,798.3,5,1836.66
+1372,2024-04-02,Latin America,Brazil,Online,Consumer,Flow Notebook,Stationery,3,12.85,0,33.95
+1373,2024-04-02,North America,Canada,Online,SMB,Lumen Lamp,Furniture,6,73.41,0,654.57
+1374,2024-04-02,Europe,France,Partner,Consumer,Flow Notebook,Stationery,4,12.17,5,56.0
+1375,2024-04-02,North America,USA,Online,Consumer,Flow Notebook,Stationery,7,12.8,15,113.18
+1376,2024-04-03,Latin America,Brazil,Partner,Consumer,Lumen Lamp,Furniture,7,71.89,0,443.61
+1377,2024-04-03,North America,USA,Retail,Consumer,Pulse Earbuds,Electronics,4,158.72,15,802.77
+1378,2024-04-03,North America,Canada,Online,Consumer,Pulse Earbuds,Electronics,2,157.52,20,374.92
+1379,2024-04-03,North America,USA,Retail,Consumer,Nimbus Phone,Electronics,1,797.26,10,1067.4
+1380,2024-04-03,Asia Pacific,Japan,Online,Consumer,Pulse Earbuds,Electronics,1,158.25,0,217.97
+1381,2024-04-04,Asia Pacific,Australia,Retail,Consumer,Lumen Lamp,Furniture,3,72.97,0,301.83
+1382,2024-04-04,Latin America,Mexico,Retail,SMB,Terra Desk,Furniture,3,279.18,0,739.05
+1383,2024-04-04,Asia Pacific,Australia,Retail,Consumer,Flow Notebook,Stationery,2,12.64,20,27.88
+1384,2024-04-04,North America,USA,Online,Enterprise,Ink Pen Set,Stationery,20,25.98,0,773.72
+1385,2024-04-05,Europe,Germany,Online,Consumer,Canvas Backpack,Accessories,4,90.69,15,374.49
+1386,2024-04-05,North America,Canada,Online,Enterprise,Nimbus Phone,Electronics,10,835.34,20,9960.91
+1387,2024-04-06,North America,Canada,Online,Consumer,Nimbus Phone,Electronics,3,806.39,0,3609.47
+1388,2024-04-06,North America,USA,Partner,Consumer,Lumen Lamp,Furniture,8,67.3,0,803.31
+1389,2024-04-06,Europe,Germany,Partner,Enterprise,Nimbus Phone,Electronics,4,841.32,5,3886.7
+1390,2024-04-06,Europe,France,Partner,Consumer,Flow Notebook,Stationery,6,11.82,5,81.91
+1391,2024-04-06,North America,USA,Retail,SMB,Aurora Laptop,Electronics,1,1294.68,20,1545.36
+1392,2024-04-07,Europe,France,Online,Enterprise,Canvas Backpack,Accessories,12,91.74,0,1339.7
+1393,2024-04-07,Asia Pacific,Australia,Online,Enterprise,Aurora Laptop,Electronics,16,1294.68,20,22916.9
+1394,2024-04-07,North America,USA,Partner,SMB,Lumen Lamp,Furniture,6,66.76,10,538.42
+1395,2024-04-07,Asia Pacific,Australia,Online,SMB,Ergo Chair,Furniture,8,336.66,10,3352.03
+1396,2024-04-07,Europe,UK,Online,SMB,Aurora Laptop,Electronics,4,1191.75,0,5801.11
+1397,2024-04-07,Europe,UK,Retail,Consumer,Pulse Earbuds,Electronics,1,145.38,0,176.92
+1398,2024-04-08,Asia Pacific,Australia,Retail,Enterprise,Ink Pen Set,Stationery,14,24.73,0,479.25
+1399,2024-04-08,North America,USA,Partner,Consumer,Flow Notebook,Stationery,8,11.89,15,120.87
+1400,2024-04-08,Asia Pacific,Australia,Retail,Enterprise,Flow Notebook,Stationery,12,11.88,5,187.47
+1401,2024-04-09,North America,USA,Retail,Enterprise,Canvas Backpack,Accessories,3,89.22,10,360.49
+1402,2024-04-09,Asia Pacific,Australia,Retail,SMB,Pulse Earbuds,Electronics,2,157.03,0,435.17
+1403,2024-04-09,North America,Canada,Online,Enterprise,Nimbus Phone,Electronics,15,787.58,0,17678.8
+1404,2024-04-09,North America,USA,Partner,SMB,Pulse Earbuds,Electronics,1,150.03,0,224.51
+1405,2024-04-10,Latin America,Mexico,Partner,Consumer,Terra Desk,Furniture,7,275.01,0,1708.83
+1406,2024-04-10,Asia Pacific,Australia,Online,SMB,Lumen Lamp,Furniture,8,73.77,0,818.54
+1407,2024-04-10,North America,USA,Online,Enterprise,Pulse Earbuds,Electronics,9,145.64,5,1865.27
+1408,2024-04-10,North America,USA,Retail,Enterprise,Pulse Earbuds,Electronics,5,145.72,15,927.69
+1409,2024-04-10,Latin America,Brazil,Online,Consumer,Aurora Laptop,Electronics,4,1226.44,15,3701.5
+1410,2024-04-11,North America,Canada,Retail,Consumer,Pulse Earbuds,Electronics,4,143.56,0,861.03
+1411,2024-04-11,North America,USA,Partner,SMB,Pulse Earbuds,Electronics,4,144.39,0,866.01
+1412,2024-04-11,North America,Canada,Online,Consumer,Canvas Backpack,Accessories,5,90.15,20,540.69
+1413,2024-04-11,Europe,France,Retail,SMB,Pulse Earbuds,Electronics,2,159.77,0,390.4
+1414,2024-04-11,Europe,Germany,Retail,Consumer,Aurora Laptop,Electronics,2,1181.9,20,2310.38
+1415,2024-04-11,North America,USA,Partner,Consumer,Aurora Laptop,Electronics,4,1232.0,20,5911.33
+1416,2024-04-12,North America,Canada,Partner,Consumer,Ink Pen Set,Stationery,8,26.62,10,287.67
+1417,2024-04-12,Europe,UK,Online,Enterprise,Vertex Monitor,Electronics,4,322.68,20,1262.8
+1418,2024-04-12,Latin America,Brazil,Online,SMB,Canvas Backpack,Accessories,1,86.42,5,73.02
+1419,2024-04-12,Asia Pacific,India,Partner,SMB,Canvas Backpack,Accessories,5,96.16,0,668.18
+1420,2024-04-12,Latin America,Brazil,Partner,SMB,Aurora Laptop,Electronics,3,1183.09,20,2525.45
+1421,2024-04-12,Europe,UK,Partner,SMB,Flow Notebook,Stationery,7,12.05,0,103.16
+1422,2024-04-13,Europe,France,Online,Enterprise,Flow Notebook,Stationery,8,12.24,20,95.9
+1423,2024-04-13,North America,Canada,Partner,SMB,Pulse Earbuds,Electronics,4,145.86,0,876.55
+1424,2024-04-13,Europe,France,Online,SMB,Lumen Lamp,Furniture,7,72.78,0,623.66
+1425,2024-04-14,Asia Pacific,Japan,Retail,Consumer,Canvas Backpack,Accessories,5,95.36,0,663.93
+1426,2024-04-14,Asia Pacific,Australia,Online,Enterprise,Nimbus Phone,Electronics,15,845.89,20,14134.47
+1427,2024-04-15,Asia Pacific,Australia,Online,Consumer,Lumen Lamp,Furniture,7,70.91,15,588.08
+1428,2024-04-15,Europe,Germany,Online,Consumer,Ink Pen Set,Stationery,2,26.06,0,63.93
+1429,2024-04-15,Europe,France,Online,Consumer,Ink Pen Set,Stationery,4,23.94,20,93.97
+1430,2024-04-15,North America,USA,Retail,SMB,Canvas Backpack,Accessories,6,90.93,20,657.03
+1431,2024-04-16,Asia Pacific,India,Retail,Consumer,Flow Notebook,Stationery,8,12.9,0,143.99
+1432,2024-04-16,Europe,France,Retail,Consumer,Pulse Earbuds,Electronics,1,143.04,0,175.62
+1433,2024-04-16,North America,USA,Partner,SMB,Ink Pen Set,Stationery,4,25.87,0,155.93
+1434,2024-04-16,Europe,France,Partner,Enterprise,Aurora Laptop,Electronics,4,1179.37,0,5792.03
+1435,2024-04-16,Asia Pacific,Japan,Retail,SMB,Flow Notebook,Stationery,7,12.73,5,118.11
+1436,2024-04-17,North America,Canada,Partner,Consumer,Pulse Earbuds,Electronics,4,144.5,10,784.62
+1437,2024-04-17,Europe,France,Partner,SMB,Canvas Backpack,Accessories,5,93.51,0,574.61
+1438,2024-04-17,Europe,Germany,Retail,SMB,Canvas Backpack,Accessories,5,93.82,15,490.04
+1439,2024-04-17,Latin America,Mexico,Online,Consumer,Nimbus Phone,Electronics,1,849.16,20,607.19
+1440,2024-04-17,Asia Pacific,Japan,Partner,SMB,Flow Notebook,Stationery,1,12.18,15,14.46
+1441,2024-04-18,North America,Canada,Partner,SMB,Vertex Monitor,Electronics,2,334.22,0,1009.2
+1442,2024-04-18,North America,Canada,Partner,SMB,Canvas Backpack,Accessories,5,87.49,20,528.36
+1443,2024-04-18,Asia Pacific,Australia,Online,Consumer,Nimbus Phone,Electronics,3,844.07,15,3008.91
+1444,2024-04-18,Asia Pacific,India,Partner,Enterprise,Canvas Backpack,Accessories,6,88.11,0,739.04
+1445,2024-04-19,Europe,Germany,Retail,SMB,Pulse Earbuds,Electronics,1,143.55,5,167.93
+1446,2024-04-19,Asia Pacific,Australia,Online,Consumer,Canvas Backpack,Accessories,2,93.46,20,209.25
+1447,2024-04-19,Europe,Germany,Online,Enterprise,Aurora Laptop,Electronics,8,1294.0,5,12110.05
+1448,2024-04-19,Latin America,Mexico,Online,Enterprise,Nimbus Phone,Electronics,5,825.63,0,3697.01
+1449,2024-04-20,North America,USA,Online,Consumer,Aurora Laptop,Electronics,2,1262.49,5,3628.66
+1450,2024-04-20,Asia Pacific,India,Retail,SMB,Lumen Lamp,Furniture,7,69.99,5,651.93
+1451,2024-04-20,North America,USA,Retail,Enterprise,Flow Notebook,Stationery,8,11.41,15,117.37
+1452,2024-04-21,North America,Canada,Partner,Consumer,Pulse Earbuds,Electronics,3,143.77,0,653.1
+1453,2024-04-21,North America,Canada,Partner,Consumer,Vertex Monitor,Electronics,3,340.94,5,1471.33
+1454,2024-04-21,Latin America,Mexico,Online,Consumer,Canvas Backpack,Accessories,3,90.22,20,194.29
+1455,2024-04-22,North America,USA,Partner,Consumer,Pulse Earbuds,Electronics,2,149.65,0,453.65
+1456,2024-04-22,Asia Pacific,India,Partner,SMB,Vertex Monitor,Electronics,1,345.38,10,436.24
+1457,2024-04-22,Asia Pacific,Australia,Online,Consumer,Ink Pen Set,Stationery,7,24.99,5,233.23
+1458,2024-04-23,North America,USA,Online,SMB,Nimbus Phone,Electronics,3,828.81,5,3583.74
+1459,2024-04-23,Asia Pacific,Japan,Retail,SMB,Lumen Lamp,Furniture,2,73.04,10,184.69
+1460,2024-04-23,North America,USA,Partner,Consumer,Flow Notebook,Stationery,4,11.81,20,57.34
+1461,2024-04-23,Europe,UK,Online,Consumer,Pulse Earbuds,Electronics,1,152.18,10,169.32
+1462,2024-04-23,North America,Canada,Partner,Consumer,Pulse Earbuds,Electronics,1,158.79,0,240.91
+1463,2024-04-23,Asia Pacific,India,Online,SMB,Canvas Backpack,Accessories,2,93.04,0,261.4
+1464,2024-04-24,Latin America,Mexico,Online,Consumer,Pulse Earbuds,Electronics,1,148.17,20,106.68
+1465,2024-04-24,Asia Pacific,Japan,Online,Consumer,Vertex Monitor,Electronics,1,309.76,20,348.46
+1466,2024-04-24,Asia Pacific,Japan,Partner,Consumer,Pulse Earbuds,Electronics,3,144.31,15,517.46
+1467,2024-04-24,Asia Pacific,India,Retail,Consumer,Nimbus Phone,Electronics,3,800.11,20,2700.21
+1468,2024-04-24,Asia Pacific,Japan,Online,SMB,Lumen Lamp,Furniture,3,73.11,15,262.15
+1469,2024-04-25,North America,Canada,Online,SMB,Ink Pen Set,Stationery,7,24.92,20,212.14
+1470,2024-04-25,North America,USA,Retail,Consumer,Terra Desk,Furniture,8,249.14,0,3029.82
+1471,2024-04-25,Asia Pacific,India,Partner,SMB,Flow Notebook,Stationery,4,12.76,15,61.06
+1472,2024-04-26,Europe,France,Partner,Consumer,Lumen Lamp,Furniture,4,69.65,5,328.15
+1473,2024-04-26,Asia Pacific,Japan,Partner,SMB,Nimbus Phone,Electronics,1,826.91,0,1165.04
+1474,2024-04-26,North America,Canada,Online,Enterprise,Ink Pen Set,Stationery,32,24.83,0,1209.02
+1475,2024-04-26,North America,USA,Online,Consumer,Ergo Chair,Furniture,2,342.63,5,990.57
+1476,2024-04-26,Europe,UK,Online,Consumer,Ink Pen Set,Stationery,8,25.87,15,218.11
+1477,2024-04-26,North America,Canada,Online,Consumer,Aurora Laptop,Electronics,3,1227.72,10,5043.92
+1478,2024-04-27,Latin America,Mexico,Retail,SMB,Ink Pen Set,Stationery,6,26.24,10,127.89
+1479,2024-04-27,Europe,France,Online,SMB,Flow Notebook,Stationery,2,12.43,20,24.68
+1480,2024-04-27,North America,Canada,Retail,Enterprise,Ink Pen Set,Stationery,12,26.66,0,487.27
+1481,2024-04-27,Europe,France,Retail,Consumer,Flow Notebook,Stationery,4,11.59,0,57.53
+1482,2024-04-27,Asia Pacific,India,Partner,SMB,Vertex Monitor,Electronics,3,335.5,0,1419.44
+1483,2024-04-28,Latin America,Brazil,Partner,Consumer,Flow Notebook,Stationery,3,11.41,5,29.38
+1484,2024-04-28,Asia Pacific,Australia,Retail,SMB,Canvas Backpack,Accessories,3,92.27,15,332.14
+1485,2024-04-29,North America,Canada,Partner,Consumer,Terra Desk,Furniture,4,260.45,0,1589.84
+1486,2024-04-29,North America,Canada,Retail,Consumer,Vertex Monitor,Electronics,3,333.18,20,1220.28
+1487,2024-04-29,Asia Pacific,Australia,Online,SMB,Flow Notebook,Stationery,4,12.37,0,69.92
+1488,2024-04-30,Asia Pacific,Australia,Online,SMB,Nimbus Phone,Electronics,3,772.0,15,2784.36
+1489,2024-04-30,Europe,Germany,Partner,Enterprise,Lumen Lamp,Furniture,28,70.34,20,1961.1
+1490,2024-04-30,North America,USA,Partner,Consumer,Aurora Laptop,Electronics,1,1181.65,0,1805.01
+1491,2024-04-30,Asia Pacific,Japan,Online,Consumer,Flow Notebook,Stationery,5,12.58,0,88.96
+1492,2024-05-01,Europe,Germany,Partner,Enterprise,Nimbus Phone,Electronics,10,813.14,0,10130.61
+1493,2024-05-01,Asia Pacific,Australia,Retail,SMB,Pulse Earbuds,Electronics,4,161.16,5,867.02
+1494,2024-05-02,Latin America,Brazil,Partner,Consumer,Aurora Laptop,Electronics,4,1175.19,20,3410.72
+1495,2024-05-02,Asia Pacific,Australia,Partner,SMB,Lumen Lamp,Furniture,4,73.1,20,331.49
+1496,2024-05-02,North America,Canada,Online,SMB,Nimbus Phone,Electronics,2,813.44,15,2116.44
+1497,2024-05-02,Europe,Germany,Online,Consumer,Pulse Earbuds,Electronics,3,148.95,0,557.25
+1498,2024-05-03,North America,Canada,Partner,SMB,Lumen Lamp,Furniture,5,73.69,5,536.23
+1499,2024-05-03,Europe,UK,Online,Consumer,Flow Notebook,Stationery,3,11.51,10,38.79
+1500,2024-05-03,Europe,Germany,Retail,Consumer,Ergo Chair,Furniture,4,352.32,0,1759.17
+1501,2024-05-04,Europe,UK,Retail,SMB,Canvas Backpack,Accessories,1,93.33,0,116.61
+1502,2024-05-04,Europe,France,Online,SMB,Lumen Lamp,Furniture,6,74.83,5,532.94
+1503,2024-05-04,Latin America,Mexico,Online,SMB,Pulse Earbuds,Electronics,3,158.15,10,388.02
+1504,2024-05-04,Europe,UK,Retail,SMB,Pulse Earbuds,Electronics,1,145.76,0,182.12
+1505,2024-05-05,Europe,France,Online,SMB,Aurora Laptop,Electronics,4,1156.21,20,4627.37
+1506,2024-05-05,Europe,France,Retail,SMB,Ink Pen Set,Stationery,2,25.98,15,55.24
+1507,2024-05-05,North America,Canada,Online,Consumer,Aurora Laptop,Electronics,3,1150.99,10,4770.07
+1508,2024-05-05,Asia Pacific,Japan,Retail,Consumer,Vertex Monitor,Electronics,4,304.7,0,1732.2
+1509,2024-05-05,Asia Pacific,Australia,Online,SMB,Aurora Laptop,Electronics,1,1272.33,15,1537.04
+1510,2024-05-05,Europe,France,Retail,SMB,Nimbus Phone,Electronics,1,839.59,0,1050.06
+1511,2024-05-06,Europe,France,Online,Consumer,Aurora Laptop,Electronics,2,1200.99,15,2555.96
+1512,2024-05-06,Asia Pacific,Australia,Retail,SMB,Pulse Earbuds,Electronics,3,153.29,0,654.21
+1513,2024-05-06,Europe,UK,Retail,SMB,Aurora Laptop,Electronics,1,1172.77,0,1468.18
+1514,2024-05-06,Asia Pacific,Australia,Partner,Consumer,Pulse Earbuds,Electronics,2,146.09,0,415.66
+1515,2024-05-06,Europe,Germany,Partner,Consumer,Nimbus Phone,Electronics,1,838.11,20,839.38
+1516,2024-05-07,Europe,France,Retail,SMB,Aurora Laptop,Electronics,1,1253.19,0,1570.37
+1517,2024-05-07,Europe,Germany,Online,SMB,Pulse Earbuds,Electronics,1,154.58,0,193.7
+1518,2024-05-07,Latin America,Mexico,Partner,Consumer,Terra Desk,Furniture,5,266.74,15,1033.14
+1519,2024-05-07,Europe,Germany,Online,Enterprise,Ink Pen Set,Stationery,4,26.3,0,131.83
+1520,2024-05-07,Asia Pacific,Australia,Online,SMB,Vertex Monitor,Electronics,3,323.25,5,1311.85
+1521,2024-05-07,Europe,Germany,Partner,Consumer,Terra Desk,Furniture,2,256.48,20,514.23
+1522,2024-05-08,Latin America,Brazil,Online,Enterprise,Pulse Earbuds,Electronics,2,152.39,20,222.42
+1523,2024-05-08,North America,Canada,Online,Consumer,Flow Notebook,Stationery,5,12.79,10,88.6
+1524,2024-05-08,Europe,France,Online,Consumer,Flow Notebook,Stationery,5,12.12,0,76.01
+1525,2024-05-09,North America,Canada,Partner,SMB,Terra Desk,Furniture,3,264.38,20,977.69
+1526,2024-05-09,Europe,UK,Online,SMB,Ergo Chair,Furniture,8,324.79,0,3262.21
+1527,2024-05-09,Asia Pacific,India,Online,Consumer,Aurora Laptop,Electronics,2,1281.61,10,3291.28
+1528,2024-05-09,Europe,Germany,Online,Enterprise,Canvas Backpack,Accessories,12,96.83,15,1240.02
+1529,2024-05-09,Asia Pacific,Japan,Partner,Consumer,Ink Pen Set,Stationery,3,25.87,5,105.19
+1530,2024-05-09,Europe,France,Retail,Consumer,Canvas Backpack,Accessories,7,91.54,0,804.5
+1531,2024-05-10,Asia Pacific,Japan,Partner,Consumer,Terra Desk,Furniture,1,276.81,10,355.78
+1532,2024-05-10,Europe,UK,Online,SMB,Aurora Laptop,Electronics,2,1164.55,0,2927.01
+1533,2024-05-10,Europe,UK,Retail,Consumer,Flow Notebook,Stationery,2,12.45,5,29.73
+1534,2024-05-10,Europe,France,Online,SMB,Nimbus Phone,Electronics,2,773.3,0,1943.63
+1535,2024-05-11,North America,USA,Online,Consumer,Canvas Backpack,Accessories,5,91.54,0,706.6
+1536,2024-05-11,Europe,France,Partner,Enterprise,Lumen Lamp,Furniture,10,70.59,0,887.96
+1537,2024-05-11,Latin America,Mexico,Partner,SMB,Nimbus Phone,Electronics,2,820.6,20,1201.16
+1538,2024-05-11,Asia Pacific,Australia,Partner,Consumer,Flow Notebook,Stationery,6,12.33,5,100.46
+1539,2024-05-11,North America,Canada,Online,Consumer,Vertex Monitor,Electronics,4,310.22,20,1532.54
+1540,2024-05-11,North America,Canada,Partner,SMB,Canvas Backpack,Accessories,2,91.14,0,281.41
+1541,2024-05-12,Latin America,Brazil,Partner,SMB,Canvas Backpack,Accessories,7,90.42,10,521.64
+1542,2024-05-12,Asia Pacific,Australia,Retail,Consumer,Ergo Chair,Furniture,7,349.04,0,3495.9
+1543,2024-05-12,Asia Pacific,Australia,Retail,Consumer,Ergo Chair,Furniture,8,333.28,20,3051.93
+1544,2024-05-13,North America,Canada,Partner,Consumer,Pulse Earbuds,Electronics,1,152.69,10,212.56
+1545,2024-05-13,Europe,Germany,Retail,SMB,Flow Notebook,Stationery,7,11.57,0,102.07
+1546,2024-05-14,Asia Pacific,Japan,Partner,Consumer,Pulse Earbuds,Electronics,3,147.87,10,572.35
+1547,2024-05-14,Asia Pacific,India,Retail,SMB,Vertex Monitor,Electronics,2,327.26,0,938.29
+1548,2024-05-14,Europe,Germany,Retail,SMB,Ergo Chair,Furniture,3,361.18,20,1093.54
+1549,2024-05-14,North America,USA,Online,SMB,Vertex Monitor,Electronics,1,325.15,0,503.41
+1550,2024-05-14,Asia Pacific,Australia,Online,SMB,Lumen Lamp,Furniture,3,75.28,5,307.57
+1551,2024-05-15,Asia Pacific,India,Online,SMB,Terra Desk,Furniture,2,254.5,0,730.38
+1552,2024-05-15,North America,USA,Retail,Enterprise,Flow Notebook,Stationery,10,12.68,20,157.2
+1553,2024-05-16,Europe,UK,Partner,Enterprise,Ink Pen Set,Stationery,15,26.3,0,498.63
+1554,2024-05-16,Europe,France,Online,Consumer,Pulse Earbuds,Electronics,3,155.27,0,588.76
+1555,2024-05-16,Latin America,Brazil,Retail,SMB,Canvas Backpack,Accessories,7,92.36,5,564.59
+1556,2024-05-16,Europe,France,Partner,Enterprise,Flow Notebook,Stationery,20,12.9,0,326.1
+1557,2024-05-16,North America,USA,Online,Consumer,Vertex Monitor,Electronics,3,320.94,0,1493.53
+1558,2024-05-17,Europe,France,Partner,Enterprise,Pulse Earbuds,Electronics,12,151.13,15,1950.26
+1559,2024-05-17,Europe,Germany,Retail,SMB,Flow Notebook,Stationery,8,12.74,10,116.05
+1560,2024-05-18,North America,USA,Online,SMB,Vertex Monitor,Electronics,2,317.13,20,788.6
+1561,2024-05-18,Latin America,Brazil,Retail,Consumer,Flow Notebook,Stationery,2,12.45,5,21.79
+1562,2024-05-18,Asia Pacific,India,Retail,Consumer,Ergo Chair,Furniture,6,362.53,0,3130.17
+1563,2024-05-18,North America,USA,Partner,Consumer,Terra Desk,Furniture,4,255.97,20,1273.02
+1564,2024-05-18,North America,USA,Online,Consumer,Ink Pen Set,Stationery,2,25.95,0,80.66
+1565,2024-05-19,Europe,France,Retail,SMB,Canvas Backpack,Accessories,6,96.01,5,693.68
+1566,2024-05-19,Latin America,Mexico,Partner,Enterprise,Terra Desk,Furniture,25,272.36,0,6276.97
+1567,2024-05-19,North America,Canada,Partner,Consumer,Terra Desk,Furniture,6,276.08,5,2448.05
+1568,2024-05-19,Asia Pacific,Japan,Retail,SMB,Canvas Backpack,Accessories,6,85.6,15,628.83
+1569,2024-05-19,Asia Pacific,Japan,Partner,Consumer,Lumen Lamp,Furniture,5,71.49,0,514.87
+1570,2024-05-20,North America,Canada,Online,Consumer,Pulse Earbuds,Electronics,4,157.17,15,832.09
+1571,2024-05-20,Europe,Germany,Online,Consumer,Pulse Earbuds,Electronics,2,144.45,20,293.24
+1572,2024-05-20,North America,USA,Online,Enterprise,Ergo Chair,Furniture,9,358.61,5,4774.32
+1573,2024-05-21,Europe,UK,Partner,SMB,Canvas Backpack,Accessories,6,91.19,20,555.88
+1574,2024-05-21,North America,USA,Online,SMB,Vertex Monitor,Electronics,2,314.58,20,784.49
+1575,2024-05-21,Asia Pacific,India,Retail,Consumer,Vertex Monitor,Electronics,3,327.19,10,1274.9
+1576,2024-05-22,North America,Canada,Partner,Enterprise,Nimbus Phone,Electronics,6,789.6,20,5912.84
+1577,2024-05-22,North America,Canada,Online,Consumer,Flow Notebook,Stationery,7,11.85,10,116.47
+1578,2024-05-22,Asia Pacific,India,Retail,SMB,Ink Pen Set,Stationery,7,25.74,15,221.23
+1579,2024-05-22,Europe,UK,Retail,Consumer,Aurora Laptop,Electronics,3,1185.45,15,3842.64
+1580,2024-05-23,Europe,Germany,Retail,Consumer,Pulse Earbuds,Electronics,4,145.76,5,704.76
+1581,2024-05-23,Asia Pacific,India,Partner,SMB,Flow Notebook,Stationery,2,11.66,0,33.72
+1582,2024-05-23,North America,USA,Online,Consumer,Canvas Backpack,Accessories,1,90.15,20,112.62
+1583,2024-05-23,Asia Pacific,India,Online,SMB,Nimbus Phone,Electronics,4,783.85,0,4533.44
+1584,2024-05-24,Europe,UK,Online,SMB,Nimbus Phone,Electronics,1,797.11,15,862.91
+1585,2024-05-24,Latin America,Mexico,Retail,Enterprise,Terra Desk,Furniture,24,265.23,15,5011.63
+1586,2024-05-24,Europe,Germany,Partner,SMB,Lumen Lamp,Furniture,7,72.32,10,580.27
+1587,2024-05-24,Europe,Germany,Online,Consumer,Terra Desk,Furniture,8,259.36,0,2642.54
+1588,2024-05-25,North America,USA,Online,SMB,Aurora Laptop,Electronics,3,1213.19,0,5694.18
+1589,2024-05-25,North America,Canada,Online,Consumer,Canvas Backpack,Accessories,7,88.93,20,779.14
+1590,2024-05-25,North America,USA,Partner,Consumer,Ergo Chair,Furniture,7,334.05,5,3475.48
+1591,2024-05-25,Asia Pacific,Australia,Retail,Consumer,Vertex Monitor,Electronics,1,330.01,5,454.16
+1592,2024-05-26,Asia Pacific,Australia,Retail,SMB,Ink Pen Set,Stationery,5,24.36,5,167.78
+1593,2024-05-26,North America,USA,Partner,SMB,Pulse Earbuds,Electronics,4,156.16,0,978.19
+1594,2024-05-26,Europe,Germany,Partner,Consumer,Aurora Laptop,Electronics,1,1291.68,0,1648.18
+1595,2024-05-26,North America,USA,Online,SMB,Flow Notebook,Stationery,2,11.42,0,35.77
+1596,2024-05-26,North America,Canada,Retail,SMB,Pulse Earbuds,Electronics,4,157.93,15,840.88
+1597,2024-05-26,North America,USA,Online,SMB,Aurora Laptop,Electronics,4,1169.98,0,7328.75
+1598,2024-05-27,Asia Pacific,India,Online,SMB,Nimbus Phone,Electronics,4,861.4,20,4000.67
+1599,2024-05-27,North America,USA,Online,SMB,Nimbus Phone,Electronics,2,800.47,5,2383.97
+1600,2024-05-27,Latin America,Mexico,Partner,SMB,Nimbus Phone,Electronics,1,810.05,0,752.44
+1601,2024-05-27,North America,Canada,Online,Enterprise,Ink Pen Set,Stationery,6,25.16,15,201.13
+1602,2024-05-28,North America,Canada,Online,Consumer,Lumen Lamp,Furniture,1,71.79,0,112.64
+1603,2024-05-28,Asia Pacific,Australia,Online,Consumer,Lumen Lamp,Furniture,4,71.05,0,412.87
+1604,2024-05-29,North America,USA,Partner,SMB,Aurora Laptop,Electronics,1,1216.1,0,1909.81
+1605,2024-05-29,North America,Canada,Online,Consumer,Ink Pen Set,Stationery,1,24.98,15,33.35
+1606,2024-05-29,Asia Pacific,Japan,Retail,Consumer,Canvas Backpack,Accessories,5,93.66,10,612.86
+1607,2024-05-29,North America,USA,Retail,Consumer,Ergo Chair,Furniture,5,359.75,20,2259.86
+1608,2024-05-29,Latin America,Brazil,Retail,Consumer,Aurora Laptop,Electronics,3,1197.27,10,3008.38
+1609,2024-05-29,North America,Canada,Partner,Enterprise,Flow Notebook,Stationery,18,12.52,0,353.91
+1610,2024-05-30,Asia Pacific,India,Partner,Consumer,Ergo Chair,Furniture,3,335.51,10,1318.49
+1611,2024-05-30,Europe,Germany,Online,Consumer,Nimbus Phone,Electronics,1,857.53,20,878.67
+1612,2024-05-30,North America,USA,Online,Consumer,Nimbus Phone,Electronics,1,826.74,10,1169.61
+1613,2024-05-30,Europe,Germany,Retail,SMB,Ergo Chair,Furniture,1,332.76,0,426.21
+1614,2024-05-30,Asia Pacific,India,Retail,Consumer,Canvas Backpack,Accessories,2,94.87,5,262.35
+1615,2024-05-30,North America,Canada,Online,SMB,Ink Pen Set,Stationery,5,23.88,10,168.92
+1616,2024-05-31,Asia Pacific,India,Online,Enterprise,Canvas Backpack,Accessories,6,90.01,10,708.11
+1617,2024-05-31,North America,USA,Partner,Enterprise,Ergo Chair,Furniture,14,351.23,20,6189.39
+1618,2024-06-01,Asia Pacific,Australia,Online,Enterprise,Flow Notebook,Stationery,15,11.93,10,270.08
+1619,2024-06-01,North America,Canada,Partner,Enterprise,Canvas Backpack,Accessories,24,94.44,5,3899.74
+1620,2024-06-01,Europe,France,Partner,Consumer,Pulse Earbuds,Electronics,2,157.43,5,441.41
+1621,2024-06-01,Latin America,Mexico,Retail,Consumer,Pulse Earbuds,Electronics,1,143.18,15,130.62
+1622,2024-06-02,Europe,France,Online,Enterprise,Nimbus Phone,Electronics,9,848.99,0,11286.42
+1623,2024-06-02,North America,Canada,Partner,Consumer,Canvas Backpack,Accessories,3,85.94,0,467.38
+1624,2024-06-02,Europe,UK,Online,Enterprise,Pulse Earbuds,Electronics,8,148.36,20,1402.52
+1625,2024-06-02,Europe,France,Partner,SMB,Canvas Backpack,Accessories,6,91.15,20,646.26
+1626,2024-06-03,Asia Pacific,Australia,Online,SMB,Flow Notebook,Stationery,5,12.54,0,105.34
+1627,2024-06-03,Europe,UK,Retail,Enterprise,Flow Notebook,Stationery,30,12.85,5,541.46
+1628,2024-06-03,North America,USA,Online,SMB,Flow Notebook,Stationery,7,11.88,0,150.89
+1629,2024-06-03,North America,USA,Online,SMB,Pulse Earbuds,Electronics,1,156.77,15,241.79
+1630,2024-06-03,Europe,Germany,Online,SMB,Flow Notebook,Stationery,4,11.85,5,66.58
+1631,2024-06-04,North America,Canada,Online,SMB,Aurora Laptop,Electronics,4,1153.27,0,8378.33
+1632,2024-06-04,Europe,France,Partner,Consumer,Nimbus Phone,Electronics,2,801.11,5,2252.53
+1633,2024-06-04,Europe,France,Online,SMB,Lumen Lamp,Furniture,4,68.92,0,407.97
+1634,2024-06-04,Europe,France,Partner,Consumer,Canvas Backpack,Accessories,7,89.77,5,883.44
+1635,2024-06-04,North America,Canada,Retail,Consumer,Lumen Lamp,Furniture,3,72.11,0,392.9
+1636,2024-06-05,Europe,Germany,Online,SMB,Aurora Laptop,Electronics,3,1258.21,0,5591.22
+1637,2024-06-05,Asia Pacific,India,Partner,Consumer,Flow Notebook,Stationery,3,12.7,20,51.31
+1638,2024-06-05,North America,Canada,Retail,Consumer,Flow Notebook,Stationery,8,11.92,0,173.36
+1639,2024-06-05,Asia Pacific,India,Retail,Consumer,Nimbus Phone,Electronics,4,835.91,10,5065.37
+1640,2024-06-05,North America,USA,Partner,Enterprise,Vertex Monitor,Electronics,4,306.5,0,2228.76
+1641,2024-06-06,Asia Pacific,Australia,Online,Consumer,Pulse Earbuds,Electronics,1,155.38,5,248.7
+1642,2024-06-06,Asia Pacific,Australia,Retail,Consumer,Pulse Earbuds,Electronics,4,161.61,0,1089.14
+1643,2024-06-06,Europe,France,Partner,Consumer,Nimbus Phone,Electronics,1,780.68,0,1157.47
+1644,2024-06-07,Europe,France,Partner,Consumer,Aurora Laptop,Electronics,3,1216.43,0,5415.68
+1645,2024-06-07,Asia Pacific,India,Partner,Consumer,Pulse Earbuds,Electronics,3,161.92,0,819.19
+1646,2024-06-07,Latin America,Mexico,Retail,SMB,Ink Pen Set,Stationery,1,26.83,10,26.06
+1647,2024-06-07,North America,Canada,Online,SMB,Canvas Backpack,Accessories,7,96.74,10,1110.02
+1648,2024-06-07,Europe,France,Partner,Consumer,Flow Notebook,Stationery,3,12.91,5,54.6
+1649,2024-06-08,North America,USA,Partner,Consumer,Pulse Earbuds,Electronics,2,145.19,20,423.49
+1650,2024-06-08,Asia Pacific,Australia,Online,Consumer,Canvas Backpack,Accessories,3,86.29,0,436.97
+1651,2024-06-08,Europe,France,Online,Consumer,Nimbus Phone,Electronics,1,793.14,20,942.52
+1652,2024-06-08,Latin America,Mexico,Partner,SMB,Pulse Earbuds,Electronics,3,157.69,0,511.06
+1653,2024-06-08,North America,USA,Partner,Enterprise,Aurora Laptop,Electronics,9,1176.22,10,17368.59
+1654,2024-06-08,Asia Pacific,Japan,Online,SMB,Aurora Laptop,Electronics,4,1241.33,15,7124.15
+1655,2024-06-09,Asia Pacific,Japan,Online,Consumer,Terra Desk,Furniture,1,272.84,5,437.93
+1656,2024-06-09,North America,Canada,Partner,Consumer,Canvas Backpack,Accessories,4,87.89,20,513.2
+1657,2024-06-09,North America,Canada,Retail,Consumer,Ink Pen Set,Stationery,8,25.14,0,366.99
+1658,2024-06-10,Europe,Germany,Partner,Consumer,Flow Notebook,Stationery,1,11.57,10,15.5
+1659,2024-06-10,Europe,UK,Partner,Consumer,Ink Pen Set,Stationery,7,23.88,15,211.45
+1660,2024-06-11,Europe,France,Retail,Consumer,Canvas Backpack,Accessories,7,94.55,0,985.88
+1661,2024-06-11,North America,USA,Online,SMB,Vertex Monitor,Electronics,2,338.52,5,1175.83
+1662,2024-06-11,Europe,France,Partner,Consumer,Terra Desk,Furniture,3,260.98,5,1107.94
+1663,2024-06-11,Europe,UK,Online,Enterprise,Vertex Monitor,Electronics,8,317.48,0,3783.3
+1664,2024-06-11,Asia Pacific,Australia,Online,SMB,Ink Pen Set,Stationery,2,26.05,0,88.19
+1665,2024-06-12,North America,Canada,Partner,Enterprise,Flow Notebook,Stationery,15,11.99,10,296.18
+1666,2024-06-12,Asia Pacific,Japan,Online,SMB,Ergo Chair,Furniture,3,329.39,20,1339.39
+1667,2024-06-12,Asia Pacific,India,Retail,Consumer,Vertex Monitor,Electronics,3,311.52,15,1345.9
+1668,2024-06-12,Latin America,Brazil,Online,SMB,Aurora Laptop,Electronics,4,1273.44,5,5247.2
+1669,2024-06-13,Asia Pacific,Australia,Partner,Consumer,Ink Pen Set,Stationery,8,25.08,5,323.24
+1670,2024-06-13,North America,USA,Partner,Consumer,Pulse Earbuds,Electronics,2,146.1,0,535.17
+1671,2024-06-13,North America,Canada,Partner,Enterprise,Aurora Laptop,Electronics,12,1147.65,0,25223.39
+1672,2024-06-13,Europe,UK,Partner,Consumer,Nimbus Phone,Electronics,2,837.93,5,2375.93
+1673,2024-06-13,Europe,UK,Retail,Consumer,Aurora Laptop,Electronics,4,1150.56,20,5494.53
+1674,2024-06-13,Europe,France,Online,Consumer,Aurora Laptop,Electronics,3,1222.22,0,5471.95
+1675,2024-06-14,North America,USA,Partner,Consumer,Lumen Lamp,Furniture,2,73.09,5,254.58
+1676,2024-06-14,Europe,France,Retail,SMB,Pulse Earbuds,Electronics,3,153.72,10,619.97
+1677,2024-06-14,Europe,UK,Partner,Consumer,Lumen Lamp,Furniture,8,73.85,5,838.38
+1678,2024-06-14,Latin America,Brazil,Online,Enterprise,Flow Notebook,Stationery,4,12.38,5,51.11
+1679,2024-06-14,North America,USA,Retail,Enterprise,Ink Pen Set,Stationery,4,25.57,0,187.5
+1680,2024-06-14,Asia Pacific,India,Retail,SMB,Lumen Lamp,Furniture,2,69.23,0,235.03
+1681,2024-06-15,North America,USA,Retail,Consumer,Nimbus Phone,Electronics,1,778.27,20,1142.46
+1682,2024-06-15,North America,Canada,Retail,Consumer,Canvas Backpack,Accessories,1,87.09,15,135.83
+1683,2024-06-15,North America,Canada,Retail,Consumer,Canvas Backpack,Accessories,8,95.03,20,1115.99
+1684,2024-06-15,Latin America,Brazil,Partner,Consumer,Ink Pen Set,Stationery,6,25.49,10,149.67
+1685,2024-06-15,North America,Canada,Retail,Enterprise,Ink Pen Set,Stationery,6,26.48,0,291.53
+1686,2024-06-15,North America,Canada,Partner,SMB,Lumen Lamp,Furniture,7,71.92,0,923.78
+1687,2024-06-16,Asia Pacific,Japan,Online,Consumer,Flow Notebook,Stationery,8,11.98,0,162.98
+1688,2024-06-16,Asia Pacific,Japan,Online,Consumer,Pulse Earbuds,Electronics,3,143.23,20,584.58
+1689,2024-06-16,North America,USA,Retail,Consumer,Vertex Monitor,Electronics,2,318.15,0,1168.65
+1690,2024-06-16,Europe,France,Online,Consumer,Pulse Earbuds,Electronics,2,156.63,0,468.8
+1691,2024-06-17,Europe,France,Online,Consumer,Nimbus Phone,Electronics,1,808.56,0,1211.14
+1692,2024-06-17,North America,Canada,Partner,SMB,Aurora Laptop,Electronics,2,1171.29,0,4306.44
+1693,2024-06-17,North America,Canada,Retail,SMB,Flow Notebook,Stationery,3,11.83,0,65.24
+1694,2024-06-17,North America,USA,Retail,Consumer,Pulse Earbuds,Electronics,3,160.89,0,887.31
+1695,2024-06-17,Asia Pacific,Australia,Partner,Consumer,Pulse Earbuds,Electronics,3,151.15,10,694.66
+1696,2024-06-18,North America,USA,Retail,Consumer,Nimbus Phone,Electronics,4,833.29,0,6133.12
+1697,2024-06-18,Latin America,Mexico,Online,Consumer,Lumen Lamp,Furniture,2,73.46,20,128.16
+1698,2024-06-18,Europe,UK,Retail,Enterprise,Ink Pen Set,Stationery,10,25.97,0,389.36
+1699,2024-06-19,Europe,UK,Retail,Enterprise,Nimbus Phone,Electronics,15,832.76,0,18745.48
+1700,2024-06-19,Asia Pacific,Japan,Retail,Consumer,Vertex Monitor,Electronics,1,323.91,0,552.37
+1701,2024-06-19,Asia Pacific,Japan,Online,SMB,Flow Notebook,Stationery,2,12.68,5,41.08
+1702,2024-06-19,Asia Pacific,Japan,Retail,Consumer,Ergo Chair,Furniture,8,349.1,5,4524.46
+1703,2024-06-19,North America,USA,Retail,Enterprise,Ergo Chair,Furniture,8,358.98,0,5289.16
+1704,2024-06-20,Europe,Germany,Partner,Consumer,Ergo Chair,Furniture,4,352.29,0,2116.64
+1705,2024-06-20,North America,Canada,Retail,SMB,Nimbus Phone,Electronics,1,806.3,20,1189.09
+1706,2024-06-20,North America,Canada,Partner,Consumer,Aurora Laptop,Electronics,4,1217.11,0,8974.65
+1707,2024-06-20,Asia Pacific,India,Partner,Consumer,Pulse Earbuds,Electronics,1,145.36,20,198.49
+1708,2024-06-20,North America,Canada,Online,SMB,Vertex Monitor,Electronics,2,340.5,15,1067.07
+1709,2024-06-20,North America,Canada,Partner,Enterprise,Canvas Backpack,Accessories,12,85.59,10,1704.02
+1710,2024-06-21,Europe,UK,Partner,Consumer,Ink Pen Set,Stationery,1,26.04,0,39.15
+1711,2024-06-21,Asia Pacific,Japan,Online,Consumer,Nimbus Phone,Electronics,2,833.03,5,2704.08
+1712,2024-06-21,Europe,Germany,Retail,Consumer,Flow Notebook,Stationery,4,11.67,15,59.65
+1713,2024-06-21,North America,Canada,Retail,Consumer,Ink Pen Set,Stationery,3,26.99,0,149.4
+1714,2024-06-21,Asia Pacific,India,Online,SMB,Aurora Laptop,Electronics,4,1208.13,15,7017.74
+1715,2024-06-21,Latin America,Brazil,Retail,SMB,Nimbus Phone,Electronics,4,778.7,10,3065.19
+1716,2024-06-22,Europe,Germany,Retail,Consumer,Vertex Monitor,Electronics,1,324.72,10,439.78
+1717,2024-06-22,Asia Pacific,Australia,Partner,Consumer,Terra Desk,Furniture,6,280.06,0,2873.47
+1718,2024-06-22,Europe,France,Partner,SMB,Pulse Earbuds,Electronics,1,156.74,0,235.87
+1719,2024-06-22,Europe,Germany,Partner,Consumer,Terra Desk,Furniture,2,262.97,0,791.45
+1720,2024-06-22,Asia Pacific,Australia,Partner,SMB,Aurora Laptop,Electronics,3,1148.23,10,5301.48
+1721,2024-06-22,North America,USA,Retail,Consumer,Terra Desk,Furniture,6,258.93,5,2725.75
+1722,2024-06-23,North America,USA,Retail,SMB,Flow Notebook,Stationery,5,12.38,0,114.42
+1723,2024-06-23,Europe,France,Partner,Enterprise,Aurora Laptop,Electronics,4,1152.87,5,6598.59
+1724,2024-06-23,Europe,Germany,Retail,SMB,Pulse Earbuds,Electronics,3,156.96,0,709.25
+1725,2024-06-23,Europe,France,Retail,SMB,Flow Notebook,Stationery,3,12.62,0,57.03
+1726,2024-06-24,Europe,France,Online,Consumer,Ink Pen Set,Stationery,3,26.79,10,109.05
+1727,2024-06-24,North America,Canada,Retail,Consumer,Flow Notebook,Stationery,4,12.09,15,76.06
+1728,2024-06-24,Asia Pacific,India,Online,SMB,Ergo Chair,Furniture,5,359.22,20,2461.64
+1729,2024-06-25,North America,Canada,Partner,Consumer,Terra Desk,Furniture,4,270.1,5,1900.8
+1730,2024-06-25,Europe,Germany,Online,Enterprise,Nimbus Phone,Electronics,15,830.56,5,17859.61
+1731,2024-06-26,Asia Pacific,India,Retail,Consumer,Nimbus Phone,Electronics,4,855.48,10,5285.85
+1732,2024-06-26,Asia Pacific,Japan,Retail,SMB,Pulse Earbuds,Electronics,4,157.58,5,1027.75
+1733,2024-06-26,Asia Pacific,Australia,Partner,SMB,Flow Notebook,Stationery,6,12.48,15,109.24
+1734,2024-06-26,North America,USA,Online,SMB,Flow Notebook,Stationery,7,12.22,0,158.56
+1735,2024-06-26,Asia Pacific,Japan,Online,Consumer,Pulse Earbuds,Electronics,1,154.58,0,265.31
+1736,2024-06-26,North America,USA,Partner,SMB,Canvas Backpack,Accessories,2,95.52,0,354.12
+1737,2024-06-27,Europe,France,Online,Enterprise,Ergo Chair,Furniture,12,343.64,0,6234.02
+1738,2024-06-27,Latin America,Mexico,Retail,Consumer,Canvas Backpack,Accessories,6,87.4,0,576.56
+1739,2024-06-27,North America,USA,Online,Consumer,Vertex Monitor,Electronics,3,315.01,20,1402.68
+1740,2024-06-28,North America,USA,Retail,Consumer,Lumen Lamp,Furniture,2,71.42,0,265.26
+1741,2024-06-28,Europe,France,Partner,Enterprise,Lumen Lamp,Furniture,10,67.16,0,1016.23
+1742,2024-06-28,Europe,Germany,Retail,Consumer,Flow Notebook,Stationery,3,12.4,15,47.85
+1743,2024-06-28,Latin America,Mexico,Retail,SMB,Pulse Earbuds,Electronics,1,156.3,10,154.8
+1744,2024-06-28,Asia Pacific,Japan,Online,SMB,Vertex Monitor,Electronics,2,319.99,0,1100.44
+1745,2024-06-29,North America,Canada,Online,Consumer,Pulse Earbuds,Electronics,1,152.93,0,284.26
+1746,2024-06-29,Latin America,Brazil,Retail,SMB,Ink Pen Set,Stationery,4,25.55,0,112.57
+1747,2024-06-29,Latin America,Brazil,Online,Consumer,Pulse Earbuds,Electronics,3,144.15,5,452.52
+1748,2024-06-29,Asia Pacific,Australia,Online,Consumer,Nimbus Phone,Electronics,2,800.43,5,2617.42
+1749,2024-06-29,Asia Pacific,Australia,Retail,Consumer,Pulse Earbuds,Electronics,1,149.12,0,256.64
+1750,2024-06-30,Asia Pacific,India,Partner,Consumer,Vertex Monitor,Electronics,4,340.2,15,1992.54
+1751,2024-06-30,Europe,France,Online,Enterprise,Ergo Chair,Furniture,15,323.84,15,6259.18
+1752,2024-06-30,Latin America,Brazil,Online,SMB,Pulse Earbuds,Electronics,2,143.47,15,268.9
+1753,2024-06-30,North America,USA,Partner,Consumer,Vertex Monitor,Electronics,1,338.01,20,503.08
+1754,2024-07-01,Europe,France,Retail,SMB,Pulse Earbuds,Electronics,3,158.8,20,578.28
+1755,2024-07-01,Asia Pacific,Japan,Partner,Enterprise,Pulse Earbuds,Electronics,8,161.31,20,1780.05
+1756,2024-07-02,Asia Pacific,Australia,Retail,Consumer,Nimbus Phone,Electronics,2,803.18,20,2217.79
+1757,2024-07-02,Asia Pacific,Australia,Partner,Consumer,Nimbus Phone,Electronics,1,770.4,0,1329.55
+1758,2024-07-02,Asia Pacific,Australia,Retail,Consumer,Vertex Monitor,Electronics,1,304.3,0,525.16
+1759,2024-07-03,Asia Pacific,Australia,Retail,Consumer,Ink Pen Set,Stationery,3,24.22,0,125.51
+1760,2024-07-03,North America,Canada,Partner,Enterprise,Vertex Monitor,Electronics,3,324.8,15,1545.12
+1761,2024-07-04,Europe,Germany,Online,Consumer,Pulse Earbuds,Electronics,2,161.74,0,492.16
+1762,2024-07-04,Latin America,Mexico,Partner,Enterprise,Ink Pen Set,Stationery,20,25.79,20,456.59
+1763,2024-07-05,North America,USA,Retail,Consumer,Nimbus Phone,Electronics,4,776.61,0,5805.8
+1764,2024-07-05,Latin America,Brazil,Retail,Consumer,Lumen Lamp,Furniture,5,72.11,0,399.32
+1765,2024-07-05,Latin America,Mexico,Partner,SMB,Aurora Laptop,Electronics,2,1262.54,0,2796.6
+1766,2024-07-06,Europe,UK,Partner,SMB,Canvas Backpack,Accessories,6,87.83,5,763.08
+1767,2024-07-06,Asia Pacific,Japan,Online,Consumer,Pulse Earbuds,Electronics,1,156.89,0,271.75
+1768,2024-07-06,Asia Pacific,Japan,Partner,Consumer,Canvas Backpack,Accessories,8,95.92,0,1329.14
+1769,2024-07-06,North America,Canada,Retail,Consumer,Nimbus Phone,Electronics,2,797.29,15,2535.47
+1770,2024-07-06,North America,Canada,Online,SMB,Nimbus Phone,Electronics,3,771.56,0,4329.97
+1771,2024-07-07,Europe,UK,Retail,Consumer,Flow Notebook,Stationery,3,12.64,20,46.28
+1772,2024-07-07,Latin America,Brazil,Online,SMB,Ergo Chair,Furniture,2,360.88,5,760.78
+1773,2024-07-07,Europe,UK,Retail,SMB,Lumen Lamp,Furniture,1,70.4,15,91.29
+1774,2024-07-07,Asia Pacific,India,Partner,SMB,Pulse Earbuds,Electronics,2,160.02,10,499.36
+1775,2024-07-07,Europe,UK,Partner,Consumer,Aurora Laptop,Electronics,1,1222.85,5,1772.33
+1776,2024-07-08,Asia Pacific,Australia,Online,Consumer,Ink Pen Set,Stationery,2,26.2,10,81.83
+1777,2024-07-08,Asia Pacific,Japan,Retail,Consumer,Canvas Backpack,Accessories,4,97.19,15,573.4
+1778,2024-07-08,North America,Canada,Partner,Consumer,Nimbus Phone,Electronics,1,808.23,5,1438.94
+1779,2024-07-08,North America,Canada,Partner,Enterprise,Nimbus Phone,Electronics,8,825.24,20,9897.91
+1780,2024-07-08,Europe,France,Retail,Consumer,Pulse Earbuds,Electronics,3,160.95,15,626.72
+1781,2024-07-09,Europe,UK,Retail,Consumer,Flow Notebook,Stationery,1,12.87,10,17.7
+1782,2024-07-09,Asia Pacific,India,Partner,Consumer,Nimbus Phone,Electronics,1,798.11,0,1386.17
+1783,2024-07-09,Asia Pacific,Australia,Online,SMB,Aurora Laptop,Electronics,2,1177.23,0,4089.26
+1784,2024-07-09,North America,Canada,Partner,SMB,Flow Notebook,Stationery,4,12.56,20,75.39
+1785,2024-07-09,North America,Canada,Retail,Consumer,Canvas Backpack,Accessories,5,86.24,0,808.83
+1786,2024-07-09,North America,Canada,Retail,SMB,Terra Desk,Furniture,5,267.99,5,2387.75
+1787,2024-07-10,North America,Canada,Online,Consumer,Aurora Laptop,Electronics,3,1157.06,0,6517.01
+1788,2024-07-10,North America,USA,Partner,Enterprise,Terra Desk,Furniture,4,279.77,5,1995.98
+1789,2024-07-11,Latin America,Mexico,Partner,Consumer,Pulse Earbuds,Electronics,1,146.19,0,162.79
+1790,2024-07-11,North America,USA,Retail,Consumer,Ink Pen Set,Stationery,7,24.86,10,294.31
+1791,2024-07-11,Asia Pacific,Japan,Partner,SMB,Terra Desk,Furniture,8,257.28,5,3402.2
+1792,2024-07-11,North America,Canada,Retail,Consumer,Nimbus Phone,Electronics,3,840.05,0,4735.77
+1793,2024-07-11,North America,Canada,Partner,Enterprise,Pulse Earbuds,Electronics,8,161.48,0,2427.58
+1794,2024-07-11,Asia Pacific,Australia,Online,SMB,Canvas Backpack,Accessories,4,85.98,0,598.41
+1795,2024-07-12,Europe,Germany,Partner,Consumer,Pulse Earbuds,Electronics,1,148.68,15,193.68
+1796,2024-07-12,North America,Canada,Partner,Enterprise,Vertex Monitor,Electronics,6,320.83,0,3620.63
+1797,2024-07-12,Europe,UK,Online,Enterprise,Canvas Backpack,Accessories,4,93.75,15,488.5
+1798,2024-07-12,Europe,Germany,Partner,SMB,Canvas Backpack,Accessories,3,92.11,20,338.79
+1799,2024-07-13,North America,USA,Online,Enterprise,Flow Notebook,Stationery,8,12.03,0,181.18
+1800,2024-07-13,Asia Pacific,Japan,Partner,Consumer,Pulse Earbuds,Electronics,2,152.77,10,479.33
+1801,2024-07-13,Asia Pacific,Japan,Retail,Consumer,Nimbus Phone,Electronics,1,801.02,10,1256.64
+1802,2024-07-13,Europe,France,Partner,Enterprise,Lumen Lamp,Furniture,30,73.02,0,3360.25
+1803,2024-07-13,Europe,Germany,Retail,Consumer,Pulse Earbuds,Electronics,3,159.55,5,697.51
+1804,2024-07-14,North America,Canada,Retail,Consumer,Flow Notebook,Stationery,5,12.66,0,119.27
+1805,2024-07-14,Latin America,Mexico,Partner,Consumer,Flow Notebook,Stationery,2,11.72,0,26.17
+1806,2024-07-15,Latin America,Mexico,Retail,Enterprise,Aurora Laptop,Electronics,2,1239.65,5,2632.35
+1807,2024-07-15,North America,USA,Online,SMB,Ergo Chair,Furniture,4,359.79,0,2714.21
+1808,2024-07-15,North America,Canada,Partner,SMB,Aurora Laptop,Electronics,3,1227.25,5,6596.48
+1809,2024-07-15,Europe,UK,Retail,Consumer,Flow Notebook,Stationery,8,12.42,0,152.69
+1810,2024-07-15,Latin America,Mexico,Partner,Enterprise,Nimbus Phone,Electronics,4,839.53,0,3753.07
+1811,2024-07-16,Latin America,Brazil,Retail,Consumer,Lumen Lamp,Furniture,7,68.85,20,431.29
+1812,2024-07-16,Asia Pacific,Australia,Partner,Consumer,Ink Pen Set,Stationery,1,24.59,20,34.38
+1813,2024-07-16,Europe,UK,Online,Enterprise,Pulse Earbuds,Electronics,9,147.82,0,2046.26
+1814,2024-07-16,Europe,Germany,Partner,Consumer,Aurora Laptop,Electronics,1,1170.24,10,1619.95
+1815,2024-07-16,Europe,UK,Retail,Consumer,Lumen Lamp,Furniture,6,74.19,20,547.74
+1816,2024-07-17,North America,Canada,Online,SMB,Nimbus Phone,Electronics,1,813.89,0,1537.74
+1817,2024-07-17,Europe,Germany,Online,Enterprise,Vertex Monitor,Electronics,3,324.94,0,1500.72
+1818,2024-07-17,Asia Pacific,Australia,Partner,SMB,Lumen Lamp,Furniture,2,70.69,5,234.97
+1819,2024-07-17,North America,USA,Retail,Consumer,Canvas Backpack,Accessories,6,95.06,0,1077.62
+1820,2024-07-18,Europe,Germany,Partner,Consumer,Nimbus Phone,Electronics,1,773.39,0,1191.7
+1821,2024-07-18,Asia Pacific,Australia,Online,Consumer,Pulse Earbuds,Electronics,1,155.97,5,259.45
+1822,2024-07-18,Asia Pacific,India,Retail,Consumer,Aurora Laptop,Electronics,1,1156.82,0,2025.58
+1823,2024-07-18,Asia Pacific,Australia,Retail,Consumer,Lumen Lamp,Furniture,1,69.24,0,121.24
+1824,2024-07-18,North America,USA,Online,Enterprise,Flow Notebook,Stationery,12,11.95,15,230.5
+1825,2024-07-18,North America,Canada,Online,Consumer,Canvas Backpack,Accessories,4,92.17,10,627.48
+1826,2024-07-19,Asia Pacific,India,Retail,SMB,Ergo Chair,Furniture,3,346.74,20,1458.45
+1827,2024-07-19,Latin America,Brazil,Partner,Enterprise,Canvas Backpack,Accessories,32,92.4,15,2819.01
+1828,2024-07-20,Asia Pacific,India,Retail,Consumer,Nimbus Phone,Electronics,4,813.48,0,5707.84
+1829,2024-07-20,Europe,Germany,Online,Consumer,Nimbus Phone,Electronics,4,797.57,20,3939.73
+1830,2024-07-20,North America,USA,Retail,Consumer,Aurora Laptop,Electronics,3,1233.66,5,6660.84
+1831,2024-07-20,North America,Canada,Retail,Consumer,Pulse Earbuds,Electronics,2,143.86,20,436.06
+1832,2024-07-20,Asia Pacific,Japan,Online,Consumer,Canvas Backpack,Accessories,8,86.73,15,1034.53
+1833,2024-07-21,Europe,France,Retail,Consumer,Aurora Laptop,Electronics,1,1284.35,15,1686.71
+1834,2024-07-21,Latin America,Brazil,Online,Consumer,Pulse Earbuds,Electronics,4,147.04,0,660.89
+1835,2024-07-21,Europe,Germany,Partner,SMB,Pulse Earbuds,Electronics,3,157.9,20,585.51
+1836,2024-07-21,Asia Pacific,Japan,Retail,SMB,Pulse Earbuds,Electronics,4,147.94,10,935.07
+1837,2024-07-21,Asia Pacific,India,Online,Consumer,Nimbus Phone,Electronics,2,770.36,0,2705.07
+1838,2024-07-22,Asia Pacific,Japan,Retail,Enterprise,Flow Notebook,Stationery,18,12.37,0,391.28
+1839,2024-07-22,North America,USA,Retail,Consumer,Flow Notebook,Stationery,8,11.86,0,180.07
+1840,2024-07-23,Europe,Germany,Partner,SMB,Ergo Chair,Furniture,1,324.4,20,401.69
+1841,2024-07-23,Europe,UK,Retail,Consumer,Vertex Monitor,Electronics,4,305.5,5,1796.85
+1842,2024-07-23,North America,Canada,Retail,Consumer,Ink Pen Set,Stationery,3,26.08,0,148.62
+1843,2024-07-23,Europe,UK,Partner,Consumer,Ergo Chair,Furniture,8,347.85,5,4091.87
+1844,2024-07-23,North America,USA,Retail,Consumer,Vertex Monitor,Electronics,3,344.68,20,1571.39
+1845,2024-07-24,North America,USA,Partner,Consumer,Nimbus Phone,Electronics,1,852.7,20,1296.98
+1846,2024-07-24,North America,USA,Retail,Enterprise,Vertex Monitor,Electronics,6,314.16,15,3046.26
+1847,2024-07-24,North America,Canada,Online,Enterprise,Lumen Lamp,Furniture,10,68.04,0,1293.63
+1848,2024-07-24,Europe,UK,Partner,Enterprise,Terra Desk,Furniture,28,270.52,0,11734.45
+1849,2024-07-25,North America,Canada,Partner,Consumer,Vertex Monitor,Electronics,1,324.32,20,493.74
+1850,2024-07-25,Asia Pacific,India,Partner,Consumer,Pulse Earbuds,Electronics,3,154.49,0,816.64
+1851,2024-07-25,Europe,Germany,Online,SMB,Nimbus Phone,Electronics,2,787.58,0,2442.41
+1852,2024-07-25,North America,Canada,Online,SMB,Ink Pen Set,Stationery,2,24.84,10,85.09
+1853,2024-07-25,North America,Canada,Online,Consumer,Vertex Monitor,Electronics,3,337.45,10,1733.84
+1854,2024-07-25,Europe,France,Retail,Consumer,Pulse Earbuds,Electronics,4,157.39,15,829.75
+1855,2024-07-26,Latin America,Brazil,Partner,Consumer,Ergo Chair,Furniture,8,364.42,0,3290.57
+1856,2024-07-26,Europe,France,Partner,Enterprise,Ink Pen Set,Stationery,3,25.25,0,117.56
+1857,2024-07-26,North America,Canada,Online,Consumer,Ink Pen Set,Stationery,4,25.09,20,152.92
+1858,2024-07-27,Asia Pacific,Japan,Online,Consumer,Flow Notebook,Stationery,2,11.7,0,41.31
+1859,2024-07-27,North America,Canada,Retail,SMB,Terra Desk,Furniture,7,277.61,15,3148.93
+1860,2024-07-27,North America,Canada,Retail,Consumer,Nimbus Phone,Electronics,2,848.66,15,2750.38
+1861,2024-07-27,Latin America,Mexico,Online,Consumer,Flow Notebook,Stationery,6,11.86,10,72.35
+1862,2024-07-28,Latin America,Mexico,Online,SMB,Canvas Backpack,Accessories,7,93.97,20,595.02
+1863,2024-07-28,North America,USA,Online,Consumer,Ergo Chair,Furniture,5,362.1,5,3281.86
+1864,2024-07-29,Europe,Germany,Retail,SMB,Pulse Earbuds,Electronics,2,146.75,5,433.89
+1865,2024-07-29,North America,USA,Retail,Consumer,Canvas Backpack,Accessories,1,91.74,5,166.44
+1866,2024-07-29,Asia Pacific,India,Partner,Consumer,Pulse Earbuds,Electronics,2,159.65,0,564.63
+1867,2024-07-30,Europe,France,Partner,Consumer,Pulse Earbuds,Electronics,1,156.92,20,195.52
+1868,2024-07-30,Asia Pacific,India,Online,SMB,Flow Notebook,Stationery,5,12.0,10,95.57
+1869,2024-07-30,Asia Pacific,Australia,Online,SMB,Pulse Earbuds,Electronics,2,151.13,20,427.98
+1870,2024-07-31,Latin America,Mexico,Retail,Enterprise,Canvas Backpack,Accessories,6,87.96,0,598.34
+1871,2024-07-31,Latin America,Mexico,Partner,Enterprise,Lumen Lamp,Furniture,14,74.38,0,1180.59
+1872,2024-08-01,Europe,Germany,Retail,Consumer,Canvas Backpack,Accessories,2,87.38,20,189.69
+1873,2024-08-01,North America,USA,Partner,SMB,Pulse Earbuds,Electronics,3,156.06,5,740.6
+1874,2024-08-01,Asia Pacific,Australia,Partner,SMB,Lumen Lamp,Furniture,3,70.15,0,324.47
+1875,2024-08-01,Europe,Germany,Online,Consumer,Ergo Chair,Furniture,3,349.26,20,1137.27
+1876,2024-08-01,Europe,Germany,Online,Enterprise,Vertex Monitor,Electronics,9,328.67,15,3411.35
+1877,2024-08-02,Asia Pacific,India,Retail,Consumer,Aurora Laptop,Electronics,4,1277.96,20,6310.67
+1878,2024-08-02,North America,USA,Partner,SMB,Canvas Backpack,Accessories,4,96.9,0,645.98
+1879,2024-08-02,North America,USA,Partner,SMB,Aurora Laptop,Electronics,3,1153.89,0,5769.23
+1880,2024-08-02,Europe,France,Retail,SMB,Nimbus Phone,Electronics,4,830.06,20,3607.04
+1881,2024-08-03,North America,USA,Retail,Enterprise,Nimbus Phone,Electronics,15,773.54,5,18387.18
+1882,2024-08-03,Asia Pacific,Australia,Partner,SMB,Pulse Earbuds,Electronics,2,146.02,5,428.51
+1883,2024-08-04,North America,Canada,Online,Consumer,Pulse Earbuds,Electronics,3,155.84,10,702.5
+1884,2024-08-04,Europe,UK,Partner,Enterprise,Terra Desk,Furniture,21,259.96,15,6312.57
+1885,2024-08-04,Europe,France,Online,Consumer,Pulse Earbuds,Electronics,1,160.66,0,218.56
+1886,2024-08-05,Latin America,Brazil,Retail,Consumer,Aurora Laptop,Electronics,3,1244.72,5,3512.85
+1887,2024-08-05,North America,USA,Partner,Consumer,Lumen Lamp,Furniture,8,74.49,0,995.81
+1888,2024-08-05,North America,Canada,Retail,Consumer,Flow Notebook,Stationery,2,11.47,0,38.33
+1889,2024-08-05,North America,Canada,Retail,Enterprise,Flow Notebook,Stationery,20,11.89,10,357.64
+1890,2024-08-05,Latin America,Mexico,Online,Consumer,Flow Notebook,Stationery,8,11.69,0,92.61
+1891,2024-08-06,North America,USA,Retail,Consumer,Terra Desk,Furniture,7,280.64,0,3285.63
+1892,2024-08-06,Latin America,Brazil,Partner,Enterprise,Vertex Monitor,Electronics,20,308.68,5,5812.86
+1893,2024-08-07,North America,USA,Online,Consumer,Nimbus Phone,Electronics,3,852.65,10,3853.81
+1894,2024-08-07,Europe,France,Partner,Consumer,Canvas Backpack,Accessories,3,96.27,5,374.24
+1895,2024-08-07,North America,Canada,Online,Enterprise,Flow Notebook,Stationery,10,11.98,5,190.52
+1896,2024-08-08,Asia Pacific,India,Partner,Consumer,Aurora Laptop,Electronics,4,1238.02,5,7298.38
+1897,2024-08-08,North America,USA,Partner,Consumer,Pulse Earbuds,Electronics,4,160.97,0,1078.81
+1898,2024-08-09,North America,USA,Online,Consumer,Ink Pen Set,Stationery,2,26.84,10,81.02
+1899,2024-08-09,Europe,Germany,Retail,Consumer,Pulse Earbuds,Electronics,1,159.12,0,217.42
+1900,2024-08-09,North America,Canada,Partner,SMB,Pulse Earbuds,Electronics,2,148.32,0,497.45
+1901,2024-08-09,Asia Pacific,Australia,Partner,Consumer,Ink Pen Set,Stationery,3,25.91,0,120.69
+1902,2024-08-09,Asia Pacific,Australia,Retail,Consumer,Nimbus Phone,Electronics,4,818.56,0,5084.04
+1903,2024-08-09,Europe,Germany,Retail,SMB,Ink Pen Set,Stationery,7,23.88,0,228.41
+1904,2024-08-10,Latin America,Brazil,Retail,SMB,Lumen Lamp,Furniture,2,70.76,0,140.76
+1905,2024-08-10,North America,Canada,Partner,Enterprise,Pulse Earbuds,Electronics,9,150.84,10,2050.72
+1906,2024-08-10,Europe,France,Online,Consumer,Aurora Laptop,Electronics,4,1154.74,5,6001.12
+1907,2024-08-10,Asia Pacific,Australia,Partner,Consumer,Ink Pen Set,Stationery,2,25.39,20,63.13
+1908,2024-08-11,Asia Pacific,Japan,Retail,Consumer,Nimbus Phone,Electronics,1,803.29,0,1249.5
+1909,2024-08-11,Asia Pacific,Japan,Partner,Consumer,Lumen Lamp,Furniture,8,73.85,10,827.08
+1910,2024-08-12,Latin America,Brazil,Partner,Consumer,Pulse Earbuds,Electronics,3,155.63,20,372.16
+1911,2024-08-12,Europe,UK,Online,Consumer,Aurora Laptop,Electronics,4,1247.92,5,6496.8
+1912,2024-08-12,Asia Pacific,Australia,Partner,Consumer,Lumen Lamp,Furniture,6,72.63,15,576.68
+1913,2024-08-12,Asia Pacific,Japan,Online,Consumer,Ink Pen Set,Stationery,1,24.11,0,37.54
+1914,2024-08-13,Asia Pacific,India,Partner,Consumer,Ink Pen Set,Stationery,3,24.54,15,97.51
+1915,2024-08-13,Asia Pacific,Australia,Retail,Consumer,Nimbus Phone,Electronics,2,803.88,5,2379.98
+1916,2024-08-14,North America,USA,Retail,Consumer,Flow Notebook,Stationery,8,12.74,0,171.67
+1917,2024-08-14,Europe,UK,Retail,SMB,Pulse Earbuds,Electronics,1,142.65,0,195.78
+1918,2024-08-15,Latin America,Mexico,Partner,SMB,Flow Notebook,Stationery,5,12.16,0,60.74
+1919,2024-08-15,Europe,France,Retail,Enterprise,Flow Notebook,Stationery,8,11.43,10,113.05
+1920,2024-08-15,Europe,France,Retail,Enterprise,Aurora Laptop,Electronics,8,1237.14,5,12915.36
+1921,2024-08-15,Asia Pacific,Japan,Retail,Consumer,Flow Notebook,Stationery,4,11.94,5,70.82
+1922,2024-08-15,North America,USA,Partner,SMB,Lumen Lamp,Furniture,8,74.54,0,1005.3
+1923,2024-08-16,Latin America,Mexico,Online,SMB,Ink Pen Set,Stationery,4,25.99,0,103.95
+1924,2024-08-16,North America,Canada,Partner,Consumer,Nimbus Phone,Electronics,4,842.52,0,5686.39
+1925,2024-08-16,Latin America,Mexico,Online,Consumer,Pulse Earbuds,Electronics,1,159.68,0,159.66
+1926,2024-08-16,Europe,UK,Partner,Enterprise,Nimbus Phone,Electronics,2,804.78,0,2212.9
+1927,2024-08-16,Europe,UK,Retail,Consumer,Ergo Chair,Furniture,6,325.06,20,2145.16
+1928,2024-08-17,North America,USA,Partner,Enterprise,Ink Pen Set,Stationery,4,26.35,5,169.1
+1929,2024-08-17,Latin America,Brazil,Partner,SMB,Canvas Backpack,Accessories,2,92.08,20,147.44
+1930,2024-08-17,Europe,UK,Retail,Enterprise,Lumen Lamp,Furniture,12,70.52,15,989.8
+1931,2024-08-17,Europe,France,Retail,Consumer,Ink Pen Set,Stationery,6,24.2,20,159.84
+1932,2024-08-17,Asia Pacific,Japan,Online,SMB,Canvas Backpack,Accessories,4,94.97,20,475.21
+1933,2024-08-17,North America,USA,Retail,Consumer,Aurora Laptop,Electronics,3,1243.74,15,5356.07
+1934,2024-08-18,Asia Pacific,Australia,Retail,Consumer,Vertex Monitor,Electronics,4,341.36,5,2030.16
+1935,2024-08-18,Latin America,Mexico,Online,Consumer,Canvas Backpack,Accessories,2,89.46,0,179.21
+1936,2024-08-18,Europe,UK,Online,Consumer,Vertex Monitor,Electronics,2,306.4,10,759.59
+1937,2024-08-19,Latin America,Mexico,Partner,SMB,Vertex Monitor,Electronics,3,334.9,15,856.15
+1938,2024-08-19,Latin America,Brazil,Partner,Enterprise,Ink Pen Set,Stationery,15,25.84,5,369.15
+1939,2024-08-19,Latin America,Mexico,Partner,Enterprise,Flow Notebook,Stationery,21,11.53,0,242.74
+1940,2024-08-19,Europe,Germany,Online,SMB,Flow Notebook,Stationery,5,11.54,0,79.54
+1941,2024-08-19,Europe,France,Online,SMB,Pulse Earbuds,Electronics,1,153.03,20,168.76
+1942,2024-08-19,North America,Canada,Online,Enterprise,Flow Notebook,Stationery,4,12.38,0,83.78
+1943,2024-08-20,North America,USA,Online,SMB,Vertex Monitor,Electronics,4,344.89,0,2335.92
+1944,2024-08-20,Asia Pacific,Australia,Partner,Enterprise,Ergo Chair,Furniture,16,335.58,0,8418.0
+1945,2024-08-20,Asia Pacific,Australia,Retail,Consumer,Ergo Chair,Furniture,4,337.49,0,2116.48
+1946,2024-08-20,Europe,Germany,Retail,Consumer,Vertex Monitor,Electronics,4,307.84,0,1698.87
+1947,2024-08-21,Latin America,Mexico,Partner,Consumer,Pulse Earbuds,Electronics,4,153.4,10,554.6
+1948,2024-08-21,Asia Pacific,Japan,Retail,SMB,Lumen Lamp,Furniture,8,75.36,15,804.12
+1949,2024-08-21,Asia Pacific,India,Retail,Consumer,Terra Desk,Furniture,3,264.35,15,1057.77
+1950,2024-08-21,Europe,France,Partner,Consumer,Pulse Earbuds,Electronics,2,149.7,10,372.09
+1951,2024-08-21,Latin America,Mexico,Retail,Consumer,Nimbus Phone,Electronics,1,775.94,10,701.33
+1952,2024-08-22,North America,Canada,Online,Consumer,Pulse Earbuds,Electronics,2,154.0,20,417.94
+1953,2024-08-22,North America,Canada,Partner,Consumer,Canvas Backpack,Accessories,8,86.93,0,1179.6
+1954,2024-08-22,North America,USA,Partner,SMB,Vertex Monitor,Electronics,4,336.5,0,2283.07
+1955,2024-08-22,Europe,France,Online,Consumer,Ink Pen Set,Stationery,8,25.21,20,222.99
+1956,2024-08-23,North America,Canada,Partner,SMB,Aurora Laptop,Electronics,4,1176.32,5,7588.62
+1957,2024-08-23,Europe,France,Retail,SMB,Aurora Laptop,Electronics,3,1153.81,15,4069.93
+1958,2024-08-23,North America,USA,Partner,SMB,Ergo Chair,Furniture,5,351.52,10,2685.44
+1959,2024-08-23,Asia Pacific,India,Partner,SMB,Nimbus Phone,Electronics,1,814.26,10,1151.95
+1960,2024-08-23,Asia Pacific,Australia,Partner,Consumer,Canvas Backpack,Accessories,3,88.72,0,418.38
+1961,2024-08-24,North America,Canada,Retail,Consumer,Aurora Laptop,Electronics,4,1147.02,10,7016.26
+1962,2024-08-24,Asia Pacific,India,Online,Consumer,Pulse Earbuds,Electronics,3,147.51,5,661.42
+1963,2024-08-24,North America,USA,Online,Consumer,Ergo Chair,Furniture,5,326.96,20,2222.22
+1964,2024-08-25,Latin America,Brazil,Online,Enterprise,Aurora Laptop,Electronics,2,1200.83,0,2420.35
+1965,2024-08-25,North America,Canada,Online,Consumer,Canvas Backpack,Accessories,1,88.3,0,150.17
+1966,2024-08-25,Europe,UK,Retail,SMB,Terra Desk,Furniture,2,249.05,0,690.22
+1967,2024-08-25,Europe,Germany,Partner,Consumer,Aurora Laptop,Electronics,2,1181.99,0,3275.76
+1968,2024-08-26,Asia Pacific,India,Online,SMB,Flow Notebook,Stationery,5,12.03,10,85.32
+1969,2024-08-26,North America,USA,Partner,Consumer,Flow Notebook,Stationery,3,11.78,20,48.12
+1970,2024-08-26,Latin America,Mexico,Partner,SMB,Aurora Laptop,Electronics,3,1291.64,15,3322.2
+1971,2024-08-26,North America,Canada,Partner,Consumer,Pulse Earbuds,Electronics,4,158.93,0,1082.07
+1972,2024-08-26,North America,Canada,Partner,SMB,Aurora Laptop,Electronics,1,1154.0,0,1964.23
+1973,2024-08-26,Asia Pacific,India,Retail,Enterprise,Flow Notebook,Stationery,16,12.87,15,275.86
+1974,2024-08-27,Latin America,Mexico,Retail,SMB,Pulse Earbuds,Electronics,3,151.47,0,458.74
+1975,2024-08-27,Europe,UK,Online,Consumer,Canvas Backpack,Accessories,8,96.05,0,1066.62
+1976,2024-08-27,Asia Pacific,Japan,Retail,SMB,Ergo Chair,Furniture,7,326.59,10,3245.52
+1977,2024-08-27,Asia Pacific,Australia,Partner,Consumer,Aurora Laptop,Electronics,4,1159.25,15,6217.23
+1978,2024-08-28,Asia Pacific,Japan,Partner,SMB,Vertex Monitor,Electronics,1,323.25,0,510.34
+1979,2024-08-28,Latin America,Mexico,Retail,SMB,Aurora Laptop,Electronics,3,1154.03,0,3498.13
+1980,2024-08-28,Europe,Germany,Retail,Consumer,Ink Pen Set,Stationery,6,24.66,0,205.56
+1981,2024-08-28,Latin America,Brazil,Partner,Enterprise,Aurora Laptop,Electronics,8,1183.27,20,7651.77
+1982,2024-08-28,Europe,UK,Partner,SMB,Ergo Chair,Furniture,3,349.0,0,1454.61
+1983,2024-08-29,North America,USA,Retail,SMB,Ink Pen Set,Stationery,4,25.95,20,141.71
+1984,2024-08-29,Latin America,Mexico,Online,Enterprise,Flow Notebook,Stationery,14,12.86,20,145.66
+1985,2024-08-30,Asia Pacific,Japan,Retail,SMB,Pulse Earbuds,Electronics,4,152.59,0,965.29
+1986,2024-08-30,North America,USA,Partner,Enterprise,Aurora Laptop,Electronics,16,1201.13,0,32825.01
+1987,2024-08-30,North America,USA,Partner,Consumer,Canvas Backpack,Accessories,7,96.23,0,1150.54
+1988,2024-08-30,North America,Canada,Online,SMB,Pulse Earbuds,Electronics,1,150.92,5,244.89
+1989,2024-08-30,North America,Canada,Retail,Consumer,Ink Pen Set,Stationery,4,26.46,0,180.78
+1990,2024-08-31,Europe,UK,Partner,SMB,Canvas Backpack,Accessories,8,86.62,20,772.2
+1991,2024-08-31,Europe,UK,Online,Consumer,Aurora Laptop,Electronics,4,1278.85,0,7125.4
+1992,2024-08-31,Asia Pacific,India,Online,SMB,Aurora Laptop,Electronics,3,1237.68,10,5289.56
+1993,2024-08-31,North America,USA,Retail,Consumer,Ergo Chair,Furniture,7,350.28,0,4191.64
+1994,2024-09-01,North America,USA,Retail,Consumer,Vertex Monitor,Electronics,1,331.08,0,566.47
+1995,2024-09-01,Asia Pacific,India,Online,Consumer,Vertex Monitor,Electronics,1,304.51,0,482.42
+1996,2024-09-01,Asia Pacific,Australia,Partner,Consumer,Flow Notebook,Stationery,3,12.19,15,49.25
+1997,2024-09-01,Europe,Germany,Online,Consumer,Flow Notebook,Stationery,3,11.47,20,38.38
+1998,2024-09-01,North America,Canada,Retail,SMB,Terra Desk,Furniture,5,276.92,10,2132.13
+1999,2024-09-02,North America,Canada,Online,Consumer,Lumen Lamp,Furniture,3,68.66,0,352.73
+2000,2024-09-02,Asia Pacific,Australia,Online,Consumer,Ink Pen Set,Stationery,4,26.7,15,143.94
+2001,2024-09-02,Asia Pacific,Japan,Partner,Consumer,Nimbus Phone,Electronics,4,832.01,10,4749.3
+2002,2024-09-03,Europe,Germany,Online,Consumer,Lumen Lamp,Furniture,2,74.47,5,197.6
+2003,2024-09-03,Latin America,Mexico,Online,Consumer,Pulse Earbuds,Electronics,2,154.67,5,298.48
+2004,2024-09-03,North America,Canada,Retail,Consumer,Ink Pen Set,Stationery,3,26.97,20,110.94
+2005,2024-09-03,Europe,UK,Online,SMB,Pulse Earbuds,Electronics,3,146.29,5,582.26
+2006,2024-09-03,Europe,Germany,Online,Consumer,Aurora Laptop,Electronics,3,1174.16,0,4919.31
+2007,2024-09-03,North America,USA,Online,SMB,Pulse Earbuds,Electronics,2,145.93,0,500.23
+2008,2024-09-04,Latin America,Brazil,Partner,Consumer,Ink Pen Set,Stationery,2,26.79,0,54.47
+2009,2024-09-04,North America,USA,Online,Consumer,Pulse Earbuds,Electronics,4,143.77,15,838.53
+2010,2024-09-04,North America,USA,Retail,Consumer,Ink Pen Set,Stationery,6,25.7,0,264.52
+2011,2024-09-04,Latin America,Brazil,Partner,SMB,Canvas Backpack,Accessories,4,91.76,20,298.49
+2012,2024-09-05,North America,USA,Online,Consumer,Lumen Lamp,Furniture,8,73.12,0,1004.32
+2013,2024-09-05,Asia Pacific,Australia,Retail,Consumer,Lumen Lamp,Furniture,6,71.22,5,645.36
+2014,2024-09-05,North America,Canada,Retail,Consumer,Ergo Chair,Furniture,8,348.69,0,4789.34
+2015,2024-09-06,Asia Pacific,India,Online,Consumer,Pulse Earbuds,Electronics,4,148.47,0,944.92
+2016,2024-09-06,Latin America,Brazil,Partner,Consumer,Canvas Backpack,Accessories,2,94.29,0,192.03
+2017,2024-09-06,North America,Canada,Partner,Consumer,Pulse Earbuds,Electronics,3,151.3,5,740.98
+2018,2024-09-06,Europe,Germany,Retail,Consumer,Ink Pen Set,Stationery,1,25.19,0,35.27
+2019,2024-09-06,North America,USA,Partner,Consumer,Pulse Earbuds,Electronics,1,147.89,20,203.31
+2020,2024-09-06,North America,USA,Online,Consumer,Aurora Laptop,Electronics,3,1245.32,0,6419.81
+2021,2024-09-07,North America,Canada,Online,SMB,Nimbus Phone,Electronics,3,840.09,0,4334.52
+2022,2024-09-07,North America,Canada,Retail,Consumer,Flow Notebook,Stationery,1,12.42,5,20.29
+2023,2024-09-07,Latin America,Brazil,Partner,Consumer,Ink Pen Set,Stationery,4,24.51,5,94.92
+2024,2024-09-07,Europe,France,Retail,SMB,Flow Notebook,Stationery,6,11.53,20,77.56
+2025,2024-09-08,Europe,France,Partner,Consumer,Vertex Monitor,Electronics,1,309.78,0,434.49
+2026,2024-09-08,Asia Pacific,Japan,Partner,Consumer,Canvas Backpack,Accessories,6,88.14,0,842.88
+2027,2024-09-08,Europe,Germany,Retail,SMB,Flow Notebook,Stationery,6,11.44,10,86.65
+2028,2024-09-09,Latin America,Brazil,Partner,Enterprise,Canvas Backpack,Accessories,35,96.6,0,3451.77
+2029,2024-09-09,North America,Canada,Partner,Consumer,Nimbus Phone,Electronics,4,853.05,15,4996.82
+2030,2024-09-10,North America,USA,Retail,SMB,Aurora Laptop,Electronics,1,1171.04,0,2019.23
+2031,2024-09-10,Latin America,Mexico,Partner,Consumer,Pulse Earbuds,Electronics,1,143.62,5,139.41
+2032,2024-09-11,North America,Canada,Online,Consumer,Ink Pen Set,Stationery,2,25.49,0,87.98
+2033,2024-09-11,Europe,UK,Online,Enterprise,Vertex Monitor,Electronics,6,321.98,0,2716.59
+2034,2024-09-11,Asia Pacific,Japan,Retail,SMB,Nimbus Phone,Electronics,2,834.54,10,2400.39
+2035,2024-09-11,Europe,UK,Online,Consumer,Aurora Laptop,Electronics,4,1265.98,10,6408.76
+2036,2024-09-11,Europe,France,Partner,Consumer,Ink Pen Set,Stationery,1,24.05,15,28.75
+2037,2024-09-11,Asia Pacific,Japan,Retail,SMB,Pulse Earbuds,Electronics,4,158.56,10,912.13
+2038,2024-09-12,Europe,UK,Retail,SMB,Canvas Backpack,Accessories,7,87.65,15,733.98
+2039,2024-09-12,Europe,Germany,Online,Consumer,Flow Notebook,Stationery,5,12.24,15,73.21
+2040,2024-09-12,Asia Pacific,India,Online,SMB,Flow Notebook,Stationery,8,12.95,5,157.4
+2041,2024-09-13,North America,Canada,Retail,Consumer,Aurora Laptop,Electronics,4,1165.71,5,7657.79
+2042,2024-09-13,North America,USA,Partner,Consumer,Terra Desk,Furniture,8,258.62,5,3397.86
+2043,2024-09-13,Europe,UK,Online,Consumer,Vertex Monitor,Electronics,2,331.88,0,934.97
+2044,2024-09-13,Europe,Germany,Online,Consumer,Aurora Laptop,Electronics,4,1213.44,0,6837.02
+2045,2024-09-13,North America,USA,Online,Consumer,Nimbus Phone,Electronics,2,772.91,0,2672.32
+2046,2024-09-13,Asia Pacific,India,Partner,SMB,Aurora Laptop,Electronics,3,1208.74,0,5804.44
+2047,2024-09-14,North America,USA,Retail,Consumer,Canvas Backpack,Accessories,1,92.93,20,128.63
+2048,2024-09-14,Europe,France,Retail,Enterprise,Flow Notebook,Stationery,25,12.33,0,434.57
+2049,2024-09-14,North America,Canada,Retail,Enterprise,Flow Notebook,Stationery,12,11.43,0,237.32
+2050,2024-09-15,Latin America,Mexico,Online,SMB,Ink Pen Set,Stationery,4,26.34,0,108.12
+2051,2024-09-15,Asia Pacific,India,Partner,Consumer,Flow Notebook,Stationery,2,11.91,20,30.55
+2052,2024-09-16,Europe,France,Retail,Consumer,Pulse Earbuds,Electronics,1,146.67,0,207.13
+2053,2024-09-16,Europe,UK,Online,SMB,Aurora Laptop,Electronics,4,1211.57,0,6844.01
+2054,2024-09-16,North America,Canada,Online,Consumer,Lumen Lamp,Furniture,4,69.24,5,456.02
+2055,2024-09-16,Europe,UK,Partner,SMB,Flow Notebook,Stationery,3,12.9,0,54.65
+2056,2024-09-16,Europe,France,Partner,SMB,Flow Notebook,Stationery,3,11.67,0,49.44
+2057,2024-09-16,Asia Pacific,Australia,Retail,Enterprise,Pulse Earbuds,Electronics,4,154.37,0,990.93
+2058,2024-09-17,Europe,France,Partner,Consumer,Lumen Lamp,Furniture,1,66.69,0,94.26
+2059,2024-09-17,Asia Pacific,India,Online,SMB,Pulse Earbuds,Electronics,1,145.18,0,233.18
+2060,2024-09-17,Europe,UK,Online,Consumer,Nimbus Phone,Electronics,2,822.2,15,1975.6
+2061,2024-09-17,Latin America,Mexico,Online,Consumer,Nimbus Phone,Electronics,4,844.52,15,2951.61
+2062,2024-09-17,Asia Pacific,India,Online,Consumer,Ink Pen Set,Stationery,4,23.93,10,138.37
+2063,2024-09-17,Latin America,Brazil,Online,SMB,Ink Pen Set,Stationery,7,24.8,10,160.61
+2064,2024-09-18,Europe,UK,Online,Consumer,Ink Pen Set,Stationery,1,26.97,15,32.43
+2065,2024-09-18,Latin America,Brazil,Online,SMB,Aurora Laptop,Electronics,2,1152.19,10,2133.72
+2066,2024-09-18,Asia Pacific,Japan,Retail,Consumer,Nimbus Phone,Electronics,2,785.89,10,2274.02
+2067,2024-09-18,North America,Canada,Retail,Consumer,Canvas Backpack,Accessories,2,90.16,0,313.06
+2068,2024-09-18,North America,Canada,Retail,SMB,Vertex Monitor,Electronics,2,343.68,20,954.68
+2069,2024-09-19,North America,Canada,Retail,Consumer,Vertex Monitor,Electronics,2,334.23,10,1045.37
+2070,2024-09-19,North America,Canada,Partner,Consumer,Pulse Earbuds,Electronics,4,149.0,0,1035.62
+2071,2024-09-19,Asia Pacific,India,Online,Consumer,Nimbus Phone,Electronics,3,802.07,5,3677.79
+2072,2024-09-19,Europe,Germany,Retail,Consumer,Canvas Backpack,Accessories,5,97.05,15,583.98
+2073,2024-09-19,North America,USA,Partner,Consumer,Canvas Backpack,Accessories,3,94.43,0,492.25
+2074,2024-09-20,Asia Pacific,Australia,Partner,SMB,Pulse Earbuds,Electronics,3,143.63,15,589.77
+2075,2024-09-20,Europe,Germany,Online,Consumer,Flow Notebook,Stationery,6,12.5,15,90.34
+2076,2024-09-20,North America,USA,Partner,Consumer,Pulse Earbuds,Electronics,2,147.32,0,512.41
+2077,2024-09-20,Europe,France,Online,Consumer,Ink Pen Set,Stationery,7,26.04,5,245.38
+2078,2024-09-21,Europe,UK,Retail,Consumer,Ink Pen Set,Stationery,5,24.73,15,149.06
+2079,2024-09-21,Latin America,Mexico,Partner,SMB,Lumen Lamp,Furniture,2,72.29,0,149.13
+2080,2024-09-22,Asia Pacific,Japan,Retail,Enterprise,Flow Notebook,Stationery,10,12.67,0,204.37
+2081,2024-09-22,North America,USA,Retail,Consumer,Flow Notebook,Stationery,5,12.07,15,89.36
+2082,2024-09-22,North America,USA,Online,Consumer,Flow Notebook,Stationery,2,12.28,5,40.65
+2083,2024-09-22,North America,USA,Online,Consumer,Aurora Laptop,Electronics,3,1203.77,20,5032.88
+2084,2024-09-23,North America,USA,Online,Consumer,Aurora Laptop,Electronics,3,1193.38,0,6242.1
+2085,2024-09-23,Europe,Germany,Online,SMB,Terra Desk,Furniture,1,272.41,0,387.0
+2086,2024-09-23,North America,USA,Online,Consumer,Nimbus Phone,Electronics,4,814.09,10,5109.82
+2087,2024-09-23,Latin America,Mexico,Retail,Consumer,Canvas Backpack,Accessories,7,89.84,0,649.76
+2088,2024-09-23,Latin America,Mexico,Partner,Enterprise,Ink Pen Set,Stationery,35,23.94,10,779.15
+2089,2024-09-23,Europe,Germany,Partner,Consumer,Ink Pen Set,Stationery,7,26.47,15,223.75
+2090,2024-09-24,North America,USA,Partner,Consumer,Ink Pen Set,Stationery,4,25.22,0,176.04
+2091,2024-09-24,Asia Pacific,Japan,Online,SMB,Terra Desk,Furniture,6,268.42,0,2602.2
+2092,2024-09-24,Asia Pacific,Australia,Partner,Consumer,Pulse Earbuds,Electronics,4,156.91,5,963.41
+2093,2024-09-25,North America,Canada,Online,Enterprise,Canvas Backpack,Accessories,28,87.78,10,3863.34
+2094,2024-09-25,North America,USA,Retail,SMB,Nimbus Phone,Electronics,4,853.23,0,5960.64
+2095,2024-09-26,Europe,France,Partner,Consumer,Pulse Earbuds,Electronics,1,150.98,0,215.04
+2096,2024-09-26,Asia Pacific,India,Retail,Consumer,Canvas Backpack,Accessories,5,93.91,0,759.96
+2097,2024-09-27,Latin America,Brazil,Partner,Enterprise,Flow Notebook,Stationery,16,12.48,20,165.61
+2098,2024-09-27,Asia Pacific,Australia,Partner,SMB,Flow Notebook,Stationery,6,12.82,5,118.37
+2099,2024-09-27,Asia Pacific,Australia,Partner,SMB,Vertex Monitor,Electronics,4,313.71,20,1626.14
+2100,2024-09-27,North America,Canada,Partner,Consumer,Aurora Laptop,Electronics,2,1286.95,15,3827.48
+2101,2024-09-27,Europe,UK,Partner,Enterprise,Ink Pen Set,Stationery,4,25.67,0,146.37
+2102,2024-09-28,Asia Pacific,Japan,Partner,Consumer,Pulse Earbuds,Electronics,2,155.44,10,453.61
+2103,2024-09-28,Europe,UK,Retail,Consumer,Vertex Monitor,Electronics,3,337.95,0,1446.44
+2104,2024-09-28,North America,USA,Partner,Consumer,Terra Desk,Furniture,5,272.25,0,2383.46
+2105,2024-09-29,Europe,Germany,Retail,SMB,Terra Desk,Furniture,8,275.01,15,2670.25
+2106,2024-09-29,Europe,France,Retail,Consumer,Canvas Backpack,Accessories,3,93.89,20,321.76
+2107,2024-09-30,Asia Pacific,India,Retail,SMB,Canvas Backpack,Accessories,7,97.02,0,1102.9
+2108,2024-09-30,Asia Pacific,India,Retail,Consumer,Canvas Backpack,Accessories,7,91.04,15,879.69
+2109,2024-09-30,North America,Canada,Retail,Consumer,Vertex Monitor,Electronics,3,342.4,15,1531.36
+2110,2024-10-01,Europe,UK,Online,SMB,Pulse Earbuds,Electronics,3,155.27,5,632.94
+2111,2024-10-01,Europe,Germany,Online,Consumer,Flow Notebook,Stationery,4,12.65,0,72.37
+2112,2024-10-01,North America,USA,Online,Enterprise,Pulse Earbuds,Electronics,10,155.75,5,2597.29
+2113,2024-10-01,North America,USA,Online,Enterprise,Nimbus Phone,Electronics,2,827.61,10,2614.97
+2114,2024-10-01,Europe,UK,Online,Consumer,Lumen Lamp,Furniture,2,70.11,0,200.56
+2115,2024-10-01,North America,USA,Partner,Consumer,Lumen Lamp,Furniture,2,70.72,20,198.62
+2116,2024-10-02,North America,Canada,Online,Consumer,Pulse Earbuds,Electronics,1,155.01,5,258.71
+2117,2024-10-02,Latin America,Brazil,Partner,SMB,Aurora Laptop,Electronics,4,1248.22,0,5198.07
+2118,2024-10-02,North America,USA,Partner,Enterprise,Vertex Monitor,Electronics,16,309.21,10,7822.59
+2119,2024-10-02,North America,USA,Retail,SMB,Vertex Monitor,Electronics,4,325.59,0,2288.05
+2120,2024-10-02,Europe,France,Online,SMB,Ink Pen Set,Stationery,2,26.55,0,76.01
+2121,2024-10-03,North America,Canada,Online,Consumer,Ink Pen Set,Stationery,4,24.27,15,145.09
+2122,2024-10-03,Europe,UK,Retail,Consumer,Aurora Laptop,Electronics,3,1166.77,10,4513.44
+2123,2024-10-03,Latin America,Brazil,Partner,Consumer,Pulse Earbuds,Electronics,3,152.91,15,406.29
+2124,2024-10-04,Europe,France,Retail,Enterprise,Pulse Earbuds,Electronics,4,158.49,15,772.69
+2125,2024-10-04,North America,USA,Online,Enterprise,Nimbus Phone,Electronics,6,797.34,10,7577.09
+2126,2024-10-04,North America,Canada,Retail,Consumer,Aurora Laptop,Electronics,2,1211.15,5,4049.64
+2127,2024-10-05,Asia Pacific,Australia,Partner,Consumer,Nimbus Phone,Electronics,3,832.47,15,3461.91
+2128,2024-10-05,North America,Canada,Partner,SMB,Ergo Chair,Furniture,3,359.31,5,1803.62
+2129,2024-10-05,North America,Canada,Online,Enterprise,Vertex Monitor,Electronics,4,326.11,0,2297.49
+2130,2024-10-05,Asia Pacific,Japan,Retail,SMB,Aurora Laptop,Electronics,3,1182.63,20,4628.78
+2131,2024-10-06,North America,USA,Retail,Enterprise,Vertex Monitor,Electronics,2,325.9,0,1148.97
+2132,2024-10-06,Asia Pacific,Australia,Partner,Consumer,Ink Pen Set,Stationery,6,25.61,15,213.18
+2133,2024-10-06,North America,Canada,Online,Enterprise,Lumen Lamp,Furniture,30,69.64,0,3682.77
+2134,2024-10-07,Europe,Germany,Online,Consumer,Terra Desk,Furniture,3,251.27,15,921.08
+2135,2024-10-07,Europe,France,Partner,Enterprise,Pulse Earbuds,Electronics,9,154.37,15,1697.63
+2136,2024-10-07,Asia Pacific,India,Retail,Consumer,Vertex Monitor,Electronics,3,343.63,0,1684.02
+2137,2024-10-07,Europe,France,Retail,SMB,Ink Pen Set,Stationery,2,25.07,0,72.08
+2138,2024-10-07,North America,USA,Online,Consumer,Lumen Lamp,Furniture,2,71.74,0,253.13
+2139,2024-10-07,North America,Canada,Online,Consumer,Ergo Chair,Furniture,7,345.48,15,3626.6
+2140,2024-10-08,Europe,France,Partner,SMB,Flow Notebook,Stationery,2,11.42,5,31.22
+2141,2024-10-08,North America,USA,Partner,SMB,Flow Notebook,Stationery,6,12.95,0,137.2
+2142,2024-10-08,Asia Pacific,Australia,Retail,Consumer,Flow Notebook,Stationery,3,12.85,15,53.57
+2143,2024-10-09,Latin America,Brazil,Partner,SMB,Aurora Laptop,Electronics,3,1205.94,0,3788.7
+2144,2024-10-09,Europe,Germany,Partner,Consumer,Canvas Backpack,Accessories,4,91.81,20,423.04
+2145,2024-10-09,Asia Pacific,India,Retail,Consumer,Pulse Earbuds,Electronics,2,156.89,0,513.44
+2146,2024-10-09,Europe,UK,Partner,Enterprise,Canvas Backpack,Accessories,5,95.43,10,618.36
+2147,2024-10-09,North America,USA,Retail,Consumer,Lumen Lamp,Furniture,2,69.68,0,246.28
+2148,2024-10-09,Asia Pacific,Japan,Retail,Consumer,Pulse Earbuds,Electronics,2,152.82,0,500.12
+2149,2024-10-10,Europe,Germany,Retail,SMB,Aurora Laptop,Electronics,2,1201.68,5,3290.42
+2150,2024-10-10,North America,Canada,Retail,Consumer,Canvas Backpack,Accessories,2,93.18,5,313.13
+2151,2024-10-10,Europe,UK,Retail,Consumer,Pulse Earbuds,Electronics,2,146.2,0,421.39
+2152,2024-10-11,North America,Canada,Online,Enterprise,Flow Notebook,Stationery,20,12.93,15,389.1
+2153,2024-10-11,North America,Canada,Partner,SMB,Ergo Chair,Furniture,3,356.2,0,1891.6
+2154,2024-10-12,Europe,France,Online,Consumer,Ink Pen Set,Stationery,2,23.82,20,55.02
+2155,2024-10-12,North America,USA,Partner,Consumer,Flow Notebook,Stationery,6,12.92,5,130.47
+2156,2024-10-12,Asia Pacific,Japan,Online,Consumer,Terra Desk,Furniture,7,267.88,0,3076.03
+2157,2024-10-12,Asia Pacific,India,Retail,SMB,Pulse Earbuds,Electronics,2,158.5,15,442.01
+2158,2024-10-12,North America,USA,Online,Consumer,Flow Notebook,Stationery,4,12.32,20,69.85
+2159,2024-10-13,North America,USA,Online,Consumer,Vertex Monitor,Electronics,2,304.73,5,1026.62
+2160,2024-10-13,North America,USA,Partner,Consumer,Vertex Monitor,Electronics,2,317.98,0,1127.64
+2161,2024-10-13,Europe,France,Online,Consumer,Vertex Monitor,Electronics,3,315.67,0,1368.21
+2162,2024-10-14,Asia Pacific,India,Online,Consumer,Pulse Earbuds,Electronics,1,155.38,0,255.31
+2163,2024-10-14,North America,Canada,Online,Enterprise,Terra Desk,Furniture,21,279.05,0,10399.26
+2164,2024-10-14,Europe,Germany,Partner,SMB,Nimbus Phone,Electronics,2,797.5,0,2306.33
+2165,2024-10-14,Asia Pacific,Australia,Retail,Consumer,Flow Notebook,Stationery,4,11.83,15,66.09
+2166,2024-10-15,Europe,UK,Online,SMB,Nimbus Phone,Electronics,1,860.71,10,1121.04
+2167,2024-10-15,Latin America,Brazil,Online,Consumer,Nimbus Phone,Electronics,1,824.38,10,780.89
+2168,2024-10-15,North America,Canada,Partner,Consumer,Canvas Backpack,Accessories,3,87.0,0,463.56
+2169,2024-10-15,Europe,France,Partner,Enterprise,Pulse Earbuds,Electronics,12,154.78,5,2553.53
+2170,2024-10-15,North America,Canada,Partner,Consumer,Aurora Laptop,Electronics,1,1233.47,0,2190.74
+2171,2024-10-15,Asia Pacific,India,Online,Enterprise,Pulse Earbuds,Electronics,10,155.85,5,2434.84
+2172,2024-10-16,Latin America,Brazil,Partner,Consumer,Vertex Monitor,Electronics,4,329.26,5,1317.96
+2173,2024-10-16,North America,USA,Partner,Consumer,Nimbus Phone,Electronics,1,813.33,20,1156.6
+2174,2024-10-16,Europe,France,Online,Consumer,Ergo Chair,Furniture,5,334.87,15,2061.34
+2175,2024-10-16,North America,USA,Online,Consumer,Aurora Laptop,Electronics,2,1284.65,0,4567.09
+2176,2024-10-16,North America,USA,Online,Consumer,Lumen Lamp,Furniture,2,72.4,0,257.39
+2177,2024-10-16,Asia Pacific,Japan,Partner,Enterprise,Pulse Earbuds,Electronics,9,160.02,5,2251.86
+2178,2024-10-17,North America,USA,Retail,Consumer,Lumen Lamp,Furniture,4,75.28,15,455.35
+2179,2024-10-17,North America,USA,Partner,Enterprise,Ergo Chair,Furniture,10,334.37,15,5056.29
+2180,2024-10-17,Europe,France,Online,SMB,Ergo Chair,Furniture,6,332.01,0,2887.67
+2181,2024-10-17,Europe,Germany,Partner,Consumer,Nimbus Phone,Electronics,4,775.43,0,4496.22
+2182,2024-10-18,North America,USA,Online,SMB,Terra Desk,Furniture,4,263.58,10,1689.51
+2183,2024-10-18,Asia Pacific,Australia,Online,Consumer,Pulse Earbuds,Electronics,4,154.35,15,865.18
+2184,2024-10-18,North America,USA,Partner,Consumer,Vertex Monitor,Electronics,4,334.13,0,2379.7
+2185,2024-10-18,North America,USA,Online,Consumer,Lumen Lamp,Furniture,2,66.62,20,189.79
+2186,2024-10-18,Asia Pacific,India,Retail,SMB,Nimbus Phone,Electronics,2,822.36,15,2304.8
+2187,2024-10-19,Latin America,Brazil,Partner,SMB,Ergo Chair,Furniture,2,329.15,0,695.16
+2188,2024-10-19,Asia Pacific,Japan,Retail,Consumer,Ink Pen Set,Stationery,3,23.93,0,118.45
+2189,2024-10-20,Europe,UK,Partner,Consumer,Aurora Laptop,Electronics,3,1219.8,0,5317.86
+2190,2024-10-20,Asia Pacific,India,Online,Consumer,Aurora Laptop,Electronics,4,1162.99,5,7298.0
+2191,2024-10-20,Asia Pacific,India,Partner,SMB,Canvas Backpack,Accessories,2,87.48,5,274.48
+2192,2024-10-20,North America,USA,Online,Consumer,Canvas Backpack,Accessories,6,89.72,0,960.08
+2193,2024-10-21,Latin America,Brazil,Partner,Consumer,Nimbus Phone,Electronics,2,804.23,15,1446.15
+2194,2024-10-21,Latin America,Mexico,Online,Consumer,Lumen Lamp,Furniture,5,72.52,5,364.36
+2195,2024-10-22,Asia Pacific,Australia,Online,SMB,Ink Pen Set,Stationery,3,24.23,0,120.24
+2196,2024-10-22,Europe,Germany,Retail,Consumer,Ink Pen Set,Stationery,5,24.04,0,174.97
+2197,2024-10-22,Latin America,Brazil,Retail,Consumer,Flow Notebook,Stationery,7,12.48,5,87.86
+2198,2024-10-22,Europe,France,Partner,SMB,Pulse Earbuds,Electronics,2,150.66,5,416.68
+2199,2024-10-23,Europe,Germany,Retail,SMB,Ergo Chair,Furniture,2,354.6,10,929.86
+2200,2024-10-23,Europe,France,Online,Consumer,Ink Pen Set,Stationery,4,23.76,0,138.46
+2201,2024-10-23,Latin America,Brazil,Online,Consumer,Pulse Earbuds,Electronics,1,160.27,0,169.81
+2202,2024-10-23,Europe,UK,Partner,Consumer,Pulse Earbuds,Electronics,4,146.61,0,854.34
+2203,2024-10-23,North America,USA,Online,SMB,Nimbus Phone,Electronics,4,762.74,15,4636.64
+2204,2024-10-24,Europe,France,Retail,SMB,Nimbus Phone,Electronics,2,775.28,0,2260.76
+2205,2024-10-24,North America,USA,Retail,SMB,Aurora Laptop,Electronics,2,1168.46,20,3345.34
+2206,2024-10-24,Asia Pacific,Australia,Retail,Enterprise,Ergo Chair,Furniture,28,357.54,5,15757.57
+2207,2024-10-24,Asia Pacific,Japan,Partner,Consumer,Nimbus Phone,Electronics,1,838.12,10,1249.77
+2208,2024-10-24,Europe,UK,Retail,Consumer,Vertex Monitor,Electronics,3,324.88,10,1278.95
+2209,2024-10-25,Europe,UK,Retail,Consumer,Pulse Earbuds,Electronics,2,146.63,15,363.74
+2210,2024-10-25,Europe,UK,Partner,SMB,Vertex Monitor,Electronics,1,332.8,20,388.51
+2211,2024-10-25,Europe,France,Online,SMB,Lumen Lamp,Furniture,1,69.88,20,81.58
+2212,2024-10-26,North America,USA,Retail,Consumer,Nimbus Phone,Electronics,1,789.35,0,1414.8
+2213,2024-10-26,Europe,UK,Retail,Consumer,Pulse Earbuds,Electronics,2,146.43,10,384.93
+2214,2024-10-26,Latin America,Brazil,Partner,Enterprise,Pulse Earbuds,Electronics,5,143.44,0,761.76
+2215,2024-10-26,North America,Canada,Retail,Consumer,Aurora Laptop,Electronics,4,1170.4,10,7551.99
+2216,2024-10-26,Asia Pacific,Australia,Partner,Consumer,Pulse Earbuds,Electronics,1,150.44,0,249.67
+2217,2024-10-27,North America,USA,Retail,SMB,Aurora Laptop,Electronics,1,1165.15,0,2090.09
+2218,2024-10-27,Asia Pacific,India,Partner,Consumer,Ink Pen Set,Stationery,4,26.37,0,175.2
+2219,2024-10-27,Asia Pacific,Australia,Partner,Enterprise,Nimbus Phone,Electronics,15,773.64,20,15419.81
+2220,2024-10-27,North America,Canada,Partner,SMB,Aurora Laptop,Electronics,4,1172.58,0,8413.66
+2221,2024-10-27,Europe,UK,Retail,SMB,Canvas Backpack,Accessories,2,85.67,20,200.35
+2222,2024-10-27,Asia Pacific,Japan,Online,Enterprise,Ergo Chair,Furniture,16,336.87,5,8504.81
+2223,2024-10-28,North America,Canada,Online,Consumer,Ergo Chair,Furniture,3,357.12,15,1634.91
+2224,2024-10-28,North America,Canada,Retail,SMB,Canvas Backpack,Accessories,3,96.87,0,521.74
+2225,2024-10-28,Europe,Germany,Partner,Consumer,Ink Pen Set,Stationery,3,24.94,5,103.98
+2226,2024-10-28,Asia Pacific,Japan,Partner,SMB,Pulse Earbuds,Electronics,4,159.61,0,1061.3
+2227,2024-10-29,Europe,France,Partner,SMB,Aurora Laptop,Electronics,1,1273.08,0,1863.86
+2228,2024-10-29,North America,USA,Online,Enterprise,Ergo Chair,Furniture,35,327.13,15,17486.62
+2229,2024-10-30,Europe,France,Online,Consumer,Canvas Backpack,Accessories,3,86.77,15,324.21
+2230,2024-10-30,Latin America,Mexico,Retail,Consumer,Flow Notebook,Stationery,2,11.93,0,25.43
+2231,2024-10-30,Europe,UK,Retail,Consumer,Flow Notebook,Stationery,8,12.25,0,143.6
+2232,2024-10-30,Latin America,Brazil,Online,Consumer,Lumen Lamp,Furniture,7,75.02,0,559.61
+2233,2024-10-30,Europe,Germany,Online,Consumer,Canvas Backpack,Accessories,1,93.5,20,109.6
+2234,2024-10-31,North America,USA,Retail,Consumer,Aurora Laptop,Electronics,1,1276.31,0,2297.04
+2235,2024-10-31,Europe,Germany,Retail,SMB,Ergo Chair,Furniture,3,325.38,20,1145.18
+2236,2024-10-31,Latin America,Mexico,Online,SMB,Pulse Earbuds,Electronics,2,160.87,0,343.14
+2237,2024-10-31,Europe,France,Partner,Consumer,Flow Notebook,Stationery,7,12.82,0,131.6
+2238,2024-11-01,Europe,UK,Online,Enterprise,Ergo Chair,Furniture,6,352.35,0,4654.21
+2239,2024-11-01,Asia Pacific,Australia,Retail,SMB,Flow Notebook,Stationery,1,12.8,0,32.02
+2240,2024-11-01,Latin America,Mexico,Partner,Consumer,Ink Pen Set,Stationery,7,25.44,0,285.12
+2241,2024-11-01,North America,Canada,Partner,Enterprise,Canvas Backpack,Accessories,16,88.06,0,3806.8
+2242,2024-11-01,Latin America,Mexico,Partner,SMB,Flow Notebook,Stationery,7,11.94,0,133.82
+2243,2024-11-01,Latin America,Brazil,Retail,Consumer,Pulse Earbuds,Electronics,3,158.47,10,685.06
+2244,2024-11-02,Asia Pacific,Australia,Retail,Consumer,Canvas Backpack,Accessories,6,91.85,20,1103.86
+2245,2024-11-02,Europe,Germany,Retail,Consumer,Nimbus Phone,Electronics,3,817.49,0,5403.56
+2246,2024-11-03,Europe,Germany,Partner,SMB,Pulse Earbuds,Electronics,4,148.02,15,1109.77
+2247,2024-11-03,Europe,UK,Online,SMB,Canvas Backpack,Accessories,2,85.69,15,321.23
+2248,2024-11-03,Latin America,Brazil,Partner,SMB,Terra Desk,Furniture,2,262.01,15,714.33
+2249,2024-11-04,Asia Pacific,Australia,Online,Consumer,Pulse Earbuds,Electronics,4,149.93,10,1353.62
+2250,2024-11-04,North America,Canada,Retail,Consumer,Canvas Backpack,Accessories,7,93.04,20,1411.2
+2251,2024-11-04,Asia Pacific,Japan,Online,Consumer,Aurora Laptop,Electronics,3,1277.22,0,9609.33
+2252,2024-11-04,North America,Canada,Retail,Consumer,Flow Notebook,Stationery,1,11.44,0,30.99
+2253,2024-11-04,Asia Pacific,Australia,Retail,SMB,Ink Pen Set,Stationery,3,26.98,10,182.69
+2254,2024-11-04,North America,Canada,Online,SMB,Nimbus Phone,Electronics,4,857.7,0,9292.35
+2255,2024-11-05,Latin America,Brazil,Online,Consumer,Vertex Monitor,Electronics,4,308.14,0,1979.93
+2256,2024-11-05,Asia Pacific,Australia,Retail,SMB,Nimbus Phone,Electronics,3,817.5,20,4924.49
+2257,2024-11-05,Latin America,Brazil,Online,Consumer,Aurora Laptop,Electronics,2,1236.42,0,3972.26
+2258,2024-11-05,Europe,UK,Partner,Consumer,Ergo Chair,Furniture,3,351.04,5,2209.76
+2259,2024-11-05,Asia Pacific,India,Retail,Enterprise,Pulse Earbuds,Electronics,6,157.71,15,2018.79
+2260,2024-11-06,Asia Pacific,Australia,Online,Consumer,Aurora Laptop,Electronics,1,1293.63,15,2762.14
+2261,2024-11-06,Asia Pacific,India,Online,SMB,Terra Desk,Furniture,3,255.86,0,1928.15
+2262,2024-11-06,North America,USA,Online,Consumer,Terra Desk,Furniture,7,263.6,0,5005.93
+2263,2024-11-06,North America,USA,Online,SMB,Terra Desk,Furniture,7,277.07,5,4998.64
+2264,2024-11-06,Asia Pacific,Japan,Online,Consumer,Ink Pen Set,Stationery,3,25.59,15,163.92
+2265,2024-11-07,Asia Pacific,India,Retail,Enterprise,Canvas Backpack,Accessories,3,94.18,10,639.29
+2266,2024-11-07,Latin America,Brazil,Partner,Consumer,Lumen Lamp,Furniture,3,74.39,0,359.08
+2267,2024-11-07,North America,USA,Online,Consumer,Aurora Laptop,Electronics,2,1182.69,0,6422.4
+2268,2024-11-07,North America,USA,Retail,SMB,Pulse Earbuds,Electronics,4,158.28,15,1461.17
+2269,2024-11-07,Europe,Germany,Online,Consumer,Canvas Backpack,Accessories,5,86.7,5,911.1
+2270,2024-11-07,Asia Pacific,Australia,Partner,SMB,Pulse Earbuds,Electronics,4,159.72,5,1525.86
+2271,2024-11-08,Europe,Germany,Partner,SMB,Ink Pen Set,Stationery,7,24.4,5,359.27
+2272,2024-11-08,Europe,France,Online,Consumer,Ink Pen Set,Stationery,5,25.08,10,249.89
+2273,2024-11-08,Europe,France,Retail,Consumer,Canvas Backpack,Accessories,1,87.6,0,193.96
+2274,2024-11-08,North America,USA,Partner,Consumer,Pulse Earbuds,Electronics,3,145.33,0,1184.75
+2275,2024-11-08,North America,USA,Retail,Consumer,Pulse Earbuds,Electronics,2,153.57,5,792.89
+2276,2024-11-09,Latin America,Brazil,Partner,SMB,Vertex Monitor,Electronics,2,327.34,0,1055.09
+2277,2024-11-09,Asia Pacific,Australia,Retail,Enterprise,Aurora Laptop,Electronics,16,1189.94,20,38354.54
+2278,2024-11-09,North America,Canada,Retail,Enterprise,Terra Desk,Furniture,4,252.78,5,2612.35
+2279,2024-11-09,North America,Canada,Online,Consumer,Pulse Earbuds,Electronics,1,148.05,5,382.51
+2280,2024-11-10,North America,USA,Retail,Consumer,Pulse Earbuds,Electronics,1,158.15,20,344.36
+2281,2024-11-10,Asia Pacific,Japan,Online,Consumer,Pulse Earbuds,Electronics,3,154.44,5,1109.28
+2282,2024-11-10,Europe,France,Partner,Consumer,Canvas Backpack,Accessories,2,89.87,20,318.9
+2283,2024-11-10,Europe,UK,Online,SMB,Pulse Earbuds,Electronics,1,159.3,0,353.29
+2284,2024-11-10,Asia Pacific,India,Retail,Consumer,Nimbus Phone,Electronics,1,850.27,15,1821.43
+2285,2024-11-11,Latin America,Brazil,Online,Enterprise,Nimbus Phone,Electronics,12,823.73,15,13562.97
+2286,2024-11-11,Asia Pacific,Japan,Partner,Enterprise,Flow Notebook,Stationery,16,11.9,0,480.24
+2287,2024-11-11,North America,Canada,Partner,SMB,Lumen Lamp,Furniture,4,70.85,10,694.79
+2288,2024-11-11,Europe,Germany,Online,SMB,Pulse Earbuds,Electronics,1,157.44,0,349.45
+2289,2024-11-12,Europe,UK,Online,SMB,Flow Notebook,Stationery,2,12.92,0,57.4
+2290,2024-11-12,North America,USA,Retail,Consumer,Flow Notebook,Stationery,4,11.56,5,119.76
+2291,2024-11-13,Asia Pacific,Australia,Retail,Consumer,Terra Desk,Furniture,8,252.21,15,4332.8
+2292,2024-11-13,Europe,UK,Retail,Consumer,Pulse Earbuds,Electronics,2,150.3,20,534.64
+2293,2024-11-13,North America,Canada,Partner,Consumer,Nimbus Phone,Electronics,1,807.94,0,2204.45
+2294,2024-11-14,Asia Pacific,India,Retail,Consumer,Aurora Laptop,Electronics,1,1243.25,5,2986.29
+2295,2024-11-14,Europe,Germany,Retail,SMB,Nimbus Phone,Electronics,4,775.66,0,6903.42
+2296,2024-11-15,Europe,Germany,Online,Consumer,Aurora Laptop,Electronics,1,1199.67,15,2270.73
+2297,2024-11-15,Latin America,Brazil,Partner,Consumer,Pulse Earbuds,Electronics,3,154.35,10,674.92
+2298,2024-11-15,Europe,UK,Online,SMB,Flow Notebook,Stationery,4,11.48,0,102.26
+2299,2024-11-15,North America,Canada,Retail,Consumer,Pulse Earbuds,Electronics,2,156.14,10,768.09
+2300,2024-11-15,Europe,Germany,Partner,SMB,Nimbus Phone,Electronics,3,781.39,5,4959.05
+2301,2024-11-15,Asia Pacific,Japan,Retail,SMB,Lumen Lamp,Furniture,1,68.18,0,172.53
+2302,2024-11-16,Europe,Germany,Online,SMB,Ink Pen Set,Stationery,6,23.98,15,272.56
+2303,2024-11-16,North America,Canada,Retail,Consumer,Nimbus Phone,Electronics,4,762.17,0,8338.56
+2304,2024-11-16,Latin America,Brazil,Online,SMB,Nimbus Phone,Electronics,3,820.65,5,3790.86
+2305,2024-11-16,Europe,UK,Online,Consumer,Terra Desk,Furniture,5,254.72,20,2270.71
+2306,2024-11-16,Europe,UK,Partner,Consumer,Flow Notebook,Stationery,6,12.17,5,154.6
+2307,2024-11-16,Europe,France,Retail,Consumer,Pulse Earbuds,Electronics,4,158.64,0,1414.2
+2308,2024-11-17,Asia Pacific,Australia,Partner,Enterprise,Flow Notebook,Stationery,16,12.47,0,505.7
+2309,2024-11-17,Asia Pacific,India,Online,Consumer,Nimbus Phone,Electronics,2,811.77,0,4115.01
+2310,2024-11-17,North America,Canada,Online,SMB,Pulse Earbuds,Electronics,4,144.6,15,1345.79
+2311,2024-11-17,North America,Canada,Online,Enterprise,Canvas Backpack,Accessories,20,90.08,0,4931.62
+2312,2024-11-18,Latin America,Mexico,Partner,Consumer,Pulse Earbuds,Electronics,3,154.44,20,601.74
+2313,2024-11-18,Europe,Germany,Retail,SMB,Ergo Chair,Furniture,5,365.85,0,4083.34
+2314,2024-11-18,Europe,France,Partner,SMB,Nimbus Phone,Electronics,3,818.05,10,4930.44
+2315,2024-11-18,North America,Canada,Online,SMB,Pulse Earbuds,Electronics,4,146.74,0,1608.02
+2316,2024-11-18,Asia Pacific,India,Retail,Consumer,Aurora Laptop,Electronics,3,1270.12,15,8215.7
+2317,2024-11-19,North America,Canada,Partner,SMB,Ink Pen Set,Stationery,3,26.07,0,214.44
+2318,2024-11-19,North America,USA,Retail,Enterprise,Vertex Monitor,Electronics,4,342.81,5,3571.68
+2319,2024-11-20,Asia Pacific,Australia,Online,Consumer,Vertex Monitor,Electronics,3,328.84,0,2506.5
+2320,2024-11-20,North America,Canada,Partner,Consumer,Flow Notebook,Stationery,3,12.6,15,88.17
+2321,2024-11-20,North America,Canada,Online,Consumer,Ergo Chair,Furniture,5,363.98,10,4494.45
+2322,2024-11-21,Europe,Germany,Online,SMB,Flow Notebook,Stationery,3,12.09,10,73.04
+2323,2024-11-21,North America,Canada,Retail,Consumer,Terra Desk,Furniture,7,247.94,5,4527.99
+2324,2024-11-21,Europe,Germany,Retail,Consumer,Aurora Laptop,Electronics,2,1219.9,10,4913.52
+2325,2024-11-21,North America,Canada,Online,SMB,Aurora Laptop,Electronics,4,1140.93,15,10653.08
+2326,2024-11-21,Asia Pacific,Australia,Online,Consumer,Terra Desk,Furniture,5,280.33,20,2851.3
+2327,2024-11-22,North America,USA,Partner,SMB,Ink Pen Set,Stationery,6,23.95,20,315.96
+2328,2024-11-22,Asia Pacific,Australia,Partner,SMB,Terra Desk,Furniture,4,251.87,10,2307.51
+2329,2024-11-23,North America,USA,Online,Consumer,Pulse Earbuds,Electronics,4,155.91,10,1543.89
+2330,2024-11-23,North America,USA,Partner,Enterprise,Nimbus Phone,Electronics,3,770.78,0,6360.49
+2331,2024-11-23,North America,Canada,Retail,Enterprise,Vertex Monitor,Electronics,20,338.12,0,18601.14
+2332,2024-11-23,Asia Pacific,Australia,Retail,SMB,Pulse Earbuds,Electronics,1,145.35,5,351.68
+2333,2024-11-23,North America,USA,Online,SMB,Ink Pen Set,Stationery,4,25.31,5,264.55
+2334,2024-11-24,Asia Pacific,Australia,Retail,SMB,Terra Desk,Furniture,7,274.04,15,4156.2
+2335,2024-11-24,Europe,Germany,Online,Consumer,Nimbus Phone,Electronics,4,820.38,0,7360.76
+2336,2024-11-24,North America,Canada,Online,Enterprise,Aurora Laptop,Electronics,20,1141.42,0,62844.08
+2337,2024-11-24,North America,USA,Retail,SMB,Pulse Earbuds,Electronics,1,155.29,0,427.5
+2338,2024-11-25,Asia Pacific,Australia,Online,SMB,Pulse Earbuds,Electronics,3,157.37,20,963.49
+2339,2024-11-25,North America,Canada,Retail,SMB,Aurora Laptop,Electronics,4,1234.51,5,12924.6
+2340,2024-11-25,North America,Canada,Partner,Consumer,Nimbus Phone,Electronics,3,824.22,10,6131.2
+2341,2024-11-25,Europe,UK,Online,SMB,Aurora Laptop,Electronics,1,1156.57,15,2206.93
+2342,2024-11-26,North America,USA,Partner,SMB,Canvas Backpack,Accessories,4,96.03,0,1059.15
+2343,2024-11-26,North America,Canada,Online,Consumer,Flow Notebook,Stationery,1,11.79,10,29.26
+2344,2024-11-26,North America,USA,Partner,Consumer,Vertex Monitor,Electronics,1,317.36,0,875.07
+2345,2024-11-26,Asia Pacific,Japan,Partner,SMB,Nimbus Phone,Electronics,2,786.26,0,4014.77
+2346,2024-11-26,Europe,Germany,Retail,SMB,Pulse Earbuds,Electronics,2,153.85,0,691.31
+2347,2024-11-27,North America,USA,Retail,Consumer,Canvas Backpack,Accessories,2,87.67,0,483.86
+2348,2024-11-27,Asia Pacific,Australia,Online,Consumer,Lumen Lamp,Furniture,8,69.7,10,1282.27
+2349,2024-11-28,Latin America,Brazil,Partner,Consumer,Ink Pen Set,Stationery,7,23.98,20,219.78
+2350,2024-11-28,North America,Canada,Online,Consumer,Nimbus Phone,Electronics,3,783.3,0,6489.88
+2351,2024-11-28,Latin America,Mexico,Online,Consumer,Vertex Monitor,Electronics,3,326.23,0,1601.73
+2352,2024-11-28,North America,Canada,Partner,Consumer,Vertex Monitor,Electronics,1,323.59,10,804.31
+2353,2024-11-28,Latin America,Mexico,Retail,Consumer,Lumen Lamp,Furniture,5,69.54,0,569.05
+2354,2024-11-28,Asia Pacific,India,Retail,SMB,Nimbus Phone,Electronics,1,811.33,0,2074.73
+2355,2024-11-29,Latin America,Brazil,Retail,Consumer,Pulse Earbuds,Electronics,1,151.84,10,223.83
+2356,2024-11-29,North America,USA,Online,Consumer,Nimbus Phone,Electronics,3,809.67,5,6378.06
+2357,2024-11-29,Asia Pacific,India,Online,Consumer,Aurora Laptop,Electronics,4,1246.64,15,10847.56
+2358,2024-11-29,North America,Canada,Partner,SMB,Aurora Laptop,Electronics,2,1249.41,5,6561.37
+2359,2024-11-29,Europe,UK,Retail,Enterprise,Vertex Monitor,Electronics,9,322.16,0,6529.94
+2360,2024-11-29,North America,USA,Retail,Consumer,Aurora Laptop,Electronics,1,1142.32,20,2525.89
+2361,2024-11-30,Asia Pacific,India,Retail,Consumer,Aurora Laptop,Electronics,1,1194.55,0,3059.6
+2362,2024-11-30,Asia Pacific,India,Retail,Consumer,Canvas Backpack,Accessories,8,86.93,15,1514.05
+2363,2024-11-30,North America,Canada,Partner,Consumer,Canvas Backpack,Accessories,6,88.08,20,1169.51
+2364,2024-12-01,Latin America,Mexico,Retail,Consumer,Ink Pen Set,Stationery,6,25.51,15,213.44
+2365,2024-12-01,North America,Canada,Partner,SMB,Canvas Backpack,Accessories,8,86.42,0,1913.98
+2366,2024-12-01,Latin America,Brazil,Online,SMB,Pulse Earbuds,Electronics,3,158.42,15,662.73
+2367,2024-12-01,North America,USA,Retail,SMB,Flow Notebook,Stationery,2,12.18,0,67.44
+2368,2024-12-02,North America,Canada,Online,Enterprise,Pulse Earbuds,Electronics,15,142.87,5,5640.75
+2369,2024-12-02,Europe,Germany,Online,Consumer,Aurora Laptop,Electronics,4,1148.15,10,9331.27
+2370,2024-12-03,North America,Canada,Retail,Enterprise,Canvas Backpack,Accessories,15,85.82,20,2855.61
+2371,2024-12-03,Asia Pacific,Australia,Partner,Consumer,Vertex Monitor,Electronics,1,308.54,20,633.73
+2372,2024-12-03,Europe,France,Partner,Consumer,Canvas Backpack,Accessories,8,92.2,5,1583.19
+2373,2024-12-03,Europe,France,Retail,Enterprise,Pulse Earbuds,Electronics,6,147.97,0,2005.91
+2374,2024-12-04,North America,USA,Partner,Consumer,Flow Notebook,Stationery,7,12.36,0,240.1
+2375,2024-12-04,Europe,France,Partner,SMB,Pulse Earbuds,Electronics,1,148.48,0,335.74
+2376,2024-12-04,Asia Pacific,Japan,Online,Consumer,Ink Pen Set,Stationery,8,25.27,0,519.45
+2377,2024-12-04,Latin America,Mexico,Retail,SMB,Lumen Lamp,Furniture,1,75.04,10,111.06
+2378,2024-12-05,Latin America,Mexico,Retail,Consumer,Canvas Backpack,Accessories,5,95.67,0,787.27
+2379,2024-12-05,North America,USA,Online,SMB,Nimbus Phone,Electronics,2,828.08,0,4599.66
+2380,2024-12-05,North America,Canada,Partner,Consumer,Lumen Lamp,Furniture,4,75.16,0,834.97
+2381,2024-12-05,Latin America,Mexico,Retail,SMB,Aurora Laptop,Electronics,1,1176.61,10,1742.83
+2382,2024-12-06,North America,Canada,Online,Consumer,Nimbus Phone,Electronics,3,798.62,10,5993.41
+2383,2024-12-06,Asia Pacific,Japan,Retail,Consumer,Aurora Laptop,Electronics,2,1190.94,0,6130.08
+2384,2024-12-07,North America,Canada,Retail,Consumer,Canvas Backpack,Accessories,1,89.81,0,249.83
+2385,2024-12-07,North America,USA,Partner,Consumer,Canvas Backpack,Accessories,4,89.16,20,793.66
+2386,2024-12-07,Asia Pacific,Australia,Retail,SMB,Terra Desk,Furniture,4,275.08,5,2692.37
+2387,2024-12-07,North America,USA,Online,Enterprise,Vertex Monitor,Electronics,3,324.95,10,2440.6
+2388,2024-12-08,Asia Pacific,Australia,Partner,SMB,Vertex Monitor,Electronics,1,323.65,10,750.86
+2389,2024-12-08,Europe,Germany,Partner,Consumer,Pulse Earbuds,Electronics,3,148.91,0,1013.37
+2390,2024-12-08,Asia Pacific,Japan,Online,Consumer,Pulse Earbuds,Electronics,2,156.79,5,767.91
+2391,2024-12-08,Latin America,Mexico,Online,SMB,Aurora Laptop,Electronics,3,1215.53,15,5113.58
+2392,2024-12-08,North America,Canada,Online,SMB,Pulse Earbuds,Electronics,2,160.23,20,713.72
+2393,2024-12-08,Asia Pacific,Australia,Retail,Consumer,Nimbus Phone,Electronics,3,772.27,0,5972.13
+2394,2024-12-09,Europe,UK,Online,SMB,Ergo Chair,Furniture,3,323.69,5,2094.31
+2395,2024-12-09,North America,Canada,Retail,SMB,Flow Notebook,Stationery,2,12.76,0,71.1
+2396,2024-12-09,Asia Pacific,India,Online,Enterprise,Flow Notebook,Stationery,35,11.6,0,1047.4
+2397,2024-12-09,Asia Pacific,India,Retail,Consumer,Flow Notebook,Stationery,2,11.47,15,50.3
+2398,2024-12-09,Asia Pacific,Japan,Partner,Enterprise,Canvas Backpack,Accessories,40,94.36,0,9737.18
+2399,2024-12-10,Asia Pacific,Australia,Partner,Enterprise,Flow Notebook,Stationery,6,12.33,0,191.01
+2400,2024-12-10,Europe,France,Online,Consumer,Vertex Monitor,Electronics,3,308.03,20,1679.65
+2401,2024-12-10,North America,Canada,Partner,Consumer,Aurora Laptop,Electronics,4,1190.36,0,13276.79
+2402,2024-12-11,Asia Pacific,India,Partner,Enterprise,Aurora Laptop,Electronics,10,1183.41,10,27520.36
+2403,2024-12-11,Asia Pacific,Japan,Online,Consumer,Nimbus Phone,Electronics,3,810.61,0,6283.62
+2404,2024-12-11,North America,USA,Partner,Enterprise,Pulse Earbuds,Electronics,3,147.93,15,1052.68
+2405,2024-12-11,North America,USA,Partner,Enterprise,Aurora Laptop,Electronics,4,1269.87,5,13466.14
+2406,2024-12-12,Europe,Germany,Partner,SMB,Canvas Backpack,Accessories,8,86.98,10,1425.14
+2407,2024-12-12,Europe,UK,Online,Enterprise,Flow Notebook,Stationery,40,11.81,5,1021.26
+2408,2024-12-13,Latin America,Brazil,Partner,SMB,Canvas Backpack,Accessories,4,86.37,15,486.39
+2409,2024-12-13,North America,Canada,Partner,SMB,Pulse Earbuds,Electronics,1,155.91,15,370.41
+2410,2024-12-13,Latin America,Brazil,Partner,Enterprise,Vertex Monitor,Electronics,9,327.22,20,3902.28
+2411,2024-12-14,Latin America,Brazil,Online,SMB,Pulse Earbuds,Electronics,2,151.67,0,502.83
+2412,2024-12-14,Europe,UK,Online,Consumer,Flow Notebook,Stationery,2,12.74,10,52.27
+2413,2024-12-15,North America,USA,Partner,SMB,Terra Desk,Furniture,3,261.13,0,2193.09
+2414,2024-12-15,North America,Canada,Retail,Consumer,Lumen Lamp,Furniture,8,72.48,10,1460.93
+2415,2024-12-15,North America,Canada,Partner,Enterprise,Ink Pen Set,Stationery,40,25.8,20,2311.26
+2416,2024-12-16,Europe,Germany,Retail,Consumer,Pulse Earbuds,Electronics,4,148.85,5,1291.26
+2417,2024-12-16,Asia Pacific,India,Partner,Enterprise,Nimbus Phone,Electronics,4,801.4,15,7068.51
+2418,2024-12-16,North America,Canada,Partner,Enterprise,Ink Pen Set,Stationery,21,24.7,0,1453.25
+2419,2024-12-16,Europe,Germany,Retail,SMB,Aurora Laptop,Electronics,3,1201.06,5,7814.33
+2420,2024-12-16,Europe,Germany,Retail,Consumer,Pulse Earbuds,Electronics,2,154.91,0,707.28
+2421,2024-12-16,North America,Canada,Online,SMB,Vertex Monitor,Electronics,2,330.01,20,1479.35
+2422,2024-12-17,Europe,UK,Partner,Consumer,Lumen Lamp,Furniture,1,69.95,20,127.85
+2423,2024-12-17,Asia Pacific,Japan,Partner,SMB,Canvas Backpack,Accessories,2,86.08,15,379.92
+2424,2024-12-17,North America,USA,Retail,SMB,Canvas Backpack,Accessories,4,94.88,0,1064.15
+2425,2024-12-17,Latin America,Mexico,Online,SMB,Vertex Monitor,Electronics,1,339.17,0,563.56
+2426,2024-12-17,Asia Pacific,Australia,Retail,Consumer,Nimbus Phone,Electronics,1,789.44,0,2049.57
+2427,2024-12-17,North America,USA,Retail,SMB,Aurora Laptop,Electronics,4,1267.65,0,14217.62
+2428,2024-12-18,Asia Pacific,India,Partner,SMB,Aurora Laptop,Electronics,4,1142.3,0,11872.1
+2429,2024-12-18,Asia Pacific,Australia,Partner,Consumer,Canvas Backpack,Accessories,7,95.23,0,1732.04
+2430,2024-12-18,Asia Pacific,Japan,Retail,SMB,Vertex Monitor,Electronics,3,312.43,5,2313.58
+2431,2024-12-18,North America,Canada,Online,Consumer,Vertex Monitor,Electronics,4,315.59,10,3188.14
+2432,2024-12-19,Latin America,Brazil,Partner,Enterprise,Vertex Monitor,Electronics,16,326.74,20,6960.22
+2433,2024-12-19,North America,USA,Online,Consumer,Ergo Chair,Furniture,8,344.07,0,7730.21
+2434,2024-12-19,North America,Canada,Online,SMB,Pulse Earbuds,Electronics,1,145.8,10,368.51
+2435,2024-12-19,Asia Pacific,Japan,Retail,Consumer,Lumen Lamp,Furniture,8,73.08,10,1368.24
+2436,2024-12-20,Asia Pacific,India,Retail,Consumer,Flow Notebook,Stationery,6,11.63,20,145.28
+2437,2024-12-20,North America,Canada,Online,Consumer,Ink Pen Set,Stationery,8,25.37,10,513.39
+2438,2024-12-20,Latin America,Brazil,Partner,SMB,Pulse Earbuds,Electronics,1,150.8,0,251.16
+2439,2024-12-20,North America,USA,Partner,Consumer,Flow Notebook,Stationery,2,11.71,0,65.82
+2440,2024-12-20,Asia Pacific,India,Online,Consumer,Aurora Laptop,Electronics,4,1256.84,0,13083.19
+2441,2024-12-20,Europe,Germany,Retail,Consumer,Aurora Laptop,Electronics,3,1190.29,10,7359.92
+2442,2024-12-21,Europe,UK,Online,Consumer,Nimbus Phone,Electronics,3,822.87,10,5092.07
+2443,2024-12-21,Europe,UK,Partner,Enterprise,Canvas Backpack,Accessories,9,93.87,10,1742.65
+2444,2024-12-21,Europe,Germany,Online,Consumer,Vertex Monitor,Electronics,1,333.18,0,763.62
+2445,2024-12-21,North America,USA,Online,Consumer,Ergo Chair,Furniture,8,329.92,10,6681.61
+2446,2024-12-22,Asia Pacific,India,Online,Consumer,Pulse Earbuds,Electronics,3,158.5,0,1239.39
+2447,2024-12-22,Asia Pacific,Australia,Retail,Consumer,Flow Notebook,Stationery,5,12.24,10,143.57
+2448,2024-12-22,Asia Pacific,India,Online,Consumer,Lumen Lamp,Furniture,5,68.89,0,897.81
+2449,2024-12-22,North America,Canada,Partner,SMB,Pulse Earbuds,Electronics,3,156.88,20,1059.89
+2450,2024-12-23,Asia Pacific,Japan,Online,Consumer,Pulse Earbuds,Electronics,2,160.63,0,838.03
+2451,2024-12-23,Europe,UK,Retail,Enterprise,Nimbus Phone,Electronics,2,813.22,0,3733.55
+2452,2024-12-23,Europe,France,Online,Consumer,Terra Desk,Furniture,4,260.29,10,2151.02
+2453,2024-12-23,Asia Pacific,Australia,Partner,Consumer,Terra Desk,Furniture,6,249.64,10,3516.49
+2454,2024-12-23,Europe,UK,Retail,Enterprise,Canvas Backpack,Accessories,15,90.67,10,2809.84
+2455,2024-12-23,Asia Pacific,Japan,Retail,SMB,Flow Notebook,Stationery,6,11.44,0,179.05
+2456,2024-12-24,Asia Pacific,Australia,Partner,Consumer,Pulse Earbuds,Electronics,2,149.8,5,743.03
+2457,2024-12-24,Latin America,Brazil,Online,Consumer,Nimbus Phone,Electronics,1,792.28,10,1191.36
+2458,2024-12-24,North America,Canada,Online,Consumer,Canvas Backpack,Accessories,5,93.07,0,1312.04
+2459,2024-12-24,Asia Pacific,Japan,Retail,SMB,Aurora Laptop,Electronics,3,1148.93,15,7648.51
+2460,2024-12-25,Asia Pacific,Australia,Partner,Enterprise,Canvas Backpack,Accessories,40,91.04,0,9514.3
+2461,2024-12-25,Asia Pacific,Australia,Online,Consumer,Ink Pen Set,Stationery,3,26.14,15,174.15
+2462,2024-12-25,Asia Pacific,India,Online,SMB,Aurora Laptop,Electronics,1,1239.45,5,3076.36
+2463,2024-12-25,North America,USA,Online,Consumer,Ink Pen Set,Stationery,1,26.47,0,74.69
+2464,2024-12-25,Asia Pacific,Japan,Partner,Consumer,Canvas Backpack,Accessories,6,85.67,10,1208.67
+2465,2024-12-25,Asia Pacific,Japan,Online,SMB,Ink Pen Set,Stationery,4,26.22,20,219.21
+2466,2024-12-26,Asia Pacific,India,Partner,Consumer,Nimbus Phone,Electronics,2,812.57,15,3611.9
+2467,2024-12-26,North America,USA,Online,SMB,Pulse Earbuds,Electronics,3,153.58,5,1236.03
+2468,2024-12-26,Asia Pacific,Australia,Online,Consumer,Canvas Backpack,Accessories,3,86.51,15,576.81
+2469,2024-12-27,Europe,UK,Online,SMB,Flow Notebook,Stationery,6,11.53,5,151.34
+2470,2024-12-27,Asia Pacific,India,Online,SMB,Pulse Earbuds,Electronics,2,143.54,0,751.23
+2471,2024-12-27,Asia Pacific,India,Retail,SMB,Pulse Earbuds,Electronics,2,146.17,20,611.99
+2472,2024-12-27,Latin America,Brazil,Retail,Consumer,Canvas Backpack,Accessories,5,91.23,0,763.93
+2473,2024-12-28,Europe,France,Partner,SMB,Terra Desk,Furniture,3,279.1,0,1929.62
+2474,2024-12-28,Europe,UK,Partner,Consumer,Ergo Chair,Furniture,7,351.55,0,5671.21
+2475,2024-12-28,Asia Pacific,Japan,Partner,SMB,Pulse Earbuds,Electronics,3,152.51,0,1198.2
+2476,2024-12-28,North America,USA,Online,Consumer,Terra Desk,Furniture,3,251.73,5,2029.14
+2477,2024-12-28,Europe,Germany,Online,SMB,Ergo Chair,Furniture,6,327.62,15,3850.63
+2478,2024-12-28,Europe,UK,Retail,Consumer,Nimbus Phone,Electronics,1,854.97,0,1970.34
+2479,2024-12-29,North America,USA,Partner,Consumer,Flow Notebook,Stationery,8,12.3,10,250.67
+2480,2024-12-29,Europe,Germany,Partner,Consumer,Terra Desk,Furniture,6,258.42,10,3218.48
+2481,2024-12-29,Asia Pacific,Japan,Online,Enterprise,Aurora Laptop,Electronics,5,1260.76,5,15695.49
+2482,2024-12-29,Latin America,Mexico,Online,Consumer,Lumen Lamp,Furniture,5,75.28,10,568.23
+2483,2024-12-30,North America,USA,Online,Consumer,Nimbus Phone,Electronics,1,842.46,0,2386.5
+2484,2024-12-30,North America,Canada,Online,Consumer,Terra Desk,Furniture,3,276.84,0,2352.68
+2485,2024-12-30,North America,USA,Retail,Enterprise,Nimbus Phone,Electronics,3,831.21,0,7063.91
+2486,2024-12-30,Asia Pacific,Japan,Online,Consumer,Aurora Laptop,Electronics,4,1247.14,10,11776.25
+2487,2024-12-30,Asia Pacific,Japan,Partner,SMB,Flow Notebook,Stationery,4,12.83,20,107.69
+2488,2024-12-30,Europe,Germany,Retail,Consumer,Flow Notebook,Stationery,5,12.45,20,114.95
