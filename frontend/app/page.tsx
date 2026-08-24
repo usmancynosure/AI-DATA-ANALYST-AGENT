@@ -58,6 +58,14 @@ export default function Home() {
     }
   }
 
+  // Recreate the session after a backend restart (in-memory sessions are lost then).
+  async function recreateSession(): Promise<string> {
+    const s = await createSession();
+    setSessionId(s.session_id);
+    setTurns([]); // old data is gone with the old session
+    return s.session_id;
+  }
+
   const hasData = !!schema && schema.tables.length > 0;
 
   return (
@@ -71,7 +79,12 @@ export default function Home() {
       </header>
 
       <div className="flex min-h-0 flex-1">
-        <DataPanel sessionId={sessionId} schema={schema} onSchema={setSchema} />
+        <DataPanel
+          sessionId={sessionId}
+          schema={schema}
+          onSchema={setSchema}
+          onSessionExpired={recreateSession}
+        />
         <ChatPanel
           turns={turns}
           onAsk={ask}

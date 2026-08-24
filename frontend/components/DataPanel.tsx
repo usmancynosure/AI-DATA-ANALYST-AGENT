@@ -8,11 +8,17 @@ interface Props {
   sessionId: string | null;
   schema: SchemaInfo | null;
   onSchema: (schema: SchemaInfo) => void;
+  // Recreate the session (e.g. after a backend restart) and return the new id.
+  onSessionExpired: () => Promise<string>;
+}
+
+function isExpiredSession(e: unknown): boolean {
+  return /session not found/i.test(String(e instanceof Error ? e.message : e));
 }
 
 type Mode = "upload" | "connect";
 
-export default function DataPanel({ sessionId, schema, onSchema }: Props) {
+export default function DataPanel({ sessionId, schema, onSchema, onSessionExpired }: Props) {
   const [mode, setMode] = useState<Mode>("upload");
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
@@ -25,7 +31,14 @@ export default function DataPanel({ sessionId, schema, onSchema }: Props) {
     setBusy(true);
     setError(null);
     try {
-      const res = await uploadFile(sessionId, file);
+      let res;
+      try {
+        res = await uploadFile(sessionId, file);
+      } catch (e) {
+        if (!isExpiredSession(e)) throw e;
+        // Backend restarted → recreate the session and retry once.
+        res = await uploadFile(await onSessionExpired(), file);
+      }
       onSchema(res.schema_info);
     } catch (e) {
       setError(String(e instanceof Error ? e.message : e));
@@ -39,7 +52,13 @@ export default function DataPanel({ sessionId, schema, onSchema }: Props) {
     setBusy(true);
     setError(null);
     try {
-      const res = await connectDatabase(sessionId, connUrl.trim());
+      let res;
+      try {
+        res = await connectDatabase(sessionId, connUrl.trim());
+      } catch (e) {
+        if (!isExpiredSession(e)) throw e;
+        res = await connectDatabase(await onSessionExpired(), connUrl.trim());
+      }
       onSchema(res.schema_info);
     } catch (e) {
       setError(String(e instanceof Error ? e.message : e));

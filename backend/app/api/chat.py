@@ -8,7 +8,13 @@ from fastapi import APIRouter, HTTPException
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
-from app.agent.orchestrator import AgentEvent, AgentResult, run_agent, stream_agent
+from app.agent.orchestrator import (
+    AgentEvent,
+    AgentResult,
+    friendly_error,
+    run_agent,
+    stream_agent,
+)
 from app.core.sessions import Session, session_manager
 
 router = APIRouter(tags=["chat"])
@@ -52,7 +58,7 @@ def chat_stream(session_id: str, req: ChatRequest) -> StreamingResponse:
         except RuntimeError as exc:
             yield _sse(AgentEvent(type="error", text=str(exc)))
         except Exception as exc:  # surface unexpected failures to the client
-            yield _sse(AgentEvent(type="error", text=f"Agent failed: {exc}"))
+            yield _sse(AgentEvent(type="error", text=friendly_error(exc)))
         yield f"data: {json.dumps({'type': 'done'})}\n\n"
 
     return StreamingResponse(

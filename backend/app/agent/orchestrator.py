@@ -4,6 +4,8 @@ from __future__ import annotations
 
 import time
 from collections.abc import Iterator
+from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import TimeoutError as FuturesTimeout
 
 import httpx
 from google import genai
@@ -18,8 +20,14 @@ from app.core.sessions import Session
 # Safety cap on how many tool round-trips one question may take.
 MAX_ITERATIONS = 12
 # Transient server errors (5xx / high demand) are retried with backoff.
-MAX_RETRIES = 3
+MAX_RETRIES = 2
 RETRY_BACKOFF_SECONDS = 2.0
+# Hard wall-clock cap per model call (client-side). google-genai's HttpOptions.timeout
+# is only a *server-side deadline* and does not abort a stalled/queued request, so we
+# run each call in a worker thread and give up on it after this many seconds. This
+# guarantees the agent surfaces an error instead of hanging forever.
+HARD_CALL_TIMEOUT_SECONDS = 75
+_EXECUTOR = ThreadPoolExecutor(max_workers=8, thread_name_prefix="gemini")
 
 
 class AgentEvent(BaseModel):
@@ -38,8 +46,9 @@ class AgentResult(BaseModel):
     events: list[AgentEvent]
 
 
-# Per-request timeout (ms) so a slow/hung model call can't block a turn forever.
-REQUEST_TIMEOUT_MS = 90_000
+# Server-side request deadline (ms). Below ~8s the API rejects it; this bounds how long
+# the server holds a request. The hard client-side cap (above) is the real backstop.
+REQUEST_TIMEOUT_MS = 60_000
 
 
 def _client() -> genai.Client:
@@ -152,8 +161,17 @@ def _generate_with_retry(client, model, contents, config):
     """Call generate_content, retrying transient overload/5xx/429 errors with backoff."""
     last_exc: Exception | None = None
     for attempt in range(MAX_RETRIES):
+        future = _EXECUTOR.submit(
+            client.models.generate_content, model=model, contents=contents, config=config
+        )
         try:
-            return client.models.generate_content(model=model, contents=contents, config=config)
+            return future.result(timeout=HARD_CALL_TIMEOUT_SECONDS)
+        except FuturesTimeout:
+            future.cancel()  # the underlying request may keep running, but we stop waiting
+            last_exc = TimeoutError(
+                f"The model did not respond within {HARD_CALL_TIMEOUT_SECONDS}s "
+                "(the API may be overloaded or rate-limited)."
+            )
         except errors.APIError as exc:
             if getattr(exc, "code", None) not in _RETRYABLE_CODES:
                 raise
@@ -164,6 +182,22 @@ def _generate_with_retry(client, model, contents, config):
         if attempt < MAX_RETRIES - 1:
             time.sleep(RETRY_BACKOFF_SECONDS * (attempt + 1))
     raise last_exc  # type: ignore[misc]
+
+
+def friendly_error(exc: Exception) -> str:
+    """Turn a provider exception into a short, human-readable message for the UI."""
+    if isinstance(exc, TimeoutError):
+        return str(exc)
+    code = getattr(exc, "code", None)
+    if code == 429:
+        return (
+            "Gemini rate limit / quota reached (common on the free tier). "
+            "Wait a minute and retry, switch GEMINI_MODEL to a lighter model "
+            "(e.g. gemini-flash-lite-latest), or enable billing on your API key."
+        )
+    if code in (500, 502, 503, 504):
+        return "Gemini is temporarily overloaded. Please retry in a few seconds."
+    return f"Agent failed: {exc}"
 
 
 def _finish_reason_message(candidate) -> str:

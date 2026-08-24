@@ -38,10 +38,8 @@ def test_upload_and_query_flow():
     assert body["schema_info"]["tables"][0]["row_count"] == 3
 
     # query
-    r = client.post(
-        f"/sessions/{session_id}/query",
-        json={"query": "SELECT region, SUM(amount) AS total FROM data GROUP BY region ORDER BY region"},
-    )
+    sql = "SELECT region, SUM(amount) AS total FROM data GROUP BY region ORDER BY region"
+    r = client.post(f"/sessions/{session_id}/query", json={"query": sql})
     assert r.status_code == 200, r.text
     result = r.json()["result"]
     assert result["columns"] == ["region", "total"]

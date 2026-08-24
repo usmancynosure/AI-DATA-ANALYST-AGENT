@@ -91,3 +91,37 @@ def test_agent_reports_unsafe_sql(session_with_data, monkeypatch):
     err = [e for e in result.events if e.type == "tool_result" and e.is_error]
     assert err, "unsafe SQL should produce an error tool_result"
     assert result.answer == "I can only run read-only queries."
+
+
+def test_hard_timeout_gives_up_on_a_stalled_call(monkeypatch):
+    import time
+
+    monkeypatch.setattr(orchestrator, "HARD_CALL_TIMEOUT_SECONDS", 1)
+    monkeypatch.setattr(orchestrator, "MAX_RETRIES", 1)
+
+    class Stalled:
+        class models:
+            @staticmethod
+            def generate_content(**kwargs):
+                time.sleep(5)  # never returns within the 1s hard cap
+
+    with pytest.raises(TimeoutError):
+        orchestrator._generate_with_retry(Stalled(), "m", [], None)
+
+
+def test_friendly_error_messages():
+    class FakeAPIError(Exception):
+        code = 429
+
+    assert "rate limit" in orchestrator.friendly_error(FakeAPIError()).lower()
+    assert "overloaded" in orchestrator.friendly_error(_svc_error(503)).lower()
+    assert orchestrator.friendly_error(TimeoutError("did not respond")) == "did not respond"
+
+
+def _svc_error(code):
+    class E(Exception):
+        pass
+
+    e = E()
+    e.code = code
+    return e
