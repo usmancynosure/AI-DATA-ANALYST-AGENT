@@ -11,7 +11,7 @@ COPY pyproject.toml ./
 RUN uv pip install --system --no-cache \
     "fastapi>=0.115" "uvicorn[standard]>=0.32" "pydantic>=2.9" "pydantic-settings>=2.6" \
     "python-multipart>=0.0.12" "duckdb>=1.1" "sqlalchemy>=2.0" "psycopg[binary]>=3.2" \
-    "pymysql>=1.1" "pandas>=2.2" "openpyxl>=3.1" "python-dotenv>=1.0" "anthropic>=0.40" "docker>=7.1"
+    "pymysql>=1.1" "pandas>=2.2" "openpyxl>=3.1" "python-dotenv>=1.0" "anthropic>=0.40"
 
 COPY app ./app
 

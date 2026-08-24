@@ -71,8 +71,8 @@ docker compose up --build                                   # backend :8000, fro
 |-------|-------|--------|
 | 0 | Monorepo scaffold, health wiring | ✅ done |
 | 1 | Data layer: uploads → DuckDB, PG/MySQL, read-only SQL, schema | ✅ done |
-| 2 | Docker sandbox for generated Python | ⏳ next |
-| 3 | Claude agent loop + tools | ⏳ |
+| 2 | Docker sandbox for generated Python | ✅ done |
+| 3 | Claude agent loop + tools | ⏳ next |
 | 4 | Streaming (SSE) API | ⏳ |
 | 5 | Chat UI, uploads, charts | ⏳ |
 | 6 | Hardening, CI, demo | ⏳ |
