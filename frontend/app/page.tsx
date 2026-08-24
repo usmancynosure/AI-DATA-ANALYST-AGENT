@@ -1,61 +1,105 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { getHealth } from "@/lib/api";
-
-type Status = { ok: boolean; model?: string; agentEnabled?: boolean; error?: string };
+import { useEffect, useRef, useState } from "react";
+import ChatPanel from "@/components/ChatPanel";
+import DataPanel from "@/components/DataPanel";
+import { createSession, getHealth, streamChat } from "@/lib/api";
+import type { SchemaInfo, Turn } from "@/lib/types";
 
 export default function Home() {
-  const [status, setStatus] = useState<Status | null>(null);
+  const [sessionId, setSessionId] = useState<string | null>(null);
+  const [schema, setSchema] = useState<SchemaInfo | null>(null);
+  const [turns, setTurns] = useState<Turn[]>([]);
+  const [running, setRunning] = useState(false);
+  const [boot, setBoot] = useState<{ ok: boolean; agent: boolean; error?: string } | null>(null);
+  const idRef = useRef(0);
 
   useEffect(() => {
-    getHealth()
-      .then((h) =>
-        setStatus({ ok: h.status === "ok", model: h.model, agentEnabled: h.agent_enabled })
-      )
-      .catch((e) => setStatus({ ok: false, error: String(e) }));
+    (async () => {
+      try {
+        const health = await getHealth();
+        const s = await createSession();
+        setSessionId(s.session_id);
+        setBoot({ ok: true, agent: health.agent_enabled });
+      } catch (e) {
+        setBoot({ ok: false, agent: false, error: String(e instanceof Error ? e.message : e) });
+      }
+    })();
   }, []);
 
+  async function ask(message: string) {
+    if (!sessionId || running) return;
+    const id = `t${idRef.current++}`;
+    const turn: Turn = { id, question: message, steps: [], charts: [], answer: "", running: true };
+    setTurns((prev) => [...prev, turn]);
+    setRunning(true);
+
+    const patch = (fn: (t: Turn) => Turn) =>
+      setTurns((prev) => prev.map((t) => (t.id === id ? fn(t) : t)));
+
+    try {
+      for await (const ev of streamChat(sessionId, message)) {
+        if (ev.type === "done") break;
+        if (ev.type === "chart" && ev.artifacts?.[0]?.image) {
+          patch((t) => ({ ...t, charts: [...t.charts, ev.artifacts![0].image as string] }));
+        } else if (ev.type === "final") {
+          patch((t) => ({ ...t, answer: ev.text ?? "" }));
+        } else if (ev.type === "error") {
+          patch((t) => ({ ...t, error: ev.text ?? "Something went wrong." }));
+        } else {
+          patch((t) => ({ ...t, steps: [...t.steps, ev] }));
+        }
+      }
+    } catch (e) {
+      patch((t) => ({ ...t, error: String(e instanceof Error ? e.message : e) }));
+    } finally {
+      patch((t) => ({ ...t, running: false }));
+      setRunning(false);
+    }
+  }
+
+  const hasData = !!schema && schema.tables.length > 0;
+
   return (
-    <main className="mx-auto flex min-h-screen max-w-3xl flex-col justify-center gap-8 px-6">
-      <div>
-        <h1 className="text-3xl font-semibold text-white">AI Data Analyst Agent</h1>
-        <p className="mt-2 text-slate-400">
-          Upload a CSV or connect a database, ask questions in plain English, and get SQL,
-          Python analysis, and charts.
-        </p>
-      </div>
+    <div className="flex h-screen flex-col">
+      <header className="flex items-center justify-between border-b border-border bg-panel/60 px-5 py-3">
+        <div className="flex items-center gap-2">
+          <span className="text-lg">📊</span>
+          <h1 className="text-sm font-semibold text-white">AI Data Analyst Agent</h1>
+        </div>
+        <BootStatus boot={boot} />
+      </header>
 
-      <div className="rounded-xl border border-border bg-panel p-5">
-        <h2 className="text-sm font-medium uppercase tracking-wide text-slate-500">
-          Backend status
-        </h2>
-        {status === null ? (
-          <p className="mt-2 text-slate-400">Checking…</p>
-        ) : status.ok ? (
-          <div className="mt-2 space-y-1">
-            <p className="flex items-center gap-2 text-emerald-400">
-              <span className="h-2 w-2 rounded-full bg-emerald-400" /> Connected
-            </p>
-            <p className="text-sm text-slate-400">Model: {status.model}</p>
-            <p className="text-sm text-slate-400">
-              Agent: {status.agentEnabled ? "enabled" : "no API key (data layer only)"}
-            </p>
-          </div>
-        ) : (
-          <div className="mt-2">
-            <p className="flex items-center gap-2 text-red-400">
-              <span className="h-2 w-2 rounded-full bg-red-400" /> Not reachable
-            </p>
-            <p className="mt-1 text-sm text-slate-500">{status.error}</p>
-          </div>
-        )}
+      <div className="flex min-h-0 flex-1">
+        <DataPanel sessionId={sessionId} schema={schema} onSchema={setSchema} />
+        <ChatPanel
+          turns={turns}
+          onAsk={ask}
+          disabled={!sessionId || !hasData || running}
+          running={running}
+          hasData={hasData}
+        />
       </div>
+    </div>
+  );
+}
 
-      <p className="text-sm text-slate-600">
-        Chat, uploads, and visualizations land in Phase 5. This page verifies the frontend ↔
-        backend wiring.
-      </p>
-    </main>
+function BootStatus({
+  boot,
+}: {
+  boot: { ok: boolean; agent: boolean; error?: string } | null;
+}) {
+  if (boot === null) return <span className="text-xs text-slate-500">connecting…</span>;
+  if (!boot.ok)
+    return (
+      <span className="flex items-center gap-1.5 text-xs text-red-400">
+        <span className="h-2 w-2 rounded-full bg-red-400" /> backend offline
+      </span>
+    );
+  return (
+    <span className="flex items-center gap-1.5 text-xs text-slate-400">
+      <span className="h-2 w-2 rounded-full bg-emerald-400" />
+      {boot.agent ? "agent ready" : "data layer only (no API key)"}
+    </span>
   );
 }

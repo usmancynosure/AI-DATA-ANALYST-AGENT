@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from collections.abc import Iterator
 from typing import Any
 
 import anthropic
@@ -40,13 +41,12 @@ def _client() -> anthropic.Anthropic:
     return anthropic.Anthropic(api_key=settings.anthropic_api_key)
 
 
-def run_agent(session: Session, user_message: str) -> AgentResult:
-    """Run one question end-to-end and return the answer plus the step-by-step events."""
+def stream_agent(session: Session, user_message: str) -> Iterator[AgentEvent]:
+    """Run one question, yielding each step as it happens (thinking, tools, answer)."""
     settings = get_settings()
     client = _client()
 
     session.history.append({"role": "user", "content": user_message})
-    events: list[AgentEvent] = []
     final_answer = ""
 
     for _ in range(MAX_ITERATIONS):
@@ -60,9 +60,13 @@ def run_agent(session: Session, user_message: str) -> AgentResult:
             messages=session.history,
         )
 
-        # Record assistant text; keep the raw content blocks in history verbatim
+        # Emit assistant thinking/text; keep the raw blocks in history verbatim
         # (thinking blocks must be passed back unchanged).
-        assistant_text = _emit_assistant_events(response.content, events)
+        assistant_text = ""
+        for event in _assistant_events(response.content):
+            if event.type == "text" and event.text:
+                assistant_text = (assistant_text + "\n" + event.text).strip()
+            yield event
         session.history.append({"role": "assistant", "content": response.content})
 
         if response.stop_reason != "tool_use":
@@ -74,21 +78,17 @@ def run_agent(session: Session, user_message: str) -> AgentResult:
         for block in response.content:
             if block.type != "tool_use":
                 continue
-            events.append(
-                AgentEvent(type="tool_use", tool=block.name, tool_input=dict(block.input))
-            )
+            yield AgentEvent(type="tool_use", tool=block.name, tool_input=dict(block.input))
             outcome = dispatch_tool(session, block.name, dict(block.input))
-            events.append(
-                AgentEvent(
-                    type="tool_result",
-                    tool=block.name,
-                    is_error=outcome.is_error,
-                    text=_truncate(outcome.content_for_model),
-                )
+            yield AgentEvent(
+                type="tool_result",
+                tool=block.name,
+                is_error=outcome.is_error,
+                text=_truncate(outcome.content_for_model),
             )
             for artifact in outcome.artifacts:
                 if artifact.get("type") == "chart":
-                    events.append(AgentEvent(type="chart", artifacts=[artifact]))
+                    yield AgentEvent(type="chart", artifacts=[artifact])
             tool_results.append(
                 {
                     "type": "tool_result",
@@ -99,26 +99,28 @@ def run_agent(session: Session, user_message: str) -> AgentResult:
             )
         session.history.append({"role": "user", "content": tool_results})
     else:
-        # Loop exhausted without a natural stop.
         final_answer = final_answer or "I couldn't finish within the step limit for this question."
-        events.append(AgentEvent(type="error", text="Reached the maximum number of tool steps."))
+        yield AgentEvent(type="error", text="Reached the maximum number of tool steps.")
 
-    events.append(AgentEvent(type="final", text=final_answer))
-    return AgentResult(answer=final_answer, events=events)
+    yield AgentEvent(type="final", text=final_answer)
 
 
-def _emit_assistant_events(content: list[Any], events: list[AgentEvent]) -> str:
-    """Push thinking/text events and return the concatenated visible text."""
-    texts: list[str] = []
+def run_agent(session: Session, user_message: str) -> AgentResult:
+    """Non-streaming wrapper: collect all events and return the final answer."""
+    events = list(stream_agent(session, user_message))
+    final = next((e.text for e in reversed(events) if e.type == "final"), "") or ""
+    return AgentResult(answer=final, events=events)
+
+
+def _assistant_events(content: list[Any]) -> Iterator[AgentEvent]:
+    """Yield thinking/text events from an assistant message's content blocks."""
     for block in content:
         if block.type == "text":
-            texts.append(block.text)
-            events.append(AgentEvent(type="text", text=block.text))
+            yield AgentEvent(type="text", text=block.text)
         elif block.type == "thinking":
             thinking = getattr(block, "thinking", "") or ""
             if thinking:
-                events.append(AgentEvent(type="thinking", text=thinking))
-    return "\n".join(texts).strip()
+                yield AgentEvent(type="thinking", text=thinking)
 
 
 def _truncate(text: str, limit: int = 2000) -> str:
