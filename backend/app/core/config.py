@@ -15,9 +15,11 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-    # Claude API (used from Phase 3 onward)
-    anthropic_api_key: str = ""
-    anthropic_model: str = "claude-opus-4-8"
+    # Gemini API (the agent LLM, used from Phase 3 onward)
+    gemini_api_key: str = ""
+    # `-latest` alias stays current as versions rotate. Flash works on the free tier;
+    # Pro models (better reasoning) generally need billing enabled.
+    gemini_model: str = "gemini-flash-latest"
 
     # Server
     backend_host: str = "0.0.0.0"

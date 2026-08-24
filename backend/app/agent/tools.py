@@ -1,4 +1,4 @@
-"""Tool definitions (Anthropic schema) and server-side dispatch for the agent."""
+"""Tool definitions (provider-neutral JSON schema) and server-side dispatch."""
 
 from __future__ import annotations
 
@@ -21,10 +21,9 @@ TOOLS = [
             "Return the tables in the connected dataset with their columns, types, and "
             "a few sample rows. Call this before writing SQL if you don't know the schema."
         ),
-        "input_schema": {
+        "parameters": {
             "type": "object",
             "properties": {},
-            "additionalProperties": False,
         },
     },
     {
@@ -33,13 +32,12 @@ TOOLS = [
             "Execute a single read-only SELECT/WITH query against the connected dataset "
             "and return the resulting rows. Write operations are rejected."
         ),
-        "input_schema": {
+        "parameters": {
             "type": "object",
             "properties": {
                 "query": {"type": "string", "description": "A single read-only SQL query."}
             },
             "required": ["query"],
-            "additionalProperties": False,
         },
     },
     {
@@ -51,7 +49,7 @@ TOOLS = [
             "to a variable named `result` to return a value. Open matplotlib figures are "
             "captured and shown to the user automatically."
         ),
-        "input_schema": {
+        "parameters": {
             "type": "object",
             "properties": {
                 "code": {"type": "string", "description": "Python source to execute."},
@@ -71,12 +69,10 @@ TOOLS = [
                             },
                         },
                         "required": ["name", "sql"],
-                        "additionalProperties": False,
                     },
                 },
             },
             "required": ["code"],
-            "additionalProperties": False,
         },
     },
 ]

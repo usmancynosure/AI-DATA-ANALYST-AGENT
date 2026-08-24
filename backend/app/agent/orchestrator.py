@@ -1,11 +1,13 @@
-"""The agent loop: Claude plans, calls tools, interprets results, and answers."""
+"""The agent loop: Gemini plans, calls tools, interprets results, and answers."""
 
 from __future__ import annotations
 
+import time
 from collections.abc import Iterator
-from typing import Any
 
-import anthropic
+import httpx
+from google import genai
+from google.genai import errors, types
 from pydantic import BaseModel
 
 from app.agent.prompts import SYSTEM_PROMPT
@@ -15,7 +17,9 @@ from app.core.sessions import Session
 
 # Safety cap on how many tool round-trips one question may take.
 MAX_ITERATIONS = 12
-MAX_TOKENS = 16000
+# Transient server errors (5xx / high demand) are retried with backoff.
+MAX_RETRIES = 3
+RETRY_BACKOFF_SECONDS = 2.0
 
 
 class AgentEvent(BaseModel):
@@ -34,70 +38,99 @@ class AgentResult(BaseModel):
     events: list[AgentEvent]
 
 
-def _client() -> anthropic.Anthropic:
+# Per-request timeout (ms) so a slow/hung model call can't block a turn forever.
+REQUEST_TIMEOUT_MS = 90_000
+
+
+def _client() -> genai.Client:
     settings = get_settings()
-    if not settings.anthropic_api_key:
-        raise RuntimeError("ANTHROPIC_API_KEY is not set; the agent is disabled.")
-    return anthropic.Anthropic(api_key=settings.anthropic_api_key)
+    if not settings.gemini_api_key:
+        raise RuntimeError("GEMINI_API_KEY is not set; the agent is disabled.")
+    return genai.Client(
+        api_key=settings.gemini_api_key,
+        http_options=types.HttpOptions(timeout=REQUEST_TIMEOUT_MS),
+    )
+
+
+def _gemini_config() -> types.GenerateContentConfig:
+    declarations = [
+        types.FunctionDeclaration(
+            name=t["name"],
+            description=t["description"],
+            parameters_json_schema=t["parameters"],
+        )
+        for t in TOOLS
+    ]
+    return types.GenerateContentConfig(
+        system_instruction=SYSTEM_PROMPT,
+        tools=[types.Tool(function_declarations=declarations)],
+        # We drive the tool loop ourselves; don't let the SDK auto-execute.
+        automatic_function_calling=types.AutomaticFunctionCallingConfig(disable=True),
+        # Surface the model's reasoning summaries as "thinking" events.
+        thinking_config=types.ThinkingConfig(include_thoughts=True),
+    )
 
 
 def stream_agent(session: Session, user_message: str) -> Iterator[AgentEvent]:
     """Run one question, yielding each step as it happens (thinking, tools, answer)."""
     settings = get_settings()
     client = _client()
+    config = _gemini_config()
 
-    session.history.append({"role": "user", "content": user_message})
+    session.history.append(
+        types.Content(role="user", parts=[types.Part.from_text(text=user_message)])
+    )
     final_answer = ""
 
     for _ in range(MAX_ITERATIONS):
-        response = client.messages.create(
-            model=settings.anthropic_model,
-            max_tokens=MAX_TOKENS,
-            system=SYSTEM_PROMPT,
-            tools=TOOLS,
-            thinking={"type": "adaptive"},
-            output_config={"effort": "high"},
-            messages=session.history,
-        )
+        response = _generate_with_retry(client, settings.gemini_model, session.history, config)
 
-        # Emit assistant thinking/text; keep the raw blocks in history verbatim
-        # (thinking blocks must be passed back unchanged).
+        candidate = response.candidates[0] if response.candidates else None
+        content = candidate.content if candidate else None
+        parts = (content.parts if content and content.parts else []) or []
+
+        # Emit thinking/text; keep the model turn in history verbatim.
         assistant_text = ""
-        for event in _assistant_events(response.content):
-            if event.type == "text" and event.text:
-                assistant_text = (assistant_text + "\n" + event.text).strip()
-            yield event
-        session.history.append({"role": "assistant", "content": response.content})
+        function_calls = []
+        for part in parts:
+            if getattr(part, "function_call", None):
+                function_calls.append(part.function_call)
+            elif getattr(part, "text", None):
+                if getattr(part, "thought", False):
+                    yield AgentEvent(type="thinking", text=part.text)
+                else:
+                    assistant_text = (assistant_text + "\n" + part.text).strip()
+                    yield AgentEvent(type="text", text=part.text)
 
-        if response.stop_reason != "tool_use":
-            final_answer = assistant_text
+        if content is not None:
+            session.history.append(content)
+
+        if not function_calls:
+            final_answer = assistant_text or _finish_reason_message(candidate)
             break
 
-        # Execute every tool_use block and return all results in one user turn.
-        tool_results = []
-        for block in response.content:
-            if block.type != "tool_use":
-                continue
-            yield AgentEvent(type="tool_use", tool=block.name, tool_input=dict(block.input))
-            outcome = dispatch_tool(session, block.name, dict(block.input))
+        # Execute every function call and return all results in one turn.
+        response_parts = []
+        for fc in function_calls:
+            args = dict(fc.args or {})
+            yield AgentEvent(type="tool_use", tool=fc.name, tool_input=args)
+            outcome = dispatch_tool(session, fc.name, args)
             yield AgentEvent(
                 type="tool_result",
-                tool=block.name,
+                tool=fc.name,
                 is_error=outcome.is_error,
                 text=_truncate(outcome.content_for_model),
             )
             for artifact in outcome.artifacts:
                 if artifact.get("type") == "chart":
                     yield AgentEvent(type="chart", artifacts=[artifact])
-            tool_results.append(
-                {
-                    "type": "tool_result",
-                    "tool_use_id": block.id,
-                    "content": outcome.content_for_model,
-                    "is_error": outcome.is_error,
-                }
+            response_parts.append(
+                types.Part.from_function_response(
+                    name=fc.name,
+                    response={"result": outcome.content_for_model, "is_error": outcome.is_error},
+                )
             )
-        session.history.append({"role": "user", "content": tool_results})
+        session.history.append(types.Content(role="user", parts=response_parts))
     else:
         final_answer = final_answer or "I couldn't finish within the step limit for this question."
         yield AgentEvent(type="error", text="Reached the maximum number of tool steps.")
@@ -112,15 +145,33 @@ def run_agent(session: Session, user_message: str) -> AgentResult:
     return AgentResult(answer=final, events=events)
 
 
-def _assistant_events(content: list[Any]) -> Iterator[AgentEvent]:
-    """Yield thinking/text events from an assistant message's content blocks."""
-    for block in content:
-        if block.type == "text":
-            yield AgentEvent(type="text", text=block.text)
-        elif block.type == "thinking":
-            thinking = getattr(block, "thinking", "") or ""
-            if thinking:
-                yield AgentEvent(type="thinking", text=thinking)
+_RETRYABLE_CODES = {429, 500, 502, 503, 504}
+
+
+def _generate_with_retry(client, model, contents, config):
+    """Call generate_content, retrying transient overload/5xx/429 errors with backoff."""
+    last_exc: Exception | None = None
+    for attempt in range(MAX_RETRIES):
+        try:
+            return client.models.generate_content(model=model, contents=contents, config=config)
+        except errors.APIError as exc:
+            if getattr(exc, "code", None) not in _RETRYABLE_CODES:
+                raise
+            last_exc = exc
+        except httpx.RequestError as exc:
+            # Transient transport failure (server disconnect, connect/read timeout).
+            last_exc = exc
+        if attempt < MAX_RETRIES - 1:
+            time.sleep(RETRY_BACKOFF_SECONDS * (attempt + 1))
+    raise last_exc  # type: ignore[misc]
+
+
+def _finish_reason_message(candidate) -> str:
+    """Fallback text when the model stops with no visible answer (e.g. safety block)."""
+    reason = getattr(candidate, "finish_reason", None) if candidate else None
+    if reason and str(reason) not in ("FinishReason.STOP", "STOP"):
+        return f"The model stopped without an answer (reason: {reason})."
+    return "The model returned no answer."
 
 
 def _truncate(text: str, limit: int = 2000) -> str:

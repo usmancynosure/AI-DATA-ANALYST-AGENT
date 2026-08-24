@@ -9,9 +9,9 @@ analysis, calls tools (query, run code, make charts), interprets the results, an
 ## Architecture
 
 ```
-┌─────────────┐   HTTP / SSE   ┌──────────────────┐   Claude API   ┌──────────┐
-│  Next.js UI │◄──────────────►│  FastAPI backend │◄──────────────►│  Claude  │
-│  chat +     │   file upload  │  agent loop +    │  tool calling  │  Opus 4.8│
+┌─────────────┐   HTTP / SSE   ┌──────────────────┐   Gemini API   ┌──────────┐
+│  Next.js UI │◄──────────────►│  FastAPI backend │◄──────────────►│  Gemini  │
+│  chat +     │   file upload  │  agent loop +    │  function call │  2.5 Pro │
 │  charts     │                │  tool dispatch   │                │          │
 └─────────────┘                └───────┬──────────┘                └──────────┘
                                         │ dispatches tools
@@ -42,7 +42,7 @@ docker-compose.yml
 **Backend** (Python 3.11/3.12 via [uv](https://docs.astral.sh/uv/)):
 
 ```bash
-cp .env.example .env          # add ANTHROPIC_API_KEY when you reach the agent phase
+cp .env.example .env          # add GEMINI_API_KEY to enable the agent
 cd backend
 uv sync --extra dev
 uv run uvicorn app.main:app --reload      # http://localhost:8000/docs
@@ -72,7 +72,7 @@ docker compose up --build                                   # backend :8000, fro
 | 0 | Monorepo scaffold, health wiring | ✅ done |
 | 1 | Data layer: uploads → DuckDB, PG/MySQL, read-only SQL, schema | ✅ done |
 | 2 | Docker sandbox for generated Python | ✅ done |
-| 3 | Claude agent loop + tools | ✅ done |
+| 3 | Gemini agent loop + tools | ✅ done |
 | 4 | Streaming (SSE) API | ✅ done |
 | 5 | Chat UI, uploads, charts | ✅ done |
 | 6 | Hardening, CI, demo | ⏳ next |

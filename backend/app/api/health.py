@@ -10,6 +10,6 @@ def health() -> dict:
     settings = get_settings()
     return {
         "status": "ok",
-        "model": settings.anthropic_model,
-        "agent_enabled": bool(settings.anthropic_api_key),
+        "model": settings.gemini_model,
+        "agent_enabled": bool(settings.gemini_api_key),
     }
